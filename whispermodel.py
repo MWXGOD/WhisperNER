@@ -75,7 +75,7 @@ class WhisperNERModel(L.LightningModule):
         self.clear_PRC()
         dev_bar = tqdm(
             dev_dataloader,
-            desc=f"Epoch [{epoch+1}/{hyperargs.epochs_num}] Validation",
+            desc=f"Epoch [{epoch+1}/{self.hparams.epochs_num}] Validation",
             leave=False
         )
         return dev_bar

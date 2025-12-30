@@ -54,20 +54,20 @@ for epoch in range(hyperargs.epochs_num):
     train_loss_per_epoch = 0
     for batch in train_bar:
         loss = model.training_step(batch, optimizer, scheduler, accelerator)
-        loss_per_epoch += loss.item()
+        train_loss_per_epoch += loss.item()
         train_bar.set_postfix({"loss": loss.item()})
-    swanlab.log({"train_loss_per_step": loss_per_epoch/len(train_dataloader)})
+    swanlab.log({"train_loss_per_step": train_loss_per_epoch/len(train_dataloader)})
     train_end = time.time()
     logger.info(f"训练结束，第{epoch+1}轮总时长：{(train_end-train_start)/60:.2f}分钟")
 
     dev_start = time.time()
-    dev_bar = model.on_dev_batch_start(epoch, dev_dataloader)
+    dev_bar = model.on_validation_batch_start(epoch, dev_dataloader)
     dev_loss_per_epoch = 0
     gen_text_per_epoch = []
     lab_text_per_epoch = []
     with torch.no_grad():
         for batch in dev_bar:
-            gen_text_batch, lab_text_batch, val_loss = model.validation_step(batch)
+            gen_text_batch, lab_text_batch, val_loss = model.validation_step(batch, accelerator=accelerator)
             dev_loss_per_epoch += val_loss.item()
             dev_bar.set_postfix({"loss": val_loss.item()})
             gen_text_per_epoch += gen_text_batch
