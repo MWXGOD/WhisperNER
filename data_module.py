@@ -3,7 +3,7 @@ from typing import Any
 from transformers import AutoProcessor, WhisperForConditionalGeneration
 from torch.utils.data import Dataset, DataLoader
 import lightning as L
-import torchaudio
+import librosa
 import torch
 
 
@@ -65,16 +65,8 @@ class WhisperNERDataModule(L.LightningDataModule):
 
         for x in batch:
             audio_path, text = x
-            wav, sr = torchaudio.load(audio_path)  # (C, T)
-            if wav.shape[0] > 1:
-                wav = wav.mean(dim=0, keepdim=True)   # 转 mono
-            wav = wav.squeeze(0)
-
-            # 重采样到 16k（whisper 默认）
-            if sr != self.sample_rate:
-                wav = torchaudio.functional.resample(wav, sr, self.sample_rate)
-
-            audio_list.append(wav.numpy())
+            wav, sr = librosa.load(audio_path, sr=self.sample_rate, mono=True)  # 直接加载为指定采样率和单声道
+            audio_list.append(wav)
             texts_list.append(text)
 
         inputs = self.processor(
@@ -161,7 +153,7 @@ if __name__ == "__main__":
     for batch in train_loader:
         print(batch["input_features"].shape)
         print(batch["labels"].shape)
-        generated_ids = model.generate(input_features=batch["input_features"])
+        generated_ids = model.generate(input_features=batch["input_features"], language="zh")
         transcription = dm.processor.batch_decode(generated_ids, skip_special_tokens=True)
 
         labels = batch["labels"].clone()

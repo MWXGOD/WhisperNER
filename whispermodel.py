@@ -17,7 +17,7 @@ class WhisperNERModel(L.LightningModule):
         self.save_hyperparameters()  # 记录超参更稳, 通过self.hparams.XXX调用
         
         self.whisper = WhisperForConditionalGeneration.from_pretrained(self.hparams.model_name_or_path)
-        self.processor = AutoProcessor.from_pretrained(self.hparams.model_name_or_path)
+        self.processor = AutoProcessor.from_pretrained(self.hparams.processor_name_or_path)
         self.tokenizer = self.processor.tokenizer
 
         # symbal->Type
