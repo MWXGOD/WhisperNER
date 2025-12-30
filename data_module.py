@@ -39,7 +39,7 @@ class WhisperNERDataModule(L.LightningDataModule):
         processor_name_or_path,
         batch_size=8,
         num_workers=4,
-        max_label_length=128,
+        max_length=128,
         sample_rate=16000,
         **kwargs
     ):
@@ -47,9 +47,9 @@ class WhisperNERDataModule(L.LightningDataModule):
         self.data_path = data_path
         self.batch_size = batch_size
         self.num_workers = num_workers
-        self.max_label_length = max_label_length
+        self.max_length = max_length
         self.sample_rate = sample_rate
-        self.processor = AutoProcessor.from_pretrained(processor_name_or_path)
+        self.processor = AutoProcessor.from_pretrained(processor_name_or_path, language="zh")
 
     def setup(self, stage=None):
         if stage in (None, "fit"):
@@ -83,13 +83,13 @@ class WhisperNERDataModule(L.LightningDataModule):
             texts_list,
             return_tensors="pt",
             padding="max_length",
-            max_length=self.max_label_length,
+            max_length=self.max_length,
             truncation=True,
         )
 
         labels = label_features["input_ids"]
-        labels[labels == self.processor.tokenizer.pad_token_id] = -100
-
+        attn = label_features["attention_mask"]
+        labels = labels.masked_fill(attn == 0, -100)
 
         return {
             "input_features": inputs["input_features"],
@@ -134,9 +134,9 @@ if __name__ == "__main__":
     processor_name_or_path = "cache/whisper-small"
     batch_size = 8
     num_workers = 4
-    max_label_length = 128
+    max_length = 128
     sample_rate = 16000
-    # processor = AutoProcessor.from_pretrained(processor_name_or_path)
+    # processor = AutoProcessor.from_pretrained(processor_name_or_path, language="zh")
     model = WhisperForConditionalGeneration.from_pretrained(processor_name_or_path)
 
 
@@ -145,7 +145,7 @@ if __name__ == "__main__":
         processor_name_or_path,
         batch_size,
         num_workers,
-        max_label_length,
+        max_length,
         sample_rate,
     )
     dm.setup(stage="fit")

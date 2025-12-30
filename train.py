@@ -10,6 +10,9 @@ from torch.optim import AdamW
 from data_module import WhisperNERDataModule
 from transformers import get_constant_schedule_with_warmup
 
+# 验证的想法：
+# 1. 直接赋值-100，所有endoftext都被覆盖，是否导致模型停不下来？
+# 2. 学习率是不是导致学得慢？
 
 
 parser = argparse.ArgumentParser()
