@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.ipynb
+dist/
+build/
+
+# ---- Virtual Env ----
+venv/
+.env/
+
+# ---- VSCode ----
+.vscode/
+
+# ---- System ----
+.DS_Store
+Thumbs.db
+
+# ---- Git_Args ----
+# .gitignore
+.gitattributes
+
+# ---- Logs ----
+*.log
+
+# ---- data ----
+*.wav
+
+# ---- Models / Large files (可选) ----
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+
+# ---- Cache ----
+cache/
+output/
+swanlog/
+lightning_logs/
+.virtual_documents/
+.ipynb_checkpoints/
+*.wav
