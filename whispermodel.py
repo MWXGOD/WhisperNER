@@ -43,9 +43,10 @@ class WhisperNERModel(L.LightningModule):
         self.max_f1_S = 0.0
 
 
-    def forward(self, audio_inputs, labels=None):
+    def forward(self, input_features, attention_mask, labels=None):
         outputs = self.whisper(
-            input_features=audio_inputs,
+            input_features=input_features,
+            attention_mask=attention_mask,
             labels=labels,
         )
         return outputs
@@ -62,7 +63,7 @@ class WhisperNERModel(L.LightningModule):
     def training_step(self, batch, optimizer=None, scheduler=None, accelerator=None):
         optimizer.zero_grad(set_to_none=True)
         with accelerator.autocast():
-            outputs = self(batch["input_features"], batch["labels"])
+            outputs = self(input_features=batch["input_features"], attention_mask=batch["attention_mask"], labels=batch["labels"])
             train_loss = outputs.loss
         accelerator.backward(train_loss)
         accelerator.clip_grad_norm_(self.parameters(), 1.0)
@@ -82,10 +83,11 @@ class WhisperNERModel(L.LightningModule):
 
     def validation_step(self, batch, optimizer=None, scheduler=None, accelerator=None):
         with accelerator.autocast():
-            outputs = self(batch["input_features"], batch["labels"])
+            outputs = self(input_features=batch["input_features"], attention_mask=batch["attention_mask"], labels=batch["labels"])
             val_loss = outputs.loss
         gen_outputs = self.whisper.generate(
             input_features=batch["input_features"],
+            attention_mask=batch["attention_mask"],
             max_new_tokens=128,
         )
         labels = batch["labels"].clone()

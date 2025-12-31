@@ -5,6 +5,7 @@ from torch.utils.data import Dataset, DataLoader
 import lightning as L
 import librosa
 import torch
+from torch.utils.data import Subset
 
 
 
@@ -53,7 +54,12 @@ class WhisperNERDataModule(L.LightningDataModule):
 
     def setup(self, stage=None):
         if stage in (None, "fit"):
-            self.train_dataset = WhisperNERDataset(os.path.join(self.data_path, "train.json"))
+            full_train = WhisperNERDataset(
+                os.path.join(self.data_path, "train.json")
+            )
+
+            self.train_dataset = Subset(full_train, range(5000))
+            # self.train_dataset = WhisperNERDataset(os.path.join(self.data_path, "train.json"))
             self.dev_dataset = WhisperNERDataset(os.path.join(self.data_path, "dev.json"))
         if stage in (None, "test"):
             self.test_dataset  = WhisperNERDataset(os.path.join(self.data_path, "test.json"))
@@ -69,13 +75,14 @@ class WhisperNERDataModule(L.LightningDataModule):
             audio_list.append(wav)
             texts_list.append(text)
 
-        inputs = self.processor(
+        audio_features = self.processor(
             audio_list,
             sampling_rate=self.sample_rate,
             return_tensors="pt",
+            # padding="longest",              # 或 "max_length" 不能padding longest，源码里写死了，必须3000.
             # padding="max_length",  # 使用max_length填充
             # max_length=3000,       # 确保长度为3000
-            truncation=True,       # 截断过长的序列
+            return_attention_mask=True,
         )
 
         # 直接使用tokenizer处理目标文本
@@ -88,12 +95,12 @@ class WhisperNERDataModule(L.LightningDataModule):
         )
 
         labels = label_features["input_ids"]
-        attn = label_features["attention_mask"]
-        labels = labels.masked_fill(attn == 0, -100)
+        labels_attention_mask = label_features["attention_mask"]
+        labels = labels.masked_fill(labels_attention_mask == 0, -100)
 
         return {
-            "input_features": inputs["input_features"],
-            # "attention_mask": inputs["input_features"],
+            "input_features": audio_features["input_features"],
+            "attention_mask": audio_features["attention_mask"],
             "labels": labels,
         }
 

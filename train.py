@@ -11,7 +11,7 @@ from data_module import WhisperNERDataModule
 from transformers import get_constant_schedule_with_warmup
 
 # 验证的想法：
-# 1. 直接赋值-100，所有endoftext都被覆盖，是否导致模型停不下来？
+# 1. 直接赋值-100，所有endoftext都被覆盖，是否导致模型停不下来？ 已经确认，就是这个问题。
 # 2. 学习率是不是导致学得慢？
 
 
@@ -77,8 +77,10 @@ for epoch in range(hyperargs.epochs_num):
             lab_text_per_epoch += lab_text_batch
     swanlab.log({"dev_loss_per_step": dev_loss_per_epoch/len(dev_dataloader)})
     P, R, F1, P_S, R_S, F1_S = model.on_validation_epoch_end()
-    swanlab.log({"F1": F1, "F1_S": F1_S})
+    # swanlab.log({"F1": F1, "F1_S": F1_S})
     final_f1 = max(F1, F1_S)
+    swanlab.log({"final_f1": final_f1})
+    swanlab.log({"P": P, "R": R, "F1": F1, "P_S": P_S, "R_S": R_S, "F1_S": F1_S})
     
     os.makedirs(hyperargs.output_result_path, exist_ok=True)
     with open(f"{hyperargs.output_result_path}/gen_text_batch_{epoch}.json", 'w', encoding='utf-8') as f:
