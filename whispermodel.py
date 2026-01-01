@@ -43,10 +43,9 @@ class WhisperNERModel(L.LightningModule):
         self.max_f1_S = 0.0
 
 
-    def forward(self, input_features, attention_mask, labels=None):
+    def forward(self, input_features, labels=None):
         outputs = self.whisper(
             input_features=input_features,
-            attention_mask=attention_mask,
             labels=labels,
         )
         return outputs
@@ -63,7 +62,7 @@ class WhisperNERModel(L.LightningModule):
     def training_step(self, batch, optimizer=None, scheduler=None, accelerator=None):
         optimizer.zero_grad(set_to_none=True)
         with accelerator.autocast():
-            outputs = self(input_features=batch["input_features"], attention_mask=batch["attention_mask"], labels=batch["labels"])
+            outputs = self(input_features=batch["input_features"], labels=batch["labels"])
             train_loss = outputs.loss
         accelerator.backward(train_loss)
         accelerator.clip_grad_norm_(self.parameters(), 1.0)
@@ -83,18 +82,29 @@ class WhisperNERModel(L.LightningModule):
 
     def validation_step(self, batch, optimizer=None, scheduler=None, accelerator=None):
         with accelerator.autocast():
-            outputs = self(input_features=batch["input_features"], attention_mask=batch["attention_mask"], labels=batch["labels"])
+            outputs = self(input_features=batch["input_features"], labels=batch["labels"])
             val_loss = outputs.loss
-        forced_decoder_ids = self.processor.get_decoder_prompt_ids(language="zh", task="transcribe")
+        # forced_decoder_ids = self.processor.get_decoder_prompt_ids(language="zh")
         gen_outputs = self.whisper.generate(
             input_features=batch["input_features"],
-            attention_mask=batch["attention_mask"],
-            forced_decoder_ids=forced_decoder_ids,
+            # attention_mask=batch["attention_mask"],
+            # forced_decoder_ids=forced_decoder_ids,
+            language="zh",
             max_new_tokens=128,
         )
         labels = batch["labels"].clone()
-        labels[labels == -100] = self.tokenizer.pad_token_id
+
         
+        # gen_text_batch = self.processor.batch_decode(gen_outputs, skip_special_tokens=False)
+        # lab_text_batch = self.processor.batch_decode(labels, skip_special_tokens=False)
+        # print(gen_text_batch[0])
+        # print(lab_text_batch[0])
+        # exit()
+
+
+
+
+        labels[labels == -100] = self.tokenizer.pad_token_id
         gen_text_batch = self.processor.batch_decode(gen_outputs, skip_special_tokens=True)
         lab_text_batch = self.processor.batch_decode(labels, skip_special_tokens=True)
 
