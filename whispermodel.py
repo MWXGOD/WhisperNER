@@ -85,9 +85,11 @@ class WhisperNERModel(L.LightningModule):
         with accelerator.autocast():
             outputs = self(input_features=batch["input_features"], attention_mask=batch["attention_mask"], labels=batch["labels"])
             val_loss = outputs.loss
+        forced_decoder_ids = self.processor.get_decoder_prompt_ids(language="zh", task="transcribe")
         gen_outputs = self.whisper.generate(
             input_features=batch["input_features"],
             attention_mask=batch["attention_mask"],
+            forced_decoder_ids=forced_decoder_ids,
             max_new_tokens=128,
         )
         labels = batch["labels"].clone()
