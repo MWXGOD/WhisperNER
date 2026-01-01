@@ -54,12 +54,12 @@ class WhisperNERDataModule(L.LightningDataModule):
 
     def setup(self, stage=None):
         if stage in (None, "fit"):
-            full_train = WhisperNERDataset(
-                os.path.join(self.data_path, "train.json")
-            )
+            # full_train = WhisperNERDataset(
+            #     os.path.join(self.data_path, "train.json")
+            # )
 
-            self.train_dataset = Subset(full_train, range(20))
-            # self.train_dataset = WhisperNERDataset(os.path.join(self.data_path, "train.json"))
+            # self.train_dataset = Subset(full_train, range(20))
+            self.train_dataset = WhisperNERDataset(os.path.join(self.data_path, "train.json"))
             self.dev_dataset = WhisperNERDataset(os.path.join(self.data_path, "dev.json"))
         if stage in (None, "test"):
             self.test_dataset  = WhisperNERDataset(os.path.join(self.data_path, "test.json"))
