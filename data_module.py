@@ -50,7 +50,7 @@ class WhisperNERDataModule(L.LightningDataModule):
         self.num_workers = num_workers
         self.max_length = max_length
         self.sample_rate = sample_rate
-        self.processor = AutoProcessor.from_pretrained(processor_name_or_path, language="zh")
+        self.processor = AutoProcessor.from_pretrained(processor_name_or_path)
 
     def setup(self, stage=None):
         if stage in (None, "fit"):
@@ -160,7 +160,7 @@ if __name__ == "__main__":
     for batch in train_loader:
         print(batch["input_features"].shape)
         print(batch["labels"].shape)
-        generated_ids = model.generate(input_features=batch["input_features"], language="zh")
+        generated_ids = model.generate(input_features=batch["input_features"])
         transcription = dm.processor.batch_decode(generated_ids, skip_special_tokens=True)
 
         labels = batch["labels"].clone()

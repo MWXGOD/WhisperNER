@@ -13,6 +13,7 @@ from transformers import get_constant_schedule_with_warmup
 # 验证的想法：
 # 1. 直接赋值-100，所有endoftext都被覆盖，是否导致模型停不下来？ 已经确认，就是这个问题。
 # 2. 学习率是不是导致学得慢？
+# 3. 可能是括号的问题，加入特殊的token用于表示nerspan。
 
 
 parser = argparse.ArgumentParser()

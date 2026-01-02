@@ -17,7 +17,7 @@ class WhisperNERModel(L.LightningModule):
         self.save_hyperparameters()  # 记录超参更稳, 通过self.hparams.XXX调用
         
         self.whisper = WhisperForConditionalGeneration.from_pretrained(self.hparams.model_name_or_path)
-        self.processor = AutoProcessor.from_pretrained(self.hparams.processor_name_or_path, language="zh")
+        self.processor = AutoProcessor.from_pretrained(self.hparams.processor_name_or_path)
         self.tokenizer = self.processor.tokenizer
 
         # symbal->Type
@@ -29,6 +29,11 @@ class WhisperNERModel(L.LightningModule):
             '[':'PER-S',
             ']':'PER-E'
         }
+
+        # 白名单
+        self.white_list = ['<', '>', '(', ')', '[', ']']
+        for wl in self.white_list:
+            self.whisper.generation_config.suppress_tokens.remove(self.tokenizer.convert_tokens_to_ids(wl))
 
         # 定义PRF的变量
         self.P_E = 0.0
@@ -89,7 +94,7 @@ class WhisperNERModel(L.LightningModule):
             input_features=batch["input_features"],
             # attention_mask=batch["attention_mask"],
             # forced_decoder_ids=forced_decoder_ids,
-            language="zh",
+            # language="zh",
             max_new_tokens=128,
         )
         labels = batch["labels"].clone()
