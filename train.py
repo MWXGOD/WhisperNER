@@ -14,10 +14,12 @@ from transformers import get_constant_schedule_with_warmup
 # 1. 直接赋值-100，所有endoftext都被覆盖，是否导致模型停不下来？ 已经确认，就是这个问题。
 # 2. 学习率是不是导致学得慢？
 # 3. 可能是括号的问题，加入特殊的token用于表示nerspan。
+# 4. 我目前修改了suppress_tokens，保证了模型不会抑制nerspan的token，但是没有设置language，需要继续测试这个模式。
 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--args_path', type=str, default='argsfile/aishell_ner_args_4_whisper.json')
+# parser.add_argument('--args_path', type=str, default='argsfile/aishell_ner_args_4_whisper_medium.json')
 shell_args = parser.parse_args()
 args_dict = read_json_args(shell_args.args_path)
 hyperargs = Hyperargs(**args_dict)
