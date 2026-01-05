@@ -24,12 +24,7 @@ class WhisperNERDataset(Dataset):
 
     def __getitem__(self, index):
         data_item = self.data[index]
-        audio_path = os.path.join(
-            os.path.dirname(self.data_path),
-            "audio",
-            f"{data_item['origin_id']}.wav"
-        )
-        return audio_path, data_item["transcript"]
+        return data_item["wav_path"], data_item["transcript"]
 
 
 
@@ -50,7 +45,7 @@ class WhisperNERDataModule(L.LightningDataModule):
         self.num_workers = num_workers
         self.max_length = max_length
         self.sample_rate = sample_rate
-        self.processor = AutoProcessor.from_pretrained(processor_name_or_path)
+        self.processor = AutoProcessor.from_pretrained(processor_name_or_path, language="zh", task="transcribe")
 
     def setup(self, stage=None):
         if stage in (None, "fit"):

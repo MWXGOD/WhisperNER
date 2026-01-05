@@ -17,7 +17,7 @@ class WhisperNERModel(L.LightningModule):
         self.save_hyperparameters()  # 记录超参更稳, 通过self.hparams.XXX调用
         
         self.whisper = WhisperForConditionalGeneration.from_pretrained(self.hparams.model_name_or_path)
-        self.processor = AutoProcessor.from_pretrained(self.hparams.processor_name_or_path)
+        self.processor = AutoProcessor.from_pretrained(self.hparams.processor_name_or_path, language="zh", task="transcribe")
         self.tokenizer = self.processor.tokenizer
 
         # symbal->Type
@@ -31,7 +31,7 @@ class WhisperNERModel(L.LightningModule):
         }
 
         # 白名单
-        self.white_list = ['<', '>', '(', ')', '[', ']']
+        self.white_list = ['<', '>', '(', ')', '[', ']', '-', '$', '$$']
         for wl in self.white_list:
             self.whisper.generation_config.suppress_tokens.remove(self.tokenizer.convert_tokens_to_ids(wl))
 
@@ -92,9 +92,10 @@ class WhisperNERModel(L.LightningModule):
         # forced_decoder_ids = self.processor.get_decoder_prompt_ids(language="zh")
         gen_outputs = self.whisper.generate(
             input_features=batch["input_features"],
-            # attention_mask=batch["attention_mask"],
+            attention_mask=batch["attention_mask"],
             # forced_decoder_ids=forced_decoder_ids,
-            # language="zh",
+            language="zh",
+            task="transcribe",
             max_new_tokens=128,
         )
         labels = batch["labels"].clone()
