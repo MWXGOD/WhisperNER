@@ -24,7 +24,7 @@ class WhisperNERDataset(Dataset):
 
     def __getitem__(self, index):
         data_item = self.data[index]
-        return data_item["wav_path"], data_item["transcript"]
+        return data_item["wav_path"], data_item["transcript"], data_item["entitis_types"]
 
 
 
@@ -46,6 +46,7 @@ class WhisperNERDataModule(L.LightningDataModule):
         self.max_length = max_length
         self.sample_rate = sample_rate
         self.processor = AutoProcessor.from_pretrained(processor_name_or_path, language="zh", task="transcribe")
+        self.save_hyperparameters()  # 记录超参更稳, 通过self.hparams.XXX调用
 
     def setup(self, stage=None):
         if stage in (None, "fit"):
@@ -63,12 +64,14 @@ class WhisperNERDataModule(L.LightningDataModule):
 
         audio_list = [] # array (numpy)
         texts_list = []
+        entities_types_list = []
 
         for x in batch:
-            audio_path, text = x
+            audio_path, text, entities_types = x
             wav, sr = librosa.load(audio_path, sr=self.sample_rate, mono=True)  # 直接加载为指定采样率和单声道
             audio_list.append(wav)
             texts_list.append(text)
+            entities_types_list.append(entities_types)
 
         audio_features = self.processor(
             audio_list,
@@ -79,15 +82,24 @@ class WhisperNERDataModule(L.LightningDataModule):
             # max_length=3000,       # 确保长度为3000
             return_attention_mask=True,
         )
-
-        # 直接使用tokenizer处理目标文本
-        label_features = self.processor.tokenizer(
-            texts_list,
-            return_tensors="pt",
-            padding="max_length",
-            max_length=self.max_length,
-            truncation=True,
-        )
+        # print(self.hparams.decode_schema)
+        if self.hparams.decode_schema == "E-T8558":
+            label_features = self.processor.tokenizer(
+                entities_types_list,
+                return_tensors="pt",
+                padding="max_length",
+                max_length=self.max_length,
+                truncation=True,
+            )
+        else:
+            # 直接使用tokenizer处理目标文本
+            label_features = self.processor.tokenizer(
+                texts_list,
+                return_tensors="pt",
+                padding="max_length",
+                max_length=self.max_length,
+                truncation=True,
+            )
 
         labels = label_features["input_ids"]
         labels_attention_mask = label_features["attention_mask"]
@@ -140,6 +152,9 @@ if __name__ == "__main__":
     sample_rate = 16000
     # processor = AutoProcessor.from_pretrained(processor_name_or_path, language="zh")
     model = WhisperForConditionalGeneration.from_pretrained(processor_name_or_path)
+    kwargs = {
+        "decode_schema": "E-T8558",
+    }
 
 
     dm = WhisperNERDataModule(
@@ -149,6 +164,7 @@ if __name__ == "__main__":
         num_workers,
         max_length,
         sample_rate,
+        **kwargs,
     )
     dm.setup(stage="fit")
     train_loader = dm.train_dataloader()

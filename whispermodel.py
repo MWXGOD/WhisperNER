@@ -33,7 +33,8 @@ class WhisperNERModel(L.LightningModule):
         # 白名单
         self.white_list = ['<', '>', '(', ')', '[', ']', '-', '$', '$$']
         for wl in self.white_list:
-            self.whisper.generation_config.suppress_tokens.remove(self.tokenizer.convert_tokens_to_ids(wl))
+            if wl in self.whisper.generation_config.suppress_tokens:
+                self.whisper.generation_config.suppress_tokens.remove(self.tokenizer.convert_tokens_to_ids(wl))
 
         # 定义PRF的变量
         self.P_E = 0.0
@@ -98,25 +99,19 @@ class WhisperNERModel(L.LightningModule):
             task="transcribe",
             max_new_tokens=128,
         )
-        labels = batch["labels"].clone()
-
-        
-        # gen_text_batch = self.processor.batch_decode(gen_outputs, skip_special_tokens=False)
-        # lab_text_batch = self.processor.batch_decode(labels, skip_special_tokens=False)
-        # print(gen_text_batch[0])
-        # print(lab_text_batch[0])
-        # exit()
-
-
-
-
+        labels = batch["labels"].clone()    
         labels[labels == -100] = self.tokenizer.pad_token_id
         gen_text_batch = self.processor.batch_decode(gen_outputs, skip_special_tokens=True)
         lab_text_batch = self.processor.batch_decode(labels, skip_special_tokens=True)
 
-        batch_entities_lab = self.batch_text2entity(lab_text_batch, is_labels = True)
-        batch_entities_gen = self.batch_text2entity(gen_text_batch)
-        self.compute_metric_step_update(batch_entities_lab, batch_entities_gen)
+        if self.hparams.decode_schema == "E-T8558":
+            batch_entities_lab = self.batch_text2entity4E_T(lab_text_batch, is_labels = True)
+            batch_entities_gen = self.batch_text2entity4E_T(gen_text_batch)
+            self.compute_metric_step_update4E_T(batch_entities_lab, batch_entities_gen)
+        else:
+            batch_entities_lab = self.batch_text2entity(lab_text_batch, is_labels = True)
+            batch_entities_gen = self.batch_text2entity(gen_text_batch)
+            self.compute_metric_step_update(batch_entities_lab, batch_entities_gen)
 
         return gen_text_batch, lab_text_batch, val_loss
 
@@ -216,6 +211,39 @@ class WhisperNERModel(L.LightningModule):
                     batch_entities.append(text_item_entities_vote)
                     text_item_entities_temp = []
         return batch_entities
+
+    def text2entity4E_T(self, text):
+        entity_type_list = text.split("$$")
+        return entity_type_list
+
+    def batch_text2entity4E_T(self, batch_text, is_labels=False):
+        batch_entities = []
+        text_item_entities_temp = []
+        if is_labels:
+            for text_item in batch_text:
+                batch_entities.append(self.text2entity4E_T(text_item))
+        else:
+            for text_id, text_item in enumerate(batch_text):
+                text_item_entities = self.text2entity4E_T(text_item)
+                text_item_entities_temp += text_item_entities
+                if (text_id+1)%self.hparams.num_return_sequences == 0:
+                    text_item_entities_vote = []
+                    for entity in text_item_entities_temp:
+                        if text_item_entities_temp.count(entity) > self.hparams.num_return_sequences/2 and entity not in text_item_entities_vote:
+                            text_item_entities_vote.append(entity)
+                    batch_entities.append(text_item_entities_vote)
+                    text_item_entities_temp = []
+        return batch_entities
+
+    def compute_metric_step_update4E_T(self, batch_entities_label, batch_entities_pred):
+        for bel, bep in zip(batch_entities_label, batch_entities_pred):
+            # 更新span无位置的PRC
+            # batch_entities_label_without_index = ['中国-LOC']
+            batch_entities_label_without_index = [l for l in bel if l != "None"]
+            batch_entities_pred_without_index = [p for p in bep if p != "None"]
+            self.P_E += len(set(batch_entities_pred_without_index))
+            self.R_E += len(set(batch_entities_label_without_index))
+            self.C_E += len(set(batch_entities_pred_without_index) & set(batch_entities_label_without_index))
 
     def compute_metric_step_update(self, batch_entities_label, batch_entities_pred):
 

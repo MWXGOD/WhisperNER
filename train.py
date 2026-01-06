@@ -20,9 +20,11 @@ from transformers import get_constant_schedule_with_warmup
 parser = argparse.ArgumentParser()
 parser.add_argument('--args_path', type=str, default='argsfile/aishell_ner_args_4_whisper.json')
 # parser.add_argument('--args_path', type=str, default='argsfile/aishell_ner_args_4_whisper_medium.json')
+parser.add_argument('--decode_schema', type=str, default=None)
 shell_args = parser.parse_args()
 args_dict = read_json_args(shell_args.args_path)
 hyperargs = Hyperargs(**args_dict)
+hyperargs.decode_schema = shell_args.decode_schema
 seed_everything(hyperargs.seed, workers=True)
 
 time_str = datetime.now().strftime("%m-%d-%Y-%H-%M-%S")
