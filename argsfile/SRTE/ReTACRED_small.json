@@ -1,0 +1,21 @@
+{
+    "data_path": "data/ReTACRED",
+    "model_name_or_path": "cache/whisper-small",
+    "processor_name_or_path": "cache/whisper-small",
+    "output_model_path": "output/ReTACRED/whisper-small_checkpoint",
+    "output_result_path": "output/ReTACRED/whisper-small/result",
+    "swanlab_project_name": "Whisper-MWX-ReTACRED",
+    "batch_size":32,
+    "max_length":50,
+    "epochs_num": 50,
+    "learning_rate": 1e-5,
+    "warmup_rate": 0.1,
+    "weight_decay":0.01,
+    "seed": 42,
+    "gpu_id": 0,
+    "mixed_precision": "bf16",
+    "num_beams":5,
+    "num_return_sequences":1,
+    "output_scores":false,
+    "decode_schema": "E-T$$"
+}

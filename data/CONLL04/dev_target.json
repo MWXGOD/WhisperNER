@@ -1,0 +1,1388 @@
+[
+    {
+        "audio_id": "dev-0",
+        "origin_id": "dev-0",
+        "audio_path": "./data/CONLL04/audio/dev/dev-0.wav",
+        "target_text": "John Wilkes Booth##Kill##President Lincoln"
+    },
+    {
+        "audio_id": "dev-1",
+        "origin_id": "dev-1",
+        "audio_path": "./data/CONLL04/audio/dev/dev-1.wav",
+        "target_text": "Palace of Fine Arts##Located_In##San Francisco"
+    },
+    {
+        "audio_id": "dev-2",
+        "origin_id": "dev-2",
+        "audio_path": "./data/CONLL04/audio/dev/dev-2.wav",
+        "target_text": "Wang Ziqiang##Work_For##Institute of Mechanics"
+    },
+    {
+        "audio_id": "dev-3",
+        "origin_id": "dev-3",
+        "audio_path": "./data/CONLL04/audio/dev/dev-3.wav",
+        "target_text": "Sun Hung Kai Properties##OrgBased_In##Hong Kong"
+    },
+    {
+        "audio_id": "dev-4",
+        "origin_id": "dev-4",
+        "audio_path": "./data/CONLL04/audio/dev/dev-4.wav",
+        "target_text": "Marie Magdefrau Ferraro##Live_In##Bethany$$Marie Magdefrau Ferraro##Live_In##Conn.$$Bethany##Located_In##Conn."
+    },
+    {
+        "audio_id": "dev-5",
+        "origin_id": "dev-5",
+        "audio_path": "./data/CONLL04/audio/dev/dev-5.wav",
+        "target_text": "Morgan City##Located_In##La."
+    },
+    {
+        "audio_id": "dev-6",
+        "origin_id": "dev-6",
+        "audio_path": "./data/CONLL04/audio/dev/dev-6.wav",
+        "target_text": "Lowman##Located_In##Idaho"
+    },
+    {
+        "audio_id": "dev-7",
+        "origin_id": "dev-7",
+        "audio_path": "./data/CONLL04/audio/dev/dev-7.wav",
+        "target_text": "Avihu Bin-Nun##Work_For##Air Force"
+    },
+    {
+        "audio_id": "dev-8",
+        "origin_id": "dev-8",
+        "audio_path": "./data/CONLL04/audio/dev/dev-8.wav",
+        "target_text": "Savannah River Plant##Located_In##Aiken$$Savannah River Plant##Located_In##S.C.$$Aiken##Located_In##S.C."
+    },
+    {
+        "audio_id": "dev-9",
+        "origin_id": "dev-9",
+        "audio_path": "./data/CONLL04/audio/dev/dev-9.wav",
+        "target_text": "Thomas##Live_In##Chisholm$$Thomas##Live_In##Minn .$$Chisholm##Located_In##Minn ."
+    },
+    {
+        "audio_id": "dev-10",
+        "origin_id": "dev-10",
+        "audio_path": "./data/CONLL04/audio/dev/dev-10.wav",
+        "target_text": "James Thompson##Live_In##Illinois"
+    },
+    {
+        "audio_id": "dev-11",
+        "origin_id": "dev-11",
+        "audio_path": "./data/CONLL04/audio/dev/dev-11.wav",
+        "target_text": "Brian Michaud##Live_In##Millinocket"
+    },
+    {
+        "audio_id": "dev-12",
+        "origin_id": "dev-12",
+        "audio_path": "./data/CONLL04/audio/dev/dev-12.wav",
+        "target_text": "Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-13",
+        "origin_id": "dev-13",
+        "audio_path": "./data/CONLL04/audio/dev/dev-13.wav",
+        "target_text": "Yang Jianbai##Work_For##Economic Research"
+    },
+    {
+        "audio_id": "dev-14",
+        "origin_id": "dev-14",
+        "audio_path": "./data/CONLL04/audio/dev/dev-14.wav",
+        "target_text": "Daniel Urquhart##Live_In##Aumsville"
+    },
+    {
+        "audio_id": "dev-15",
+        "origin_id": "dev-15",
+        "audio_path": "./data/CONLL04/audio/dev/dev-15.wav",
+        "target_text": "Congress##OrgBased_In##U.S."
+    },
+    {
+        "audio_id": "dev-16",
+        "origin_id": "dev-16",
+        "audio_path": "./data/CONLL04/audio/dev/dev-16.wav",
+        "target_text": "James Earl Ray##Kill##Martin Luther King III"
+    },
+    {
+        "audio_id": "dev-17",
+        "origin_id": "dev-17",
+        "audio_path": "./data/CONLL04/audio/dev/dev-17.wav",
+        "target_text": "Benjamin Harrison##Live_In##North Bend , Ohio"
+    },
+    {
+        "audio_id": "dev-18",
+        "origin_id": "dev-18",
+        "audio_path": "./data/CONLL04/audio/dev/dev-18.wav",
+        "target_text": "Khrushchev##Live_In##Soviet$$Roy Medvedev##Live_In##Soviet"
+    },
+    {
+        "audio_id": "dev-19",
+        "origin_id": "dev-19",
+        "audio_path": "./data/CONLL04/audio/dev/dev-19.wav",
+        "target_text": "Walter R. Mears##Work_For##The Associated Press"
+    },
+    {
+        "audio_id": "dev-20",
+        "origin_id": "dev-20",
+        "audio_path": "./data/CONLL04/audio/dev/dev-20.wav",
+        "target_text": "Gerald Przenislawski##Work_For##La Valette Underground Military Museum."
+    },
+    {
+        "audio_id": "dev-21",
+        "origin_id": "dev-21",
+        "audio_path": "./data/CONLL04/audio/dev/dev-21.wav",
+        "target_text": "Jesse Jackson##Live_In##South Carolina"
+    },
+    {
+        "audio_id": "dev-22",
+        "origin_id": "dev-22",
+        "audio_path": "./data/CONLL04/audio/dev/dev-22.wav",
+        "target_text": "Jack Ruby##Kill##Lee Harvey Oswald"
+    },
+    {
+        "audio_id": "dev-23",
+        "origin_id": "dev-23",
+        "audio_path": "./data/CONLL04/audio/dev/dev-23.wav",
+        "target_text": "Cetin##Live_In##Turkey"
+    },
+    {
+        "audio_id": "dev-24",
+        "origin_id": "dev-24",
+        "audio_path": "./data/CONLL04/audio/dev/dev-24.wav",
+        "target_text": "Vernon A. Walters##Live_In##U.S."
+    },
+    {
+        "audio_id": "dev-25",
+        "origin_id": "dev-25",
+        "audio_path": "./data/CONLL04/audio/dev/dev-25.wav",
+        "target_text": "Mark Moseley##Work_For##National Football League"
+    },
+    {
+        "audio_id": "dev-26",
+        "origin_id": "dev-26",
+        "audio_path": "./data/CONLL04/audio/dev/dev-26.wav",
+        "target_text": "Hernandez Galicia##Work_For##Mexican Oil Workers Union"
+    },
+    {
+        "audio_id": "dev-27",
+        "origin_id": "dev-27",
+        "audio_path": "./data/CONLL04/audio/dev/dev-27.wav",
+        "target_text": "Muddy Waters##Live_In##Rolling Fork"
+    },
+    {
+        "audio_id": "dev-28",
+        "origin_id": "dev-28",
+        "audio_path": "./data/CONLL04/audio/dev/dev-28.wav",
+        "target_text": "NASA##OrgBased_In##U.S.$$National Aeronautics and Space Administration##OrgBased_In##U.S."
+    },
+    {
+        "audio_id": "dev-29",
+        "origin_id": "dev-29",
+        "audio_path": "./data/CONLL04/audio/dev/dev-29.wav",
+        "target_text": "Phil Fuhrer##Work_For##Gannett New Media."
+    },
+    {
+        "audio_id": "dev-30",
+        "origin_id": "dev-30",
+        "audio_path": "./data/CONLL04/audio/dev/dev-30.wav",
+        "target_text": "Teleonce Television##OrgBased_In##Guatemala City"
+    },
+    {
+        "audio_id": "dev-31",
+        "origin_id": "dev-31",
+        "audio_path": "./data/CONLL04/audio/dev/dev-31.wav",
+        "target_text": "DAYTON##Located_In##Ohio$$AP##OrgBased_In##DAYTON$$AP##OrgBased_In##Ohio"
+    },
+    {
+        "audio_id": "dev-32",
+        "origin_id": "dev-32",
+        "audio_path": "./data/CONLL04/audio/dev/dev-32.wav",
+        "target_text": "John Wilkes Booth##Kill##President Lincoln"
+    },
+    {
+        "audio_id": "dev-33",
+        "origin_id": "dev-33",
+        "audio_path": "./data/CONLL04/audio/dev/dev-33.wav",
+        "target_text": "San Gabriel River Channel##Located_In##Azusa$$San Gabriel River Channel##Located_In##Calif.$$Azusa##Located_In##Calif."
+    },
+    {
+        "audio_id": "dev-34",
+        "origin_id": "dev-34",
+        "audio_path": "./data/CONLL04/audio/dev/dev-34.wav",
+        "target_text": "Phnom Penh government##OrgBased_In##Cambodia"
+    },
+    {
+        "audio_id": "dev-35",
+        "origin_id": "dev-35",
+        "audio_path": "./data/CONLL04/audio/dev/dev-35.wav",
+        "target_text": "Derwinski##Live_In##Chicago$$Derwinski##Work_For##Congress"
+    },
+    {
+        "audio_id": "dev-36",
+        "origin_id": "dev-36",
+        "audio_path": "./data/CONLL04/audio/dev/dev-36.wav",
+        "target_text": "BANGKOK##Located_In##Thailand$$AP##OrgBased_In##BANGKOK$$AP##OrgBased_In##Thailand"
+    },
+    {
+        "audio_id": "dev-37",
+        "origin_id": "dev-37",
+        "audio_path": "./data/CONLL04/audio/dev/dev-37.wav",
+        "target_text": "Pramot Pansakun##Work_For##Region 2 Border Patrol Police$$Dan Sai District##Located_In##Loei Province$$Nakhon Thai District##Located_In##Phitsanulok Province$$Lomsak District##Located_In##Phetchabun Province"
+    },
+    {
+        "audio_id": "dev-38",
+        "origin_id": "dev-38",
+        "audio_path": "./data/CONLL04/audio/dev/dev-38.wav",
+        "target_text": "Fred Demler##Work_For##Drexel Burnham Lambert Inc.$$Fred Demler##Live_In##New York$$Drexel Burnham Lambert Inc.##OrgBased_In##New York"
+    },
+    {
+        "audio_id": "dev-39",
+        "origin_id": "dev-39",
+        "audio_path": "./data/CONLL04/audio/dev/dev-39.wav",
+        "target_text": "European Community Commission.##OrgBased_In##Brussels"
+    },
+    {
+        "audio_id": "dev-40",
+        "origin_id": "dev-40",
+        "audio_path": "./data/CONLL04/audio/dev/dev-40.wav",
+        "target_text": "Addis Ababa##Located_In##Ethiopia."
+    },
+    {
+        "audio_id": "dev-41",
+        "origin_id": "dev-41",
+        "audio_path": "./data/CONLL04/audio/dev/dev-41.wav",
+        "target_text": "Charles J. Guiteau##Kill##President James A. Garfield"
+    },
+    {
+        "audio_id": "dev-42",
+        "origin_id": "dev-42",
+        "audio_path": "./data/CONLL04/audio/dev/dev-42.wav",
+        "target_text": "Argentina##Located_In##Latin America"
+    },
+    {
+        "audio_id": "dev-43",
+        "origin_id": "dev-43",
+        "audio_path": "./data/CONLL04/audio/dev/dev-43.wav",
+        "target_text": "Virginia Towle##Live_In##Wallingford"
+    },
+    {
+        "audio_id": "dev-44",
+        "origin_id": "dev-44",
+        "audio_path": "./data/CONLL04/audio/dev/dev-44.wav",
+        "target_text": "Prince Norodom Ranariddh##Live_In##Thailand"
+    },
+    {
+        "audio_id": "dev-45",
+        "origin_id": "dev-45",
+        "audio_path": "./data/CONLL04/audio/dev/dev-45.wav",
+        "target_text": "John Wayne##Live_In##Winterset"
+    },
+    {
+        "audio_id": "dev-46",
+        "origin_id": "dev-46",
+        "audio_path": "./data/CONLL04/audio/dev/dev-46.wav",
+        "target_text": "Ranch##OrgBased_In##River North"
+    },
+    {
+        "audio_id": "dev-47",
+        "origin_id": "dev-47",
+        "audio_path": "./data/CONLL04/audio/dev/dev-47.wav",
+        "target_text": "AFP##OrgBased_In##Paris"
+    },
+    {
+        "audio_id": "dev-48",
+        "origin_id": "dev-48",
+        "audio_path": "./data/CONLL04/audio/dev/dev-48.wav",
+        "target_text": "Tokyo##Located_In##Japan$$Kyoto##Located_In##Japan"
+    },
+    {
+        "audio_id": "dev-49",
+        "origin_id": "dev-49",
+        "audio_path": "./data/CONLL04/audio/dev/dev-49.wav",
+        "target_text": "Jonathan Lifa##Work_For##Chevron"
+    },
+    {
+        "audio_id": "dev-50",
+        "origin_id": "dev-50",
+        "audio_path": "./data/CONLL04/audio/dev/dev-50.wav",
+        "target_text": "Jake Garn##Work_For##NASA$$Bill Nelson##Work_For##NASA"
+    },
+    {
+        "audio_id": "dev-51",
+        "origin_id": "dev-51",
+        "audio_path": "./data/CONLL04/audio/dev/dev-51.wav",
+        "target_text": "Armenia.##Located_In##Soviet"
+    },
+    {
+        "audio_id": "dev-52",
+        "origin_id": "dev-52",
+        "audio_path": "./data/CONLL04/audio/dev/dev-52.wav",
+        "target_text": "Juppe##Work_For##French Government$$Cetin##Live_In##Turkey$$Cetin##Live_In##Turkey"
+    },
+    {
+        "audio_id": "dev-53",
+        "origin_id": "dev-53",
+        "audio_path": "./data/CONLL04/audio/dev/dev-53.wav",
+        "target_text": "Andean Group##OrgBased_In##Colombia$$Andean Group##OrgBased_In##Bolivia$$Andean Group##OrgBased_In##Ecuador$$Andean Group##OrgBased_In##Peru$$Andean Group##OrgBased_In##Venezuela"
+    },
+    {
+        "audio_id": "dev-54",
+        "origin_id": "dev-54",
+        "audio_path": "./data/CONLL04/audio/dev/dev-54.wav",
+        "target_text": "Elizabeth##Live_In##Salisbury , N.C"
+    },
+    {
+        "audio_id": "dev-55",
+        "origin_id": "dev-55",
+        "audio_path": "./data/CONLL04/audio/dev/dev-55.wav",
+        "target_text": "BTA##OrgBased_In##Sofia$$Bulgarian Socialist ( formerly Communist ) Party##OrgBased_In##Bulgaria$$BSP##OrgBased_In##Bulgaria$$Union of Democratic Forces##OrgBased_In##Bulgaria$$SDS##OrgBased_In##Bulgaria"
+    },
+    {
+        "audio_id": "dev-56",
+        "origin_id": "dev-56",
+        "audio_path": "./data/CONLL04/audio/dev/dev-56.wav",
+        "target_text": "Supreme Court##OrgBased_In##District of Columbia$$Senate##OrgBased_In##District of Columbia"
+    },
+    {
+        "audio_id": "dev-57",
+        "origin_id": "dev-57",
+        "audio_path": "./data/CONLL04/audio/dev/dev-57.wav",
+        "target_text": "Madagascar##Located_In##Indian Ocean"
+    },
+    {
+        "audio_id": "dev-58",
+        "origin_id": "dev-58",
+        "audio_path": "./data/CONLL04/audio/dev/dev-58.wav",
+        "target_text": "Radio Monte Carlo##OrgBased_In##Paris"
+    },
+    {
+        "audio_id": "dev-59",
+        "origin_id": "dev-59",
+        "audio_path": "./data/CONLL04/audio/dev/dev-59.wav",
+        "target_text": "Francisco Pizarro##Kill##Atahualpa"
+    },
+    {
+        "audio_id": "dev-60",
+        "origin_id": "dev-60",
+        "audio_path": "./data/CONLL04/audio/dev/dev-60.wav",
+        "target_text": "Neil Estes.##Live_In##Atlanta"
+    },
+    {
+        "audio_id": "dev-61",
+        "origin_id": "dev-61",
+        "audio_path": "./data/CONLL04/audio/dev/dev-61.wav",
+        "target_text": "Robert C. Corduwener##Live_In##Netherlands"
+    },
+    {
+        "audio_id": "dev-62",
+        "origin_id": "dev-62",
+        "audio_path": "./data/CONLL04/audio/dev/dev-62.wav",
+        "target_text": "Sahara desert##Located_In##Africa"
+    },
+    {
+        "audio_id": "dev-63",
+        "origin_id": "dev-63",
+        "audio_path": "./data/CONLL04/audio/dev/dev-63.wav",
+        "target_text": "Willi Marx##Live_In##Heuchelheim"
+    },
+    {
+        "audio_id": "dev-64",
+        "origin_id": "dev-64",
+        "audio_path": "./data/CONLL04/audio/dev/dev-64.wav",
+        "target_text": "Jeff Shia##Work_For##Kiangsu Chekiang Association"
+    },
+    {
+        "audio_id": "dev-65",
+        "origin_id": "dev-65",
+        "audio_path": "./data/CONLL04/audio/dev/dev-65.wav",
+        "target_text": "Anzio##Located_In##Italy"
+    },
+    {
+        "audio_id": "dev-66",
+        "origin_id": "dev-66",
+        "audio_path": "./data/CONLL04/audio/dev/dev-66.wav",
+        "target_text": "James Earl Ray##Kill##Rev. Martin Luther King Jr."
+    },
+    {
+        "audio_id": "dev-67",
+        "origin_id": "dev-67",
+        "audio_path": "./data/CONLL04/audio/dev/dev-67.wav",
+        "target_text": "Tiananmen Square##Located_In##Beijing"
+    },
+    {
+        "audio_id": "dev-68",
+        "origin_id": "dev-68",
+        "audio_path": "./data/CONLL04/audio/dev/dev-68.wav",
+        "target_text": "XINHUA##OrgBased_In##China$$XINHUA##OrgBased_In##People 's Republic of China$$Li Peng##Live_In##China$$Li Peng##Live_In##People 's Republic of China"
+    },
+    {
+        "audio_id": "dev-69",
+        "origin_id": "dev-69",
+        "audio_path": "./data/CONLL04/audio/dev/dev-69.wav",
+        "target_text": "Herbert Clark Hoover##Live_In##West Branch , Iowa"
+    },
+    {
+        "audio_id": "dev-70",
+        "origin_id": "dev-70",
+        "audio_path": "./data/CONLL04/audio/dev/dev-70.wav",
+        "target_text": "Bugesera##Located_In##Rwanda"
+    },
+    {
+        "audio_id": "dev-71",
+        "origin_id": "dev-71",
+        "audio_path": "./data/CONLL04/audio/dev/dev-71.wav",
+        "target_text": "Andrew Hall##Live_In##Miami$$Andrew Hall##Live_In##Fla.$$Miami##Located_In##Fla."
+    },
+    {
+        "audio_id": "dev-72",
+        "origin_id": "dev-72",
+        "audio_path": "./data/CONLL04/audio/dev/dev-72.wav",
+        "target_text": "GRAND RAPIDS##Located_In##Mich ."
+    },
+    {
+        "audio_id": "dev-73",
+        "origin_id": "dev-73",
+        "audio_path": "./data/CONLL04/audio/dev/dev-73.wav",
+        "target_text": "Thomas Kean##Live_In##New Jersey"
+    },
+    {
+        "audio_id": "dev-74",
+        "origin_id": "dev-74",
+        "audio_path": "./data/CONLL04/audio/dev/dev-74.wav",
+        "target_text": "Marcos Victorica##Work_For##Institute of Contemporary Studies."
+    },
+    {
+        "audio_id": "dev-75",
+        "origin_id": "dev-75",
+        "audio_path": "./data/CONLL04/audio/dev/dev-75.wav",
+        "target_text": "Kanal-6 Television##OrgBased_In##London"
+    },
+    {
+        "audio_id": "dev-76",
+        "origin_id": "dev-76",
+        "audio_path": "./data/CONLL04/audio/dev/dev-76.wav",
+        "target_text": "John Wilkes Booth##Kill##Lincoln"
+    },
+    {
+        "audio_id": "dev-77",
+        "origin_id": "dev-77",
+        "audio_path": "./data/CONLL04/audio/dev/dev-77.wav",
+        "target_text": "BANGKOK##Located_In##Thailand"
+    },
+    {
+        "audio_id": "dev-78",
+        "origin_id": "dev-78",
+        "audio_path": "./data/CONLL04/audio/dev/dev-78.wav",
+        "target_text": "Joseph Cicippio##Work_For##American University of Beirut"
+    },
+    {
+        "audio_id": "dev-79",
+        "origin_id": "dev-79",
+        "audio_path": "./data/CONLL04/audio/dev/dev-79.wav",
+        "target_text": "Santa Ana##Located_In##Southern California"
+    },
+    {
+        "audio_id": "dev-80",
+        "origin_id": "dev-80",
+        "audio_path": "./data/CONLL04/audio/dev/dev-80.wav",
+        "target_text": "Radio Reloj Network##OrgBased_In##Havana"
+    },
+    {
+        "audio_id": "dev-81",
+        "origin_id": "dev-81",
+        "audio_path": "./data/CONLL04/audio/dev/dev-81.wav",
+        "target_text": "John A. Georges##Work_For##International Paper"
+    },
+    {
+        "audio_id": "dev-82",
+        "origin_id": "dev-82",
+        "audio_path": "./data/CONLL04/audio/dev/dev-82.wav",
+        "target_text": "Pinecastle Electronic Warfare Range##Located_In##Ocala National Forest"
+    },
+    {
+        "audio_id": "dev-83",
+        "origin_id": "dev-83",
+        "audio_path": "./data/CONLL04/audio/dev/dev-83.wav",
+        "target_text": "EAST LANSING##Located_In##Mich."
+    },
+    {
+        "audio_id": "dev-84",
+        "origin_id": "dev-84",
+        "audio_path": "./data/CONLL04/audio/dev/dev-84.wav",
+        "target_text": "Oberlin College##OrgBased_In##United States"
+    },
+    {
+        "audio_id": "dev-85",
+        "origin_id": "dev-85",
+        "audio_path": "./data/CONLL04/audio/dev/dev-85.wav",
+        "target_text": "Lee Harvey Oswald##Kill##Kennedy$$Jack Ruby##Kill##Lee Harvey Oswald"
+    },
+    {
+        "audio_id": "dev-86",
+        "origin_id": "dev-86",
+        "audio_path": "./data/CONLL04/audio/dev/dev-86.wav",
+        "target_text": "Datuk Abdul Halim Ali##Work_For##Foreign Ministry"
+    },
+    {
+        "audio_id": "dev-87",
+        "origin_id": "dev-87",
+        "audio_path": "./data/CONLL04/audio/dev/dev-87.wav",
+        "target_text": "John Harvey Adamson##Kill##Don Bolles"
+    },
+    {
+        "audio_id": "dev-88",
+        "origin_id": "dev-88",
+        "audio_path": "./data/CONLL04/audio/dev/dev-88.wav",
+        "target_text": "Lee Harvey Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-89",
+        "origin_id": "dev-89",
+        "audio_path": "./data/CONLL04/audio/dev/dev-89.wav",
+        "target_text": "Linda Schmitt##Work_For##Becton Dickinson"
+    },
+    {
+        "audio_id": "dev-90",
+        "origin_id": "dev-90",
+        "audio_path": "./data/CONLL04/audio/dev/dev-90.wav",
+        "target_text": "Sirhan Bishara Sirhan##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-91",
+        "origin_id": "dev-91",
+        "audio_path": "./data/CONLL04/audio/dev/dev-91.wav",
+        "target_text": "AL-AHALI##OrgBased_In##Cairo"
+    },
+    {
+        "audio_id": "dev-92",
+        "origin_id": "dev-92",
+        "audio_path": "./data/CONLL04/audio/dev/dev-92.wav",
+        "target_text": "Buddy Holly##Live_In##Lubbock , Texas$$Charles Hardin Holley##Live_In##Lubbock , Texas"
+    },
+    {
+        "audio_id": "dev-93",
+        "origin_id": "dev-93",
+        "audio_path": "./data/CONLL04/audio/dev/dev-93.wav",
+        "target_text": "Jack Ruby##Kill##Lee Harvey Oswald$$Lee Harvey Oswald##Kill##John F. Kennedy"
+    },
+    {
+        "audio_id": "dev-94",
+        "origin_id": "dev-94",
+        "audio_path": "./data/CONLL04/audio/dev/dev-94.wav",
+        "target_text": "Sarajevo##Located_In##Bosnia$$Gavrilo Princip##Kill##Austrian Archduke Franz Ferdinand"
+    },
+    {
+        "audio_id": "dev-95",
+        "origin_id": "dev-95",
+        "audio_path": "./data/CONLL04/audio/dev/dev-95.wav",
+        "target_text": "Walesa##Work_For##Solidarity"
+    },
+    {
+        "audio_id": "dev-96",
+        "origin_id": "dev-96",
+        "audio_path": "./data/CONLL04/audio/dev/dev-96.wav",
+        "target_text": "Henry David Thoreau##Live_In##Concord , Mass"
+    },
+    {
+        "audio_id": "dev-97",
+        "origin_id": "dev-97",
+        "audio_path": "./data/CONLL04/audio/dev/dev-97.wav",
+        "target_text": "Lee Harvey Oswald##Kill##President John F. Kennedy"
+    },
+    {
+        "audio_id": "dev-98",
+        "origin_id": "dev-98",
+        "audio_path": "./data/CONLL04/audio/dev/dev-98.wav",
+        "target_text": "Hitler##Live_In##Berlin"
+    },
+    {
+        "audio_id": "dev-99",
+        "origin_id": "dev-99",
+        "audio_path": "./data/CONLL04/audio/dev/dev-99.wav",
+        "target_text": "Mrs. Higgins##Work_For##Marine Corps$$Mrs. Higgins##Work_For##Pentagon"
+    },
+    {
+        "audio_id": "dev-100",
+        "origin_id": "dev-100",
+        "audio_path": "./data/CONLL04/audio/dev/dev-100.wav",
+        "target_text": "Sam Kadet##Work_For##Skadden , Arps"
+    },
+    {
+        "audio_id": "dev-101",
+        "origin_id": "dev-101",
+        "audio_path": "./data/CONLL04/audio/dev/dev-101.wav",
+        "target_text": "Yisrael Tal##Live_In##Israel$$Yisrael Tal##Live_In##Israel"
+    },
+    {
+        "audio_id": "dev-102",
+        "origin_id": "dev-102",
+        "audio_path": "./data/CONLL04/audio/dev/dev-102.wav",
+        "target_text": "Clinton##Live_In##United States$$Clinton##Live_In##U.S."
+    },
+    {
+        "audio_id": "dev-103",
+        "origin_id": "dev-103",
+        "audio_path": "./data/CONLL04/audio/dev/dev-103.wav",
+        "target_text": "Guy M. Struve##Live_In##New York$$Guy M. Struve##Work_For##Church 's"
+    },
+    {
+        "audio_id": "dev-104",
+        "origin_id": "dev-104",
+        "audio_path": "./data/CONLL04/audio/dev/dev-104.wav",
+        "target_text": "Vladimir Ashkenazy##Live_In##Soviet"
+    },
+    {
+        "audio_id": "dev-105",
+        "origin_id": "dev-105",
+        "audio_path": "./data/CONLL04/audio/dev/dev-105.wav",
+        "target_text": "Charlton Heston##Live_In##Illinois"
+    },
+    {
+        "audio_id": "dev-106",
+        "origin_id": "dev-106",
+        "audio_path": "./data/CONLL04/audio/dev/dev-106.wav",
+        "target_text": "Johnny Paul Penry##Live_In##Texas"
+    },
+    {
+        "audio_id": "dev-107",
+        "origin_id": "dev-107",
+        "audio_path": "./data/CONLL04/audio/dev/dev-107.wav",
+        "target_text": "Tennessee Williams##Live_In##Columbus , Miss."
+    },
+    {
+        "audio_id": "dev-108",
+        "origin_id": "dev-108",
+        "audio_path": "./data/CONLL04/audio/dev/dev-108.wav",
+        "target_text": "BRISBANE##Located_In##Australia$$AP##OrgBased_In##BRISBANE$$AP##OrgBased_In##Australia"
+    },
+    {
+        "audio_id": "dev-109",
+        "origin_id": "dev-109",
+        "audio_path": "./data/CONLL04/audio/dev/dev-109.wav",
+        "target_text": "Laercio Vinhas##Work_For##CNEN"
+    },
+    {
+        "audio_id": "dev-110",
+        "origin_id": "dev-110",
+        "audio_path": "./data/CONLL04/audio/dev/dev-110.wav",
+        "target_text": "Gordon Parks##Live_In##Fort Scott , Kan."
+    },
+    {
+        "audio_id": "dev-111",
+        "origin_id": "dev-111",
+        "audio_path": "./data/CONLL04/audio/dev/dev-111.wav",
+        "target_text": "Emily Dickinson##Live_In##Amherst , Mass."
+    },
+    {
+        "audio_id": "dev-112",
+        "origin_id": "dev-112",
+        "audio_path": "./data/CONLL04/audio/dev/dev-112.wav",
+        "target_text": "Stephanie Powell##Work_For##DEM"
+    },
+    {
+        "audio_id": "dev-113",
+        "origin_id": "dev-113",
+        "audio_path": "./data/CONLL04/audio/dev/dev-113.wav",
+        "target_text": "Nihat##Work_For##SHP$$Nihat##Work_For##Social Democrat Populist Party$$Marka##Work_For##SHP$$Marka##Work_For##Social Democrat Populist Party"
+    },
+    {
+        "audio_id": "dev-114",
+        "origin_id": "dev-114",
+        "audio_path": "./data/CONLL04/audio/dev/dev-114.wav",
+        "target_text": "Kassala##Located_In##Sudan"
+    },
+    {
+        "audio_id": "dev-115",
+        "origin_id": "dev-115",
+        "audio_path": "./data/CONLL04/audio/dev/dev-115.wav",
+        "target_text": "Harrington##Work_For##Queens College$$Harrington##Work_For##City University of New York$$Harrington##Work_For##Socialist International$$Harrington##Live_In##Larchmont"
+    },
+    {
+        "audio_id": "dev-116",
+        "origin_id": "dev-116",
+        "audio_path": "./data/CONLL04/audio/dev/dev-116.wav",
+        "target_text": "Norton Winfred Simon##Live_In##Portland , Ore."
+    },
+    {
+        "audio_id": "dev-117",
+        "origin_id": "dev-117",
+        "audio_path": "./data/CONLL04/audio/dev/dev-117.wav",
+        "target_text": "Ulf D. Merbold##Work_For##European Space Agency$$Roger K. Crouch##Work_For##National Aeronautics and Space Administration$$Roger K. Crouch##Work_For##NASA"
+    },
+    {
+        "audio_id": "dev-118",
+        "origin_id": "dev-118",
+        "audio_path": "./data/CONLL04/audio/dev/dev-118.wav",
+        "target_text": "Felipe Gonzalez##Live_In##Spain"
+    },
+    {
+        "audio_id": "dev-119",
+        "origin_id": "dev-119",
+        "audio_path": "./data/CONLL04/audio/dev/dev-119.wav",
+        "target_text": "Betsy Ross##Live_In##Philadelphia"
+    },
+    {
+        "audio_id": "dev-120",
+        "origin_id": "dev-120",
+        "audio_path": "./data/CONLL04/audio/dev/dev-120.wav",
+        "target_text": "Emile Jonassaint##Live_In##Haiti$$Emile Jonassaint##Live_In##Haiti$$Haitian Parliament##OrgBased_In##Haiti$$Haitian Parliament##OrgBased_In##Haiti"
+    },
+    {
+        "audio_id": "dev-121",
+        "origin_id": "dev-121",
+        "audio_path": "./data/CONLL04/audio/dev/dev-121.wav",
+        "target_text": "Columbia Seafirst Center##Located_In##West Coast"
+    },
+    {
+        "audio_id": "dev-122",
+        "origin_id": "dev-122",
+        "audio_path": "./data/CONLL04/audio/dev/dev-122.wav",
+        "target_text": "Mohammadia##Located_In##Algeria$$Mohamed Touali##Work_For##Ettahadi ( Challenge ) political party$$Ettahadi ( Challenge ) political party##OrgBased_In##Algeria$$Ettahadi ( Challenge ) political party##OrgBased_In##Algeria"
+    },
+    {
+        "audio_id": "dev-123",
+        "origin_id": "dev-123",
+        "audio_path": "./data/CONLL04/audio/dev/dev-123.wav",
+        "target_text": "Lee Harvey Oswald##Kill##President Kennedy"
+    },
+    {
+        "audio_id": "dev-124",
+        "origin_id": "dev-124",
+        "audio_path": "./data/CONLL04/audio/dev/dev-124.wav",
+        "target_text": "Custer National Forest##Located_In##Montana"
+    },
+    {
+        "audio_id": "dev-125",
+        "origin_id": "dev-125",
+        "audio_path": "./data/CONLL04/audio/dev/dev-125.wav",
+        "target_text": "JOHANNESBURG##Located_In##South Africa"
+    },
+    {
+        "audio_id": "dev-126",
+        "origin_id": "dev-126",
+        "audio_path": "./data/CONLL04/audio/dev/dev-126.wav",
+        "target_text": "Radovan Karadzic##Work_For##Union of Serb Writers"
+    },
+    {
+        "audio_id": "dev-127",
+        "origin_id": "dev-127",
+        "audio_path": "./data/CONLL04/audio/dev/dev-127.wav",
+        "target_text": "The National Central Organization of Panamanian Workers##OrgBased_In##the Republic$$CNTP##OrgBased_In##the Republic$$Ernesto Perez Balladares##Live_In##the Republic"
+    },
+    {
+        "audio_id": "dev-128",
+        "origin_id": "dev-128",
+        "audio_path": "./data/CONLL04/audio/dev/dev-128.wav",
+        "target_text": "Lazutkin##Work_For##Russian Federation Federal Service for Television and Radio Broadcasting."
+    },
+    {
+        "audio_id": "dev-129",
+        "origin_id": "dev-129",
+        "audio_path": "./data/CONLL04/audio/dev/dev-129.wav",
+        "target_text": "Daniel L. Bakst##Live_In##West Palm Beach$$Daniel L. Bakst##Live_In##Fla.$$West Palm Beach##Located_In##Fla."
+    },
+    {
+        "audio_id": "dev-130",
+        "origin_id": "dev-130",
+        "audio_path": "./data/CONLL04/audio/dev/dev-130.wav",
+        "target_text": "Serbia##Located_In##Yugoslavia"
+    },
+    {
+        "audio_id": "dev-131",
+        "origin_id": "dev-131",
+        "audio_path": "./data/CONLL04/audio/dev/dev-131.wav",
+        "target_text": "Sirhan##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-132",
+        "origin_id": "dev-132",
+        "audio_path": "./data/CONLL04/audio/dev/dev-132.wav",
+        "target_text": "21st Brigade of Cerro Muriano##OrgBased_In##Cordoba$$12th Brigade##OrgBased_In##Botoa$$12th Brigade##OrgBased_In##Badajoz$$Special Operations Group##OrgBased_In##Alicante$$Jarama 1st Cavalry Brigade##OrgBased_In##Salamanca"
+    },
+    {
+        "audio_id": "dev-133",
+        "origin_id": "dev-133",
+        "audio_path": "./data/CONLL04/audio/dev/dev-133.wav",
+        "target_text": "Howard Beach##Located_In##Queens"
+    },
+    {
+        "audio_id": "dev-134",
+        "origin_id": "dev-134",
+        "audio_path": "./data/CONLL04/audio/dev/dev-134.wav",
+        "target_text": "Sohn##Live_In##New Jersey"
+    },
+    {
+        "audio_id": "dev-135",
+        "origin_id": "dev-135",
+        "audio_path": "./data/CONLL04/audio/dev/dev-135.wav",
+        "target_text": "Brian Mulroney##Work_For##Progressive Conservative Party"
+    },
+    {
+        "audio_id": "dev-136",
+        "origin_id": "dev-136",
+        "audio_path": "./data/CONLL04/audio/dev/dev-136.wav",
+        "target_text": "6th Fleet##OrgBased_In##U.S."
+    },
+    {
+        "audio_id": "dev-137",
+        "origin_id": "dev-137",
+        "audio_path": "./data/CONLL04/audio/dev/dev-137.wav",
+        "target_text": "BANGKOK##Located_In##Thailand$$AP##OrgBased_In##BANGKOK$$AP##OrgBased_In##Thailand"
+    },
+    {
+        "audio_id": "dev-138",
+        "origin_id": "dev-138",
+        "audio_path": "./data/CONLL04/audio/dev/dev-138.wav",
+        "target_text": "General Accounting Office##OrgBased_In##Washington$$GAO##OrgBased_In##Washington"
+    },
+    {
+        "audio_id": "dev-139",
+        "origin_id": "dev-139",
+        "audio_path": "./data/CONLL04/audio/dev/dev-139.wav",
+        "target_text": "Duchess of York##Live_In##Britain$$Imelda Marcos##Live_In##Philippines"
+    },
+    {
+        "audio_id": "dev-140",
+        "origin_id": "dev-140",
+        "audio_path": "./data/CONLL04/audio/dev/dev-140.wav",
+        "target_text": "Brutus##Kill##Roman Emperor Julius Caesar$$Cassius##Kill##Roman Emperor Julius Caesar"
+    },
+    {
+        "audio_id": "dev-141",
+        "origin_id": "dev-141",
+        "audio_path": "./data/CONLL04/audio/dev/dev-141.wav",
+        "target_text": "Lee Harvey Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-142",
+        "origin_id": "dev-142",
+        "audio_path": "./data/CONLL04/audio/dev/dev-142.wav",
+        "target_text": "Russian Defence Ministry##OrgBased_In##Moscow"
+    },
+    {
+        "audio_id": "dev-143",
+        "origin_id": "dev-143",
+        "audio_path": "./data/CONLL04/audio/dev/dev-143.wav",
+        "target_text": "Herbert S. Okun##Live_In##U.S."
+    },
+    {
+        "audio_id": "dev-144",
+        "origin_id": "dev-144",
+        "audio_path": "./data/CONLL04/audio/dev/dev-144.wav",
+        "target_text": "ITAR-TASS##OrgBased_In##Moscow$$ITAR-TASS##OrgBased_In##Moscow$$Boris Yeltsin##Live_In##Moscow$$Boris Yeltsin##Live_In##Moscow$$Viktor Chernomyrdin##Live_In##Moscow$$Viktor Chernomyrdin##Live_In##Moscow"
+    },
+    {
+        "audio_id": "dev-145",
+        "origin_id": "dev-145",
+        "audio_path": "./data/CONLL04/audio/dev/dev-145.wav",
+        "target_text": "Winter##Work_For##Yale University"
+    },
+    {
+        "audio_id": "dev-146",
+        "origin_id": "dev-146",
+        "audio_path": "./data/CONLL04/audio/dev/dev-146.wav",
+        "target_text": "Dr. Lee DeForest##Live_In##Council Bluffs , Iowa"
+    },
+    {
+        "audio_id": "dev-147",
+        "origin_id": "dev-147",
+        "audio_path": "./data/CONLL04/audio/dev/dev-147.wav",
+        "target_text": "Cameron Parish##Located_In##Louisiana$$Hayes Picou##Live_In##Louisiana$$Hayes Picou##Live_In##Cameron Parish"
+    },
+    {
+        "audio_id": "dev-148",
+        "origin_id": "dev-148",
+        "audio_path": "./data/CONLL04/audio/dev/dev-148.wav",
+        "target_text": "Manufacturers Hanover Trust Co.##OrgBased_In##New York"
+    },
+    {
+        "audio_id": "dev-149",
+        "origin_id": "dev-149",
+        "audio_path": "./data/CONLL04/audio/dev/dev-149.wav",
+        "target_text": "Lee Harvey Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-150",
+        "origin_id": "dev-150",
+        "audio_path": "./data/CONLL04/audio/dev/dev-150.wav",
+        "target_text": "ACAN##OrgBased_In##Panama City"
+    },
+    {
+        "audio_id": "dev-151",
+        "origin_id": "dev-151",
+        "audio_path": "./data/CONLL04/audio/dev/dev-151.wav",
+        "target_text": "Actress Helen Hayes##Live_In##Washington"
+    },
+    {
+        "audio_id": "dev-152",
+        "origin_id": "dev-152",
+        "audio_path": "./data/CONLL04/audio/dev/dev-152.wav",
+        "target_text": "Bossi##Work_For##Freedom Alliance$$Occhetto##Work_For##Democratic Party"
+    },
+    {
+        "audio_id": "dev-153",
+        "origin_id": "dev-153",
+        "audio_path": "./data/CONLL04/audio/dev/dev-153.wav",
+        "target_text": "Fran Sepler##Work_For##state Crime Victim and Witness Advisory Council."
+    },
+    {
+        "audio_id": "dev-154",
+        "origin_id": "dev-154",
+        "audio_path": "./data/CONLL04/audio/dev/dev-154.wav",
+        "target_text": "Gary Hess##Work_For##Emery"
+    },
+    {
+        "audio_id": "dev-155",
+        "origin_id": "dev-155",
+        "audio_path": "./data/CONLL04/audio/dev/dev-155.wav",
+        "target_text": "Yerevan##Located_In##Armenia"
+    },
+    {
+        "audio_id": "dev-156",
+        "origin_id": "dev-156",
+        "audio_path": "./data/CONLL04/audio/dev/dev-156.wav",
+        "target_text": "Lee Harvey Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-157",
+        "origin_id": "dev-157",
+        "audio_path": "./data/CONLL04/audio/dev/dev-157.wav",
+        "target_text": "Jeremy Rifkin##Work_For##Foundation on Economic Trends$$Jeremy Rifkin##Work_For##Global Greenhouse Network"
+    },
+    {
+        "audio_id": "dev-158",
+        "origin_id": "dev-158",
+        "audio_path": "./data/CONLL04/audio/dev/dev-158.wav",
+        "target_text": "Sirhan Sirhan##Kill##Robert F. Kennedy"
+    },
+    {
+        "audio_id": "dev-159",
+        "origin_id": "dev-159",
+        "audio_path": "./data/CONLL04/audio/dev/dev-159.wav",
+        "target_text": "NIHON KEIZAI SHIMBUN##OrgBased_In##Tokyo"
+    },
+    {
+        "audio_id": "dev-160",
+        "origin_id": "dev-160",
+        "audio_path": "./data/CONLL04/audio/dev/dev-160.wav",
+        "target_text": "Jeffrey Bander##Work_For##American Express"
+    },
+    {
+        "audio_id": "dev-161",
+        "origin_id": "dev-161",
+        "audio_path": "./data/CONLL04/audio/dev/dev-161.wav",
+        "target_text": "James Earl Ray##Kill##Dr. Martin Luther King Jr"
+    },
+    {
+        "audio_id": "dev-162",
+        "origin_id": "dev-162",
+        "audio_path": "./data/CONLL04/audio/dev/dev-162.wav",
+        "target_text": "James Earl Ray##Kill##King"
+    },
+    {
+        "audio_id": "dev-163",
+        "origin_id": "dev-163",
+        "audio_path": "./data/CONLL04/audio/dev/dev-163.wav",
+        "target_text": "Bill Clinton##Live_In##US"
+    },
+    {
+        "audio_id": "dev-164",
+        "origin_id": "dev-164",
+        "audio_path": "./data/CONLL04/audio/dev/dev-164.wav",
+        "target_text": "Washington##Located_In##U.S$$Navy##OrgBased_In##U.S"
+    },
+    {
+        "audio_id": "dev-165",
+        "origin_id": "dev-165",
+        "audio_path": "./data/CONLL04/audio/dev/dev-165.wav",
+        "target_text": "Mile Akmadzic##Live_In##Croatian Republic of Herceg-Bosna$$Nikola Koljevic##Live_In##Serbian Republic"
+    },
+    {
+        "audio_id": "dev-166",
+        "origin_id": "dev-166",
+        "audio_path": "./data/CONLL04/audio/dev/dev-166.wav",
+        "target_text": "Tal##Work_For##Defense Ministry"
+    },
+    {
+        "audio_id": "dev-167",
+        "origin_id": "dev-167",
+        "audio_path": "./data/CONLL04/audio/dev/dev-167.wav",
+        "target_text": "Mark David Chapman##Kill##Lennon"
+    },
+    {
+        "audio_id": "dev-168",
+        "origin_id": "dev-168",
+        "audio_path": "./data/CONLL04/audio/dev/dev-168.wav",
+        "target_text": "Dwight D. Eisenhower##Live_In##Denison , Texas"
+    },
+    {
+        "audio_id": "dev-169",
+        "origin_id": "dev-169",
+        "audio_path": "./data/CONLL04/audio/dev/dev-169.wav",
+        "target_text": "Virginia Galle##Work_For##City Council"
+    },
+    {
+        "audio_id": "dev-170",
+        "origin_id": "dev-170",
+        "audio_path": "./data/CONLL04/audio/dev/dev-170.wav",
+        "target_text": "Harrington##Work_For##Harvard University$$Harrington##Work_For##National War College."
+    },
+    {
+        "audio_id": "dev-171",
+        "origin_id": "dev-171",
+        "audio_path": "./data/CONLL04/audio/dev/dev-171.wav",
+        "target_text": "John Harvey Adamson##Kill##Don Bolles"
+    },
+    {
+        "audio_id": "dev-172",
+        "origin_id": "dev-172",
+        "audio_path": "./data/CONLL04/audio/dev/dev-172.wav",
+        "target_text": "Fred Farrar##Work_For##FAA"
+    },
+    {
+        "audio_id": "dev-173",
+        "origin_id": "dev-173",
+        "audio_path": "./data/CONLL04/audio/dev/dev-173.wav",
+        "target_text": "Navy##OrgBased_In##Soviet$$Nikolai Kuznetsov##Live_In##Soviet$$Nikolai Kuznetsov##Work_For##Navy$$Stalin##Live_In##Soviet$$Stalin##Live_In##Soviet"
+    },
+    {
+        "audio_id": "dev-174",
+        "origin_id": "dev-174",
+        "audio_path": "./data/CONLL04/audio/dev/dev-174.wav",
+        "target_text": "Vinicio Villar Anleu##Work_For##National Congress"
+    },
+    {
+        "audio_id": "dev-175",
+        "origin_id": "dev-175",
+        "audio_path": "./data/CONLL04/audio/dev/dev-175.wav",
+        "target_text": "Lee Harvey Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-176",
+        "origin_id": "dev-176",
+        "audio_path": "./data/CONLL04/audio/dev/dev-176.wav",
+        "target_text": "Eduard Baltin.##Work_For##Black Sea Fleet"
+    },
+    {
+        "audio_id": "dev-177",
+        "origin_id": "dev-177",
+        "audio_path": "./data/CONLL04/audio/dev/dev-177.wav",
+        "target_text": "Nashville##Located_In##Tenn."
+    },
+    {
+        "audio_id": "dev-178",
+        "origin_id": "dev-178",
+        "audio_path": "./data/CONLL04/audio/dev/dev-178.wav",
+        "target_text": "Booth##Kill##Lincoln"
+    },
+    {
+        "audio_id": "dev-179",
+        "origin_id": "dev-179",
+        "audio_path": "./data/CONLL04/audio/dev/dev-179.wav",
+        "target_text": "Chien Fu##Live_In##Taipei"
+    },
+    {
+        "audio_id": "dev-180",
+        "origin_id": "dev-180",
+        "audio_path": "./data/CONLL04/audio/dev/dev-180.wav",
+        "target_text": "Jo Ann Emmerich##Work_For##ABC Entertainment"
+    },
+    {
+        "audio_id": "dev-181",
+        "origin_id": "dev-181",
+        "audio_path": "./data/CONLL04/audio/dev/dev-181.wav",
+        "target_text": "William McKinley##Live_In##Niles , Ohio"
+    },
+    {
+        "audio_id": "dev-182",
+        "origin_id": "dev-182",
+        "audio_path": "./data/CONLL04/audio/dev/dev-182.wav",
+        "target_text": "MOSKOVSKIY KOMSOMOLETS##OrgBased_In##Moscow"
+    },
+    {
+        "audio_id": "dev-183",
+        "origin_id": "dev-183",
+        "audio_path": "./data/CONLL04/audio/dev/dev-183.wav",
+        "target_text": "Herbert Clark Hoover##Live_In##West Branch , Iowa"
+    },
+    {
+        "audio_id": "dev-184",
+        "origin_id": "dev-184",
+        "audio_path": "./data/CONLL04/audio/dev/dev-184.wav",
+        "target_text": "Bezirksparkasse bank##OrgBased_In##Giessen"
+    },
+    {
+        "audio_id": "dev-185",
+        "origin_id": "dev-185",
+        "audio_path": "./data/CONLL04/audio/dev/dev-185.wav",
+        "target_text": "Wang Guangyan##Work_For##Institute of Mathematics"
+    },
+    {
+        "audio_id": "dev-186",
+        "origin_id": "dev-186",
+        "audio_path": "./data/CONLL04/audio/dev/dev-186.wav",
+        "target_text": "Owen Le Vallee##Work_For##Liberation Day Committee"
+    },
+    {
+        "audio_id": "dev-187",
+        "origin_id": "dev-187",
+        "audio_path": "./data/CONLL04/audio/dev/dev-187.wav",
+        "target_text": "KARBALA##Located_In##Iraq$$AP##OrgBased_In##KARBALA$$AP##OrgBased_In##Iraq"
+    },
+    {
+        "audio_id": "dev-188",
+        "origin_id": "dev-188",
+        "audio_path": "./data/CONLL04/audio/dev/dev-188.wav",
+        "target_text": "Prateep Ungsongtham##Live_In##Bangkok."
+    },
+    {
+        "audio_id": "dev-189",
+        "origin_id": "dev-189",
+        "audio_path": "./data/CONLL04/audio/dev/dev-189.wav",
+        "target_text": "Lee Harvey Oswald##Kill##President John Kennedy"
+    },
+    {
+        "audio_id": "dev-190",
+        "origin_id": "dev-190",
+        "audio_path": "./data/CONLL04/audio/dev/dev-190.wav",
+        "target_text": "Michael Henley Jr.##Live_In##Grants$$Michael Henley Jr.##Live_In##N.M.$$Grants##Located_In##N.M.$$Ms. Calico##Live_In##N.M.$$Ms. Calico##Live_In##Belen$$Ms. Calico##Live_In##N.M.$$Belen##Located_In##N.M."
+    },
+    {
+        "audio_id": "dev-191",
+        "origin_id": "dev-191",
+        "audio_path": "./data/CONLL04/audio/dev/dev-191.wav",
+        "target_text": "TASS##OrgBased_In##Moscow"
+    },
+    {
+        "audio_id": "dev-192",
+        "origin_id": "dev-192",
+        "audio_path": "./data/CONLL04/audio/dev/dev-192.wav",
+        "target_text": "Jose Antonio Urutigoechea##Work_For##ETA"
+    },
+    {
+        "audio_id": "dev-193",
+        "origin_id": "dev-193",
+        "audio_path": "./data/CONLL04/audio/dev/dev-193.wav",
+        "target_text": "Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-194",
+        "origin_id": "dev-194",
+        "audio_path": "./data/CONLL04/audio/dev/dev-194.wav",
+        "target_text": "Susan Cruzan##Work_For##FDA"
+    },
+    {
+        "audio_id": "dev-195",
+        "origin_id": "dev-195",
+        "audio_path": "./data/CONLL04/audio/dev/dev-195.wav",
+        "target_text": "Oxford##Located_In##Massachusetts."
+    },
+    {
+        "audio_id": "dev-196",
+        "origin_id": "dev-196",
+        "audio_path": "./data/CONLL04/audio/dev/dev-196.wav",
+        "target_text": "Leon Czolgosz##Kill##William McKinley"
+    },
+    {
+        "audio_id": "dev-197",
+        "origin_id": "dev-197",
+        "audio_path": "./data/CONLL04/audio/dev/dev-197.wav",
+        "target_text": "MOSKOVSKIY KOMSOMOLETS##OrgBased_In##Moscow"
+    },
+    {
+        "audio_id": "dev-198",
+        "origin_id": "dev-198",
+        "audio_path": "./data/CONLL04/audio/dev/dev-198.wav",
+        "target_text": "Frankfurt##Located_In##West Germany."
+    },
+    {
+        "audio_id": "dev-199",
+        "origin_id": "dev-199",
+        "audio_path": "./data/CONLL04/audio/dev/dev-199.wav",
+        "target_text": "Sirhan Sirhan##Kill##U.S. Sen. Robert F. Kennedy"
+    },
+    {
+        "audio_id": "dev-200",
+        "origin_id": "dev-200",
+        "audio_path": "./data/CONLL04/audio/dev/dev-200.wav",
+        "target_text": "Jesse Jackson##Live_In##South Carolina"
+    },
+    {
+        "audio_id": "dev-201",
+        "origin_id": "dev-201",
+        "audio_path": "./data/CONLL04/audio/dev/dev-201.wav",
+        "target_text": "AP##OrgBased_In##MEXICO CITY"
+    },
+    {
+        "audio_id": "dev-202",
+        "origin_id": "dev-202",
+        "audio_path": "./data/CONLL04/audio/dev/dev-202.wav",
+        "target_text": "Jackson##Located_In##Wyo.$$Gunnison##Located_In##Colo.$$McAllen##Located_In##Texas"
+    },
+    {
+        "audio_id": "dev-203",
+        "origin_id": "dev-203",
+        "audio_path": "./data/CONLL04/audio/dev/dev-203.wav",
+        "target_text": "Craig Martin##Work_For##Boeing Commercial Airplanes"
+    },
+    {
+        "audio_id": "dev-204",
+        "origin_id": "dev-204",
+        "audio_path": "./data/CONLL04/audio/dev/dev-204.wav",
+        "target_text": "Adam Urbanski##Live_In##Rochester"
+    },
+    {
+        "audio_id": "dev-205",
+        "origin_id": "dev-205",
+        "audio_path": "./data/CONLL04/audio/dev/dev-205.wav",
+        "target_text": "MAINICHI SHIMBUN##OrgBased_In##Tokyo"
+    },
+    {
+        "audio_id": "dev-206",
+        "origin_id": "dev-206",
+        "audio_path": "./data/CONLL04/audio/dev/dev-206.wav",
+        "target_text": "Fernandez de Cevallos##Live_In##Mexico"
+    },
+    {
+        "audio_id": "dev-207",
+        "origin_id": "dev-207",
+        "audio_path": "./data/CONLL04/audio/dev/dev-207.wav",
+        "target_text": "Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-208",
+        "origin_id": "dev-208",
+        "audio_path": "./data/CONLL04/audio/dev/dev-208.wav",
+        "target_text": "Richardson##Live_In##Beaumont , Texas"
+    },
+    {
+        "audio_id": "dev-209",
+        "origin_id": "dev-209",
+        "audio_path": "./data/CONLL04/audio/dev/dev-209.wav",
+        "target_text": "NRC##OrgBased_In##Rockville$$NRC##OrgBased_In##Md.$$Rockville##Located_In##Md.$$Bernero##Work_For##NRC$$NRC##OrgBased_In##Rockville$$NRC##OrgBased_In##Md."
+    },
+    {
+        "audio_id": "dev-210",
+        "origin_id": "dev-210",
+        "audio_path": "./data/CONLL04/audio/dev/dev-210.wav",
+        "target_text": "Saint-Gall##Located_In##Switzerland$$AFP##OrgBased_In##Saint-Gall$$AFP##OrgBased_In##Switzerland"
+    },
+    {
+        "audio_id": "dev-211",
+        "origin_id": "dev-211",
+        "audio_path": "./data/CONLL04/audio/dev/dev-211.wav",
+        "target_text": "Rancho Nuevo##Located_In##Chiapas State"
+    },
+    {
+        "audio_id": "dev-212",
+        "origin_id": "dev-212",
+        "audio_path": "./data/CONLL04/audio/dev/dev-212.wav",
+        "target_text": "Oswald##Kill##President John F. Kennedy"
+    },
+    {
+        "audio_id": "dev-213",
+        "origin_id": "dev-213",
+        "audio_path": "./data/CONLL04/audio/dev/dev-213.wav",
+        "target_text": "Greg Thayer##Work_For##Forest Service."
+    },
+    {
+        "audio_id": "dev-214",
+        "origin_id": "dev-214",
+        "audio_path": "./data/CONLL04/audio/dev/dev-214.wav",
+        "target_text": "Luis Cobos R.##Work_For##CNTP"
+    },
+    {
+        "audio_id": "dev-215",
+        "origin_id": "dev-215",
+        "audio_path": "./data/CONLL04/audio/dev/dev-215.wav",
+        "target_text": "John Wilkes##Kill##Abraham Lincoln"
+    },
+    {
+        "audio_id": "dev-216",
+        "origin_id": "dev-216",
+        "audio_path": "./data/CONLL04/audio/dev/dev-216.wav",
+        "target_text": "Brigham Young##Live_In##Whitingham , Vt"
+    },
+    {
+        "audio_id": "dev-217",
+        "origin_id": "dev-217",
+        "audio_path": "./data/CONLL04/audio/dev/dev-217.wav",
+        "target_text": "Lee Harvey Oswald##Kill##Kennedy"
+    },
+    {
+        "audio_id": "dev-218",
+        "origin_id": "dev-218",
+        "audio_path": "./data/CONLL04/audio/dev/dev-218.wav",
+        "target_text": "Tom Muri.##Live_In##Whitefish City"
+    },
+    {
+        "audio_id": "dev-219",
+        "origin_id": "dev-219",
+        "audio_path": "./data/CONLL04/audio/dev/dev-219.wav",
+        "target_text": "Sierra Nevada##Located_In##California"
+    },
+    {
+        "audio_id": "dev-220",
+        "origin_id": "dev-220",
+        "audio_path": "./data/CONLL04/audio/dev/dev-220.wav",
+        "target_text": "James Hackett##Work_For##Titan Systems$$James Hackett##Live_In##U.S ."
+    },
+    {
+        "audio_id": "dev-221",
+        "origin_id": "dev-221",
+        "audio_path": "./data/CONLL04/audio/dev/dev-221.wav",
+        "target_text": "Leninakan##Located_In##Armenia"
+    },
+    {
+        "audio_id": "dev-222",
+        "origin_id": "dev-222",
+        "audio_path": "./data/CONLL04/audio/dev/dev-222.wav",
+        "target_text": "Pittsburgh-Corning Corp.##OrgBased_In##Pittsburgh"
+    },
+    {
+        "audio_id": "dev-223",
+        "origin_id": "dev-223",
+        "audio_path": "./data/CONLL04/audio/dev/dev-223.wav",
+        "target_text": "Barrett##Work_For##Illinois Commerce Commission"
+    },
+    {
+        "audio_id": "dev-224",
+        "origin_id": "dev-224",
+        "audio_path": "./data/CONLL04/audio/dev/dev-224.wav",
+        "target_text": "Sultan Qabus Bin-Sa 'id##Live_In##Oman"
+    },
+    {
+        "audio_id": "dev-225",
+        "origin_id": "dev-225",
+        "audio_path": "./data/CONLL04/audio/dev/dev-225.wav",
+        "target_text": "James Earl Ray##Kill##Dr. Martin Luther King Jr."
+    },
+    {
+        "audio_id": "dev-226",
+        "origin_id": "dev-226",
+        "audio_path": "./data/CONLL04/audio/dev/dev-226.wav",
+        "target_text": "Jack Ruby##Kill##Oswald"
+    },
+    {
+        "audio_id": "dev-227",
+        "origin_id": "dev-227",
+        "audio_path": "./data/CONLL04/audio/dev/dev-227.wav",
+        "target_text": "Brazoria##Located_In##Texas.$$Fort Bend##Located_In##Texas.$$Galveston##Located_In##Texas.$$Harris Counties##Located_In##Texas."
+    },
+    {
+        "audio_id": "dev-228",
+        "origin_id": "dev-228",
+        "audio_path": "./data/CONLL04/audio/dev/dev-228.wav",
+        "target_text": "INTERFAX##OrgBased_In##Moscow"
+    },
+    {
+        "audio_id": "dev-229",
+        "origin_id": "dev-229",
+        "audio_path": "./data/CONLL04/audio/dev/dev-229.wav",
+        "target_text": "6th Fleet##OrgBased_In##Mediterranean"
+    },
+    {
+        "audio_id": "dev-230",
+        "origin_id": "dev-230",
+        "audio_path": "./data/CONLL04/audio/dev/dev-230.wav",
+        "target_text": "Najd plateau##Located_In##Saudi Arabia"
+    }
+]

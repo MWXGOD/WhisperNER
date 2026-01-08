@@ -33,7 +33,7 @@ class WhisperNERModel(L.LightningModule):
         # 白名单
         self.white_list = ['<', '>', '(', ')', '[', ']', '-', '$', '$$']
         for wl in self.white_list:
-            if wl in self.whisper.generation_config.suppress_tokens:
+            if self.tokenizer.convert_tokens_to_ids(wl) in self.whisper.generation_config.suppress_tokens:
                 self.whisper.generation_config.suppress_tokens.remove(self.tokenizer.convert_tokens_to_ids(wl))
 
         # 定义PRF的变量
