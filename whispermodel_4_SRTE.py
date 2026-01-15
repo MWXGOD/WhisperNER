@@ -9,7 +9,7 @@ from datetime import datetime
 from torch.nn.utils import clip_grad_norm_ as clip
 from tqdm import tqdm
 import torch
-
+from tool import *
 
 
 class WhisperNERModel(L.LightningModule):
@@ -21,12 +21,10 @@ class WhisperNERModel(L.LightningModule):
         self.processor = AutoProcessor.from_pretrained(self.hparams.processor_name_or_path, language="en", task="transcribe")
         
         task_tokens = ["<|task_ASR|>", "<|task_NER|>", "<|task_RE|>", "<|task_RTE|>"]
-        num_added = self.processor.tokenizer.add_special_tokens({
-            "additional_special_tokens": task_tokens
-        })
-        self.tokenizer = self.processor.tokenizer
+        tokenizer, num_added = add_special_tokens(self.processor.tokenizer, task_tokens)
         if num_added > 0:
-            self.whisper.resize_token_embeddings(len(self.tokenizer))
+            self.whisper.resize_token_embeddings(len(tokenizer))
+        self.tokenizer = tokenizer
 
         # base_forced = self.tokenizer.get_decoder_prompt_ids(language="en", task="transcribe")
         # base_ids = [tid for _, tid in base_forced]
@@ -57,7 +55,9 @@ class WhisperNERModel(L.LightningModule):
 
         # 白名单
         self.white_list = ['<', '>', '(', ')', '[', ']', '-', '$', '$$', '#', '##', ]
-        print(self.whisper.generation_config.suppress_tokens)
+
+
+        # print(self.whisper.generation_config.suppress_tokens)
         for wl in self.white_list:
             if self.tokenizer.convert_tokens_to_ids(wl) in self.whisper.generation_config.suppress_tokens:
                 # print(wl)

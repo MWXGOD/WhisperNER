@@ -1,0 +1,923 @@
+id	audio	duration_ms	n_frames	tgt_text	speaker	tgt_lang
+train-0	/path/to/datasets/conll04/audio/train/train-0.wav:0:239828	14989	239828	<triplet> Radio Reloj Network <subj> Havana <obj> OrgBased_In	0	en
+train-1	/path/to/datasets/conll04/audio/train/train-1.wav:0:64099	4006	64099	<triplet> Bruno Pusterla <subj> Italian Agricultural Confederation <obj> Work_For	0	en
+train-2	/path/to/datasets/conll04/audio/train/train-2.wav:0:201190	12574	201190	<triplet> Morgan City <subj> Louisiana <obj> Located_In	0	en
+train-3	/path/to/datasets/conll04/audio/train/train-3.wav:0:152521	9532	152521	<triplet> Annie Oakley <subj> Willowdell , Darke County <obj> Live_In <triplet> Little Miss Sure Shot <subj> Willowdell , Darke County <obj> Live_In <triplet> Phoebe Ann Moses <subj> Willowdell , Darke County <obj> Live_In	0	en
+train-4	/path/to/datasets/conll04/audio/train/train-4.wav:0:155493	9718	155493	<triplet> Livingston <subj> Texas <obj> Located_In	0	en
+train-5	/path/to/datasets/conll04/audio/train/train-5.wav:0:226825	14176	226825	<triplet> XINHUA <subj> Beijing <obj> OrgBased_In	0	en
+train-6	/path/to/datasets/conll04/audio/train/train-6.wav:0:198961	12435	198961	<triplet> Shi Liming <subj> Institute of Zoology <obj> Work_For <triplet> Institute of Zoology <subj> Kunming <obj> OrgBased_In	0	en
+train-7	/path/to/datasets/conll04/audio/train/train-7.wav:0:257288	16080	257288	<triplet> Lucille Ball <subj> Jamestown N.Y. <obj> Live_In	0	en
+train-8	/path/to/datasets/conll04/audio/train/train-8.wav:0:203790	12736	203790	<triplet> John Wilkes Booth <subj> Abraham Lincoln <obj> Kill	0	en
+train-9	/path/to/datasets/conll04/audio/train/train-9.wav:0:350169	21885	350169	<triplet> Oswald <subj> President Kennedy <obj> Kill <subj> Officer Tippit <obj> Kill	0	en
+train-10	/path/to/datasets/conll04/audio/train/train-10.wav:0:201561	12597	201561	<triplet> Bob Boyd <subj> Chattanooga <obj> Live_In <subj> Tenn. <obj> Live_In <triplet> Chattanooga <subj> Tenn. <obj> Located_In	0	en
+train-11	/path/to/datasets/conll04/audio/train/train-11.wav:0:58898	3681	58898	<triplet> Rome <subj> Lazio <obj> Located_In <triplet> Naples <subj> Campania <obj> Located_In	0	en
+train-12	/path/to/datasets/conll04/audio/train/train-12.wav:0:191530	11970	191530	<triplet> State Department <subj> U.S. <obj> OrgBased_In <triplet> Harvard <subj> U.S. <obj> OrgBased_In	0	en
+train-13	/path/to/datasets/conll04/audio/train/train-13.wav:0:53325	3332	53325	<triplet> Mikhail Shevtsov <subj> ITAR-TASS <obj> Work_For	0	en
+train-14	/path/to/datasets/conll04/audio/train/train-14.wav:0:146205	9137	146205	<triplet> Allan Fitzmaurice. <subj> XBT <obj> Work_For	0	en
+train-15	/path/to/datasets/conll04/audio/train/train-15.wav:0:88619	5538	88619	<triplet> Betsy Ross <subj> Philadelphia <obj> Live_In	0	en
+train-16	/path/to/datasets/conll04/audio/train/train-16.wav:0:75616	4726	75616	<triplet> Fire Island National Seashore <subj> Patchogue <obj> Located_In <subj> N.Y. <obj> Located_In <triplet> Patchogue <subj> N.Y. <obj> Located_In	0	en
+train-17	/path/to/datasets/conll04/audio/train/train-17.wav:0:98279	6142	98279	<triplet> XINHUA <subj> Beijing <obj> OrgBased_In	0	en
+train-18	/path/to/datasets/conll04/audio/train/train-18.wav:0:181871	11366	181871	<triplet> Boise <subj> Idaho <obj> Located_In	0	en
+train-19	/path/to/datasets/conll04/audio/train/train-19.wav:0:263234	16452	263234	<triplet> Santa Ana <subj> Southern California <obj> Located_In	0	en
+train-20	/path/to/datasets/conll04/audio/train/train-20.wav:0:198218	12388	198218	<triplet> Strom Thurmond <subj> Congress <obj> Work_For	0	en
+train-21	/path/to/datasets/conll04/audio/train/train-21.wav:0:213078	13317	213078	<triplet> Congress <subj> U.S. <obj> OrgBased_In <subj> U.S. <obj> OrgBased_In	0	en
+train-22	/path/to/datasets/conll04/audio/train/train-22.wav:0:232026	14501	232026	<triplet> Charles Guiteau <subj> President James Garfield <obj> Kill	0	en
+train-23	/path/to/datasets/conll04/audio/train/train-23.wav:0:45152	2822	45152	<triplet> SPACE CENTER <subj> Houston <obj> OrgBased_In	0	en
+train-24	/path/to/datasets/conll04/audio/train/train-24.wav:0:124285	7767	124285	<triplet> Sirhan B. Sirhan <subj> Kennedy <obj> Kill	0	en
+train-25	/path/to/datasets/conll04/audio/train/train-25.wav:0:252459	15778	252459	<triplet> Woodrow Wilson <subj> Staunton , Va <obj> Live_In	0	en
+train-26	/path/to/datasets/conll04/audio/train/train-26.wav:0:300385	18774	300385	<triplet> Peter Butler <subj> A. Copeland Enterprises Inc. <obj> Work_For <triplet> Henry A. Politz <subj> 5th U.S. Circuit Court of Appeals <obj> Work_For	0	en
+train-27	/path/to/datasets/conll04/audio/train/train-27.wav:0:44780	2798	44780	<triplet> PURCHASE <subj> N.Y . <obj> Located_In	0	en
+train-28	/path/to/datasets/conll04/audio/train/train-28.wav:0:290726	18170	290726	<triplet> Martin Van Buren <subj> Kinderhook , N.Y. <obj> Live_In	0	en
+train-29	/path/to/datasets/conll04/audio/train/train-29.wav:0:74873	4679	74873	<triplet> U.S. Coast Guard Training Center <subj> Petaluma <obj> OrgBased_In <subj> Calif. <obj> OrgBased_In <triplet> Petaluma <subj> Calif. <obj> Located_In	0	en
+train-30	/path/to/datasets/conll04/audio/train/train-30.wav:0:187815	11738	187815	<triplet> IZVESTIYA <subj> Moscow <obj> OrgBased_In	0	en
+train-31	/path/to/datasets/conll04/audio/train/train-31.wav:0:175555	10972	175555	<triplet> Pepperell <subj> West Point <obj> OrgBased_In <subj> Ga. <obj> OrgBased_In <triplet> West Point <subj> Ga. <obj> Located_In	0	en
+train-32	/path/to/datasets/conll04/audio/train/train-32.wav:0:201933	12620	201933	<triplet> John Harvey Adamson <subj> Don Bolles <obj> Kill	0	en
+train-33	/path/to/datasets/conll04/audio/train/train-33.wav:0:134316	8394	134316	<triplet> Michael R. Gordon <subj> Montgomery County House delegation <obj> Work_For	0	en
+train-34	/path/to/datasets/conll04/audio/train/train-34.wav:0:245772	15360	245772	<triplet> Vyacheslav Chornovil <subj> Ukrainian Popular Rukh <obj> Work_For	0	en
+train-35	/path/to/datasets/conll04/audio/train/train-35.wav:0:284039	17752	284039	<triplet> Slavko Mestrovic <subj> Croatian People 's Party <obj> Work_For	0	en
+train-36	/path/to/datasets/conll04/audio/train/train-36.wav:0:88248	5515	88248	<triplet> Port Arther <subj> Texas. <obj> Located_In <triplet> Galveston <subj> Texas. <obj> Located_In	0	en
+train-37	/path/to/datasets/conll04/audio/train/train-37.wav:0:248744	15546	248744	<triplet> George Tompkins <subj> KAL <obj> Work_For	0	en
+train-38	/path/to/datasets/conll04/audio/train/train-38.wav:0:139146	8696	139146	<triplet> Lumberton <subj> N.C. <obj> Located_In	0	en
+train-39	/path/to/datasets/conll04/audio/train/train-39.wav:0:96050	6003	96050	<triplet> Jack Ruby <subj> Oswald <obj> Kill	0	en
+train-40	/path/to/datasets/conll04/audio/train/train-40.wav:0:288868	18054	288868	<triplet> Jean Bertrand Aristide <subj> Haiti <obj> Live_In	0	en
+train-41	/path/to/datasets/conll04/audio/train/train-41.wav:0:174440	10902	174440	<triplet> Robert Ford <subj> Jesse James <obj> Kill	0	en
+train-42	/path/to/datasets/conll04/audio/train/train-42.wav:0:157722	9857	157722	<triplet> Robert Bernero <subj> NRC <obj> Work_For	0	en
+train-43	/path/to/datasets/conll04/audio/train/train-43.wav:0:193016	12063	193016	<triplet> Datuk Sri Dr. Mahathir <subj> Malaysia <obj> Live_In	0	en
+train-44	/path/to/datasets/conll04/audio/train/train-44.wav:0:32892	2055	32892	<triplet> AP <subj> SAN FRANCISCO <obj> OrgBased_In	0	en
+train-45	/path/to/datasets/conll04/audio/train/train-45.wav:0:35864	2241	35864	<triplet> ITAR-TASS <subj> Moscow <obj> OrgBased_In	0	en
+train-46	/path/to/datasets/conll04/audio/train/train-46.wav:0:382490	23905	382490	<triplet> The Environmental Protection Agency <subj> Washington , D.C. <obj> OrgBased_In <triplet> Robin Woods <subj> The Environmental Protection Agency <obj> Work_For <triplet> Woods <subj> The Environmental Protection Agency <obj> Work_For	0	en
+train-47	/path/to/datasets/conll04/audio/train/train-47.wav:0:175183	10948	175183	<triplet> Woodrow Wilson <subj> Virginia <obj> Live_In	0	en
+train-48	/path/to/datasets/conll04/audio/train/train-48.wav:0:100137	6258	100137	<triplet> Gerald Schwartz. <subj> Miami Beach <obj> Live_In	0	en
+train-49	/path/to/datasets/conll04/audio/train/train-49.wav:0:307444	19215	307444	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill <subj> Dallas Police Officer J.D. Tippit. <obj> Kill	0	en
+train-50	/path/to/datasets/conll04/audio/train/train-50.wav:0:206763	12922	206763	<triplet> Prince Ranariddh <subj> Cambodia <obj> Live_In <subj> Phnom Penh government <obj> Work_For <triplet> Phnom Penh government <subj> Cambodia <obj> OrgBased_In	0	en
+train-51	/path/to/datasets/conll04/audio/train/train-51.wav:0:48867	3054	48867	<triplet> Church 's <subj> San Antonio <obj> OrgBased_In	0	en
+train-52	/path/to/datasets/conll04/audio/train/train-52.wav:0:145090	9068	145090	<triplet> Benton <subj> Tenn. <obj> Located_In <triplet> Tennessee Tech <subj> Tenn. <obj> OrgBased_In <subj> Cookville <obj> OrgBased_In <triplet> Cookville <subj> Tenn. <obj> Located_In	0	en
+train-53	/path/to/datasets/conll04/audio/train/train-53.wav:0:123542	7721	123542	<triplet> Harold Lloyd <subj> Burchard , Neb <obj> Live_In	0	en
+train-54	/path/to/datasets/conll04/audio/train/train-54.wav:0:30291	1893	30291	<triplet> BTA <subj> Sofia <obj> OrgBased_In	0	en
+train-55	/path/to/datasets/conll04/audio/train/train-55.wav:0:88619	5538	88619	<triplet> Betsy Ross <subj> Philadelphia <obj> Live_In	0	en
+train-56	/path/to/datasets/conll04/audio/train/train-56.wav:0:101251	6328	101251	<triplet> GSA Depot <subj> Davisville <obj> Located_In <subj> R.I. <obj> Located_In <triplet> Davisville <subj> R.I. <obj> Located_In <triplet> Mineral Wells <subj> Texas <obj> Located_In	0	en
+train-57	/path/to/datasets/conll04/audio/train/train-57.wav:0:207877	12992	207877	<triplet> Mrs. Parks <subj> Montgomery <obj> Live_In <subj> Ala. <obj> Live_In <triplet> Montgomery <subj> Ala. <obj> Located_In	0	en
+train-58	/path/to/datasets/conll04/audio/train/train-58.wav:0:159951	9996	159951	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+train-59	/path/to/datasets/conll04/audio/train/train-59.wav:0:249116	15569	249116	<triplet> Caracas <subj> Venezuela <obj> Located_In <triplet> Carlos Andres Perez <subj> Caracas <obj> Live_In <subj> Venezuela <obj> Live_In	0	en
+train-60	/path/to/datasets/conll04/audio/train/train-60.wav:0:245772	15360	245772	<triplet> Rogers <subj> Fort Worth , Texas <obj> Live_In	0	en
+train-61	/path/to/datasets/conll04/audio/train/train-61.wav:0:75988	4749	75988	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+train-62	/path/to/datasets/conll04/audio/train/train-62.wav:0:148063	9253	148063	<triplet> Nsukka <subj> Nigeria <obj> Located_In	0	en
+train-63	/path/to/datasets/conll04/audio/train/train-63.wav:0:138403	8650	138403	<triplet> Denver <subj> Colorado <obj> Located_In	0	en
+train-64	/path/to/datasets/conll04/audio/train/train-64.wav:0:167010	10438	167010	<triplet> Edward Marks <subj> Montgomery County Democratic Party <obj> Work_For	0	en
+train-65	/path/to/datasets/conll04/audio/train/train-65.wav:0:33635	2102	33635	<triplet> IZVESTIYA <subj> Moscow <obj> OrgBased_In	0	en
+train-66	/path/to/datasets/conll04/audio/train/train-66.wav:0:158837	9927	158837	<triplet> St. Nicholas Hospital <subj> Gosforth <obj> OrgBased_In <subj> England <obj> OrgBased_In <triplet> Gosforth <subj> England <obj> Located_In	0	en
+train-67	/path/to/datasets/conll04/audio/train/train-67.wav:0:95307	5956	95307	<triplet> ROYAL OAK <subj> Mich . <obj> Located_In	0	en
+train-68	/path/to/datasets/conll04/audio/train/train-68.wav:0:240199	15012	240199	<triplet> Aleksandr Kruhlow <subj> Sevastopol <obj> Live_In	0	en
+train-69	/path/to/datasets/conll04/audio/train/train-69.wav:0:135802	8487	135802	<triplet> Kenneth Compton. <subj> Coast Guard <obj> Work_For	0	en
+train-70	/path/to/datasets/conll04/audio/train/train-70.wav:0:261376	16336	261376	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-71	/path/to/datasets/conll04/audio/train/train-71.wav:0:80446	5027	80446	<triplet> George Gershwin <subj> New York <obj> Live_In	0	en
+train-72	/path/to/datasets/conll04/audio/train/train-72.wav:0:256546	16034	256546	<triplet> Marvin Feuerwerger <subj> Washington Institute for Near East Policy <obj> Work_For	0	en
+train-73	/path/to/datasets/conll04/audio/train/train-73.wav:0:169611	10600	169611	<triplet> Atomenergoproekt institute <subj> St. Petersburg <obj> OrgBased_In	0	en
+train-74	/path/to/datasets/conll04/audio/train/train-74.wav:0:213450	13340	213450	<triplet> Barry Goldwater <subj> Arizona <obj> Live_In	0	en
+train-75	/path/to/datasets/conll04/audio/train/train-75.wav:0:169611	10600	169611	<triplet> Jose Tulio Gomez <subj> DIMA <obj> Work_For	0	en
+train-76	/path/to/datasets/conll04/audio/train/train-76.wav:0:282924	17682	282924	<triplet> Gen. William C. Westmoreland <subj> South Carolina <obj> Live_In	0	en
+train-77	/path/to/datasets/conll04/audio/train/train-77.wav:0:134316	8394	134316	<triplet> Mrs. Cicippio <subj> Beirut. <obj> Live_In <triplet> American Embassy <subj> Beirut. <obj> Located_In	0	en
+train-78	/path/to/datasets/conll04/audio/train/train-78.wav:0:191902	11993	191902	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-79	/path/to/datasets/conll04/audio/train/train-79.wav:0:44780	2798	44780	<triplet> BELGRADE <subj> Yugoslavia <obj> Located_In <triplet> AP <subj> BELGRADE <obj> OrgBased_In <subj> Yugoslavia <obj> OrgBased_In	0	en
+train-80	/path/to/datasets/conll04/audio/train/train-80.wav:0:235741	14733	235741	<triplet> Kenneth Earl Millikan <subj> Peter J. Martinelli <obj> Kill	0	en
+train-81	/path/to/datasets/conll04/audio/train/train-81.wav:0:140261	8766	140261	<triplet> Mrs. Vogt <subj> Akron ,Ohio <obj> Live_In	0	en
+train-82	/path/to/datasets/conll04/audio/train/train-82.wav:0:194502	12156	194502	<triplet> Ms. Barrow <subj> High Island <obj> Live_In	0	en
+train-83	/path/to/datasets/conll04/audio/train/train-83.wav:0:240571	15035	240571	<triplet> George Lucas <subj> Modesto <obj> Live_In	0	en
+train-84	/path/to/datasets/conll04/audio/train/train-84.wav:0:245401	15337	245401	<triplet> William Leonard Jennings <subj> Stephen <obj> Kill	0	en
+train-85	/path/to/datasets/conll04/audio/train/train-85.wav:0:196732	12295	196732	<triplet> Vsevolod Fadeyev <subj> Pacific Fleet <obj> Work_For	0	en
+train-86	/path/to/datasets/conll04/audio/train/train-86.wav:0:203419	12713	203419	<triplet> Chapman <subj> John Lennon <obj> Kill	0	en
+train-87	/path/to/datasets/conll04/audio/train/train-87.wav:0:179642	11227	179642	<triplet> STOCKTON-ON-TEES <subj> England <obj> Located_In <triplet> AP <subj> STOCKTON-ON-TEES <obj> OrgBased_In <subj> England <obj> OrgBased_In <triplet> Michael Minns <subj> STOCKTON-ON-TEES <obj> Live_In <subj> England <obj> Live_In <subj> AP <obj> Work_For	0	en
+train-88	/path/to/datasets/conll04/audio/train/train-88.wav:0:24347	1521	24347	<triplet> EFE <subj> Madrid <obj> OrgBased_In	0	en
+train-89	/path/to/datasets/conll04/audio/train/train-89.wav:0:210849	13178	210849	<triplet> Booth <subj> Lincoln <obj> Kill	0	en
+train-90	/path/to/datasets/conll04/audio/train/train-90.wav:0:263234	16452	263234	<triplet> David Pimentel <subj> Cornell University. <obj> Work_For	0	en
+train-91	/path/to/datasets/conll04/audio/train/train-91.wav:0:317847	19865	317847	<triplet> Drazen Budisa <subj> Croatian Social Liberal Party <obj> Work_For	0	en
+train-92	/path/to/datasets/conll04/audio/train/train-92.wav:0:175926	10995	175926	<triplet> Moscow <subj> Soviet <obj> Located_In	0	en
+train-93	/path/to/datasets/conll04/audio/train/train-93.wav:0:138775	8673	138775	<triplet> Serbia <subj> Yugoslavia <obj> Located_In <triplet> Montenegro <subj> Yugoslavia <obj> Located_In	0	en
+train-94	/path/to/datasets/conll04/audio/train/train-94.wav:0:84533	5283	84533	<triplet> Edgar Allan Poe <subj> Boston <obj> Live_In	0	en
+train-95	/path/to/datasets/conll04/audio/train/train-95.wav:0:109053	6815	109053	<triplet> Covington <subj> Okla. <obj> Located_In	0	en
+train-96	/path/to/datasets/conll04/audio/train/train-96.wav:0:191159	11947	191159	<triplet> Michael Holtcamp <subj> Huntsville <obj> Live_In <subj> Alabama <obj> Live_In <triplet> Huntsville <subj> Alabama <obj> Located_In	0	en
+train-97	/path/to/datasets/conll04/audio/train/train-97.wav:0:69672	4354	69672	<triplet> W. Dale Nelson <subj> The Associated Press <obj> Work_For	0	en
+train-98	/path/to/datasets/conll04/audio/train/train-98.wav:0:220137	13758	220137	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-99	/path/to/datasets/conll04/audio/train/train-99.wav:0:210849	13178	210849	<triplet> Supreme Court <subj> Canada <obj> OrgBased_In	0	en
+train-100	/path/to/datasets/conll04/audio/train/train-100.wav:0:154378	9648	154378	<triplet> Ray <subj> King <obj> Kill	0	en
+train-101	/path/to/datasets/conll04/audio/train/train-101.wav:0:388064	24254	388064	<triplet> Centro Nacional de Microelectronica <subj> Barcelona <obj> OrgBased_In	0	en
+train-102	/path/to/datasets/conll04/audio/train/train-102.wav:0:26947	1684	26947	<triplet> AFP <subj> Paris <obj> OrgBased_In	0	en
+train-103	/path/to/datasets/conll04/audio/train/train-103.wav:0:82675	5167	82675	<triplet> Igor Khmelnov <subj> Pacific Fleet <obj> Work_For	0	en
+train-104	/path/to/datasets/conll04/audio/train/train-104.wav:0:135059	8441	135059	<triplet> Sirhan Sirhan <subj> New York Sen. Robert F. Kennedy <obj> Kill	0	en
+train-105	/path/to/datasets/conll04/audio/train/train-105.wav:0:117598	7349	117598	<triplet> Henry Ford <subj> Dearborn Township , Mich <obj> Live_In	0	en
+train-106	/path/to/datasets/conll04/audio/train/train-106.wav:0:159951	9996	159951	<triplet> Elvis Presley <subj> Tupelo , Miss <obj> Live_In	0	en
+train-107	/path/to/datasets/conll04/audio/train/train-107.wav:0:48124	3007	48124	<triplet> ADDIS ABABA <subj> Ethiopia <obj> Located_In	0	en
+train-108	/path/to/datasets/conll04/audio/train/train-108.wav:0:189301	11831	189301	<triplet> Sirhan B. Sirhan <subj> Kennedy <obj> Kill	0	en
+train-109	/path/to/datasets/conll04/audio/train/train-109.wav:0:90106	5631	90106	<triplet> Babe Ruth <subj> Baltimore <obj> Live_In	0	en
+train-110	/path/to/datasets/conll04/audio/train/train-110.wav:0:113140	7071	113140	<triplet> NASA <subj> U.S. <obj> OrgBased_In	0	en
+train-111	/path/to/datasets/conll04/audio/train/train-111.wav:0:190043	11877	190043	<triplet> Leroy Ivy <subj> Lee County Circuit Judge Thomas Gardner III. <obj> Kill <triplet> John Henry Ivy <subj> Lee County Circuit Judge Thomas Gardner III. <obj> Kill	0	en
+train-112	/path/to/datasets/conll04/audio/train/train-112.wav:0:166639	10414	166639	<triplet> Madonna <subj> Bay City , Mich. <obj> Live_In	0	en
+train-113	/path/to/datasets/conll04/audio/train/train-113.wav:0:181128	11320	181128	<triplet> Supreme Court <subj> Cape Town <obj> OrgBased_In <triplet> J.H. Berman <subj> Cape Town <obj> Live_In <subj> Supreme Court <obj> Work_For	0	en
+train-114	/path/to/datasets/conll04/audio/train/train-114.wav:0:26947	1684	26947	<triplet> AFP <subj> Paris <obj> OrgBased_In	0	en
+train-115	/path/to/datasets/conll04/audio/train/train-115.wav:0:155493	9718	155493	<triplet> Andrew Stephens <subj> Eaglebrook Plastics <obj> Work_For	0	en
+train-116	/path/to/datasets/conll04/audio/train/train-116.wav:0:100137	6258	100137	<triplet> George Gershwin <subj> Brooklyn , N.Y. <obj> Live_In	0	en
+train-117	/path/to/datasets/conll04/audio/train/train-117.wav:0:157722	9857	157722	<triplet> Roger Jacobsen <subj> Burlington <obj> Work_For	0	en
+train-118	/path/to/datasets/conll04/audio/train/train-118.wav:0:182614	11413	182614	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-119	/path/to/datasets/conll04/audio/train/train-119.wav:0:307816	19238	307816	<triplet> PAN <subj> Mexico <obj> OrgBased_In <triplet> National Action Party <subj> Mexico <obj> OrgBased_In <triplet> Fernandez de Cevallos <subj> Mexico <obj> Live_In <subj> PAN <obj> Work_For <subj> National Action Party <obj> Work_For	0	en
+train-120	/path/to/datasets/conll04/audio/train/train-120.wav:0:93448	5840	93448	<triplet> Batavia <subj> N.Y. <obj> Located_In	0	en
+train-121	/path/to/datasets/conll04/audio/train/train-121.wav:0:268063	16753	268063	<triplet> Ms. Toth <subj> Germantown <obj> Live_In	0	en
+train-122	/path/to/datasets/conll04/audio/train/train-122.wav:0:206020	12876	206020	<triplet> Javier Perez de Cuellar <subj> U.N. <obj> Work_For	0	en
+train-123	/path/to/datasets/conll04/audio/train/train-123.wav:0:104595	6537	104595	<triplet> Mr. Vee <subj> Fargo <obj> Live_In	0	en
+train-124	/path/to/datasets/conll04/audio/train/train-124.wav:0:172211	10763	172211	<triplet> Ray Martinez <subj> Charles Whitman <obj> Kill	0	en
+train-125	/path/to/datasets/conll04/audio/train/train-125.wav:0:244286	15267	244286	<triplet> Quayle <subj> Huntington Herald-Press <obj> Work_For	0	en
+train-126	/path/to/datasets/conll04/audio/train/train-126.wav:0:209362	13085	209362	<triplet> James Earl Ray <subj> Martin Luther King Jr. <obj> Kill <triplet> Brushy Mountain Penitentiary <subj> Tennessee <obj> Located_In	0	en
+train-127	/path/to/datasets/conll04/audio/train/train-127.wav:0:166267	10391	166267	<triplet> Sirhan Sirhan <subj> Kennedy <obj> Kill	0	en
+train-128	/path/to/datasets/conll04/audio/train/train-128.wav:0:226453	14153	226453	<triplet> Dwight D. Eisenhower <subj> Denison , Texas <obj> Live_In	0	en
+train-129	/path/to/datasets/conll04/audio/train/train-129.wav:0:24718	1544	24718	<triplet> AP <subj> NEW ORLEANS <obj> OrgBased_In	0	en
+train-130	/path/to/datasets/conll04/audio/train/train-130.wav:0:198961	12435	198961	<triplet> German Government <subj> Germany <obj> OrgBased_In	0	en
+train-131	/path/to/datasets/conll04/audio/train/train-131.wav:0:201190	12574	201190	<triplet> John Leyden <subj> Federal Aviation Administration <obj> Work_For	0	en
+train-132	/path/to/datasets/conll04/audio/train/train-132.wav:0:29176	1823	29176	<triplet> AL-AHALI <subj> Cairo <obj> OrgBased_In	0	en
+train-133	/path/to/datasets/conll04/audio/train/train-133.wav:0:45152	2822	45152	<triplet> Radio France International <subj> Paris <obj> OrgBased_In	0	en
+train-134	/path/to/datasets/conll04/audio/train/train-134.wav:0:70787	4424	70787	<triplet> Carbondale Mining Technology Center <subj> Carterville <obj> Located_In <subj> Ill. <obj> Located_In <triplet> Carterville <subj> Ill. <obj> Located_In	0	en
+train-135	/path/to/datasets/conll04/audio/train/train-135.wav:0:143976	8998	143976	<triplet> Mary <subj> Rock Hill <obj> Live_In	0	en
+train-136	/path/to/datasets/conll04/audio/train/train-136.wav:0:131344	8209	131344	<triplet> Karl Malden <subj> Vanderbilt University <obj> Work_For	0	en
+train-137	/path/to/datasets/conll04/audio/train/train-137.wav:0:92335	5770	92335	<triplet> Emily Dickinson <subj> Amherst , Mass <obj> Live_In	0	en
+train-138	/path/to/datasets/conll04/audio/train/train-138.wav:0:192273	12017	192273	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-139	/path/to/datasets/conll04/audio/train/train-139.wav:0:168868	10554	168868	<triplet> William Doyle <subj> Manhattan <obj> Live_In	0	en
+train-140	/path/to/datasets/conll04/audio/train/train-140.wav:0:182614	11413	182614	<triplet> Sara Matzar <subj> Pabnjachel <obj> Live_In <subj> Solola <obj> Live_In <triplet> Pabnjachel <subj> Solola <obj> Located_In	0	en
+train-141	/path/to/datasets/conll04/audio/train/train-141.wav:0:94192	5887	94192	<triplet> Paul Revere <subj> Boston <obj> Live_In	0	en
+train-142	/path/to/datasets/conll04/audio/train/train-142.wav:0:109053	6815	109053	<triplet> Great Wall firm <subj> China <obj> OrgBased_In	0	en
+train-143	/path/to/datasets/conll04/audio/train/train-143.wav:0:119084	7442	119084	<triplet> Baghdad <subj> Iraq <obj> Located_In	0	en
+train-144	/path/to/datasets/conll04/audio/train/train-144.wav:0:224224	14014	224224	<triplet> Alan Cranston <subj> Senate Committee on Veterans Affairs <obj> Work_For	0	en
+train-145	/path/to/datasets/conll04/audio/train/train-145.wav:0:465340	29083	465340	<triplet> Gerald McEntee <subj> American Federation of State , County and Municipal Employees <obj> Work_For	0	en
+train-146	/path/to/datasets/conll04/audio/train/train-146.wav:0:123542	7721	123542	<triplet> Hernandez Galicia <subj> Ciudad Madero <obj> Live_In	0	en
+train-147	/path/to/datasets/conll04/audio/train/train-147.wav:0:493204	30825	493204	<triplet> Kamchatka <subj> Okhotsk Sea <obj> Located_In	0	en
+train-148	/path/to/datasets/conll04/audio/train/train-148.wav:0:138032	8627	138032	<triplet> Jean Hackett <subj> New York City <obj> Live_In	0	en
+train-149	/path/to/datasets/conll04/audio/train/train-149.wav:0:186329	11645	186329	<triplet> Vasquez <subj> John Walker <obj> Kill <subj> Alberto Radelat <obj> Kill	0	en
+train-150	/path/to/datasets/conll04/audio/train/train-150.wav:0:292212	18263	292212	<triplet> Khieu Samphan <subj> Khmer Rouge <obj> Work_For	0	en
+train-151	/path/to/datasets/conll04/audio/train/train-151.wav:0:162180	10136	162180	<triplet> Aharon Levran <subj> Bar-Ilan University <obj> Work_For <subj> Center for Strategic Studies <obj> Work_For	0	en
+train-152	/path/to/datasets/conll04/audio/train/train-152.wav:0:108681	6792	108681	<triplet> Lucy Stone <subj> Brookfield , Mass <obj> Live_In	0	en
+train-153	/path/to/datasets/conll04/audio/train/train-153.wav:0:54068	3379	54068	<triplet> Leonid Vinogradov <subj> ITAR-TASS <obj> Work_For	0	en
+train-154	/path/to/datasets/conll04/audio/train/train-154.wav:0:76731	4795	76731	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-155	/path/to/datasets/conll04/audio/train/train-155.wav:0:100508	6281	100508	<triplet> Richard Celeste. <subj> Ohio <obj> Live_In	0	en
+train-156	/path/to/datasets/conll04/audio/train/train-156.wav:0:130973	8185	130973	<triplet> Quebec <subj> North America <obj> Located_In	0	en
+train-157	/path/to/datasets/conll04/audio/train/train-157.wav:0:104223	6513	104223	<triplet> Campbell Farm <subj> Wapato <obj> Located_In	0	en
+train-158	/path/to/datasets/conll04/audio/train/train-158.wav:0:32892	2055	32892	<triplet> HUNTINGTON <subj> Ind . <obj> Located_In	0	en
+train-159	/path/to/datasets/conll04/audio/train/train-159.wav:0:193759	12109	193759	<triplet> Sturholm <subj> KIRO. <obj> Work_For <triplet> Kathryn Rich <subj> KIRO. <obj> Work_For	0	en
+train-160	/path/to/datasets/conll04/audio/train/train-160.wav:0:195989	12249	195989	<triplet> Jesse Jackson <subj> South Carolina <obj> Live_In	0	en
+train-161	/path/to/datasets/conll04/audio/train/train-161.wav:0:34749	2171	34749	<triplet> Radio Lebanon <subj> Beirut <obj> OrgBased_In	0	en
+train-162	/path/to/datasets/conll04/audio/train/train-162.wav:0:271778	16986	271778	<triplet> Dennis DeConcini <subj> Senate Appropriations treasury and postal subcommittee <obj> Work_For	0	en
+train-163	/path/to/datasets/conll04/audio/train/train-163.wav:0:232397	14524	232397	<triplet> Bob Dole <subj> Kansas <obj> Live_In	0	en
+train-164	/path/to/datasets/conll04/audio/train/train-164.wav:0:103109	6444	103109	<triplet> Pacific Marine Inc. <subj> Houston <obj> OrgBased_In	0	en
+train-165	/path/to/datasets/conll04/audio/train/train-165.wav:0:26947	1684	26947	<triplet> ANP <subj> The Hague <obj> OrgBased_In	0	en
+train-166	/path/to/datasets/conll04/audio/train/train-166.wav:0:185214	11575	185214	<triplet> John Wilkes Booth <subj> President Abraham Lincoln <obj> Kill	0	en
+train-167	/path/to/datasets/conll04/audio/train/train-167.wav:0:243543	15221	243543	<triplet> Gavrilo Princip <subj> Archduke Ferdinand <obj> Kill	0	en
+train-168	/path/to/datasets/conll04/audio/train/train-168.wav:0:213821	13363	213821	<triplet> Radio Bosnia-Herzegovina Network <subj> Sarajevo <obj> OrgBased_In	0	en
+train-169	/path/to/datasets/conll04/audio/train/train-169.wav:0:115369	7210	115369	<triplet> Mlita hill <subj> Iqlim al-Tuffah <obj> Located_In	0	en
+train-170	/path/to/datasets/conll04/audio/train/train-170.wav:0:233512	14594	233512	<triplet> Kebara cave <subj> Israel <obj> Located_In <triplet> Haifa <subj> Israel <obj> Located_In	0	en
+train-171	/path/to/datasets/conll04/audio/train/train-171.wav:0:364658	22791	364658	<triplet> James G. Blight <subj> Harvard University <obj> Work_For <subj> John F. Kennedy School of Government <obj> Work_For <triplet> David A. Welch <subj> Harvard University <obj> Work_For <subj> John F. Kennedy School of Government <obj> Work_For	0	en
+train-172	/path/to/datasets/conll04/audio/train/train-172.wav:0:188558	11784	188558	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+train-173	/path/to/datasets/conll04/audio/train/train-173.wav:0:278466	17404	278466	<triplet> Richard Kennedy <subj> GE <obj> Work_For	0	en
+train-174	/path/to/datasets/conll04/audio/train/train-174.wav:0:143976	8998	143976	<triplet> Andrew Jackson <subj> Waxhaw , S.C. <obj> Live_In	0	en
+train-175	/path/to/datasets/conll04/audio/train/train-175.wav:0:187072	11692	187072	<triplet> Robert Weisner <subj> Washington <obj> Live_In	0	en
+train-176	/path/to/datasets/conll04/audio/train/train-176.wav:0:91963	5747	91963	<triplet> Henry Fonda <subj> Grand Island ,Neb. <obj> Live_In	0	en
+train-177	/path/to/datasets/conll04/audio/train/train-177.wav:0:126143	7883	126143	<triplet> Reagan <subj> U.S. <obj> Live_In <triplet> State Department <subj> U.S. <obj> OrgBased_In	0	en
+train-178	/path/to/datasets/conll04/audio/train/train-178.wav:0:153264	9579	153264	<triplet> Abebe Worke <subj> Ethiopia <obj> Live_In <subj> High Court <obj> Work_For	0	en
+train-179	/path/to/datasets/conll04/audio/train/train-179.wav:0:196732	12295	196732	<triplet> Steve Hardy <subj> Coast Guard <obj> Work_For	0	en
+train-180	/path/to/datasets/conll04/audio/train/train-180.wav:0:185586	11599	185586	<triplet> Radio France International <subj> Paris <obj> OrgBased_In	0	en
+train-181	/path/to/datasets/conll04/audio/train/train-181.wav:0:220880	13805	220880	<triplet> George Lucas <subj> Modesto <obj> Live_In	0	en
+train-182	/path/to/datasets/conll04/audio/train/train-182.wav:0:169611	10600	169611	<triplet> Cardenas <subj> PRD <obj> Work_For <subj> Party of the Democratic Revolution <obj> Work_For	0	en
+train-183	/path/to/datasets/conll04/audio/train/train-183.wav:0:175926	10995	175926	<triplet> Riga <subj> Latvia <obj> Located_In <subj> Soviet Union <obj> Located_In <triplet> Latvia <subj> Soviet Union <obj> Located_In	0	en
+train-184	/path/to/datasets/conll04/audio/train/train-184.wav:0:175183	10948	175183	<triplet> Sevket Kazan <subj> RP <obj> Work_For <subj> Welfare Party <obj> Work_For	0	en
+train-185	/path/to/datasets/conll04/audio/train/train-185.wav:0:200447	12527	200447	<triplet> Santiago <subj> Chile. <obj> Located_In	0	en
+train-186	/path/to/datasets/conll04/audio/train/train-186.wav:0:147691	9230	147691	<triplet> Actress Angie Dickinson <subj> Kulm , N.D. <obj> Live_In	0	en
+train-187	/path/to/datasets/conll04/audio/train/train-187.wav:0:112025	7001	112025	<triplet> The National Space Development Agency <subj> Japan <obj> OrgBased_In	0	en
+train-188	/path/to/datasets/conll04/audio/train/train-188.wav:0:42180	2636	42180	<triplet> Radiozurnal Radio Network <subj> Prague <obj> OrgBased_In	0	en
+train-189	/path/to/datasets/conll04/audio/train/train-189.wav:0:136917	8557	136917	<triplet> Connecticut Valley Hospital <subj> Middletown <obj> Located_In	0	en
+train-190	/path/to/datasets/conll04/audio/train/train-190.wav:0:112025	7001	112025	<triplet> Mark David Chapman <subj> Lennon <obj> Kill	0	en
+train-191	/path/to/datasets/conll04/audio/train/train-191.wav:0:251716	15732	251716	<triplet> David Cicippio <subj> North Wales <obj> Live_In <subj> Pa. <obj> Live_In <triplet> North Wales <subj> Pa. <obj> Located_In	0	en
+train-192	/path/to/datasets/conll04/audio/train/train-192.wav:0:174069	10879	174069	<triplet> James Monroe <subj> Westmoreland County , Va <obj> Live_In	0	en
+train-193	/path/to/datasets/conll04/audio/train/train-193.wav:0:32520	2032	32520	<triplet> INTERFAX <subj> Moscow <obj> OrgBased_In	0	en
+train-194	/path/to/datasets/conll04/audio/train/train-194.wav:0:221623	13851	221623	<triplet> Lance Davis <subj> Truck Stops of America <obj> Work_For <subj> Ontario <obj> Live_In <triplet> Truck Stops of America <subj> Ontario <obj> OrgBased_In	0	en
+train-195	/path/to/datasets/conll04/audio/train/train-195.wav:0:184100	11506	184100	<triplet> Barbara Houser <subj> Minpeco S.A. <obj> Work_For	0	en
+train-196	/path/to/datasets/conll04/audio/train/train-196.wav:0:181128	11320	181128	<triplet> DAO SIAM <subj> Bangkok <obj> OrgBased_In	0	en
+train-197	/path/to/datasets/conll04/audio/train/train-197.wav:0:50353	3147	50353	<triplet> SEOUL <subj> South Korea <obj> Located_In <triplet> AP <subj> SEOUL <obj> OrgBased_In <subj> South Korea <obj> OrgBased_In	0	en
+train-198	/path/to/datasets/conll04/audio/train/train-198.wav:0:250973	15685	250973	<triplet> Vicente Licona <subj> Indemerc-Louis Harris <obj> Work_For <triplet> Cecilia Soto <subj> Labor Party <obj> Work_For	0	en
+train-199	/path/to/datasets/conll04/audio/train/train-199.wav:0:367259	22953	367259	<triplet> Angolan Government <subj> Angola <obj> OrgBased_In	0	en
+train-200	/path/to/datasets/conll04/audio/train/train-200.wav:0:29548	1846	29548	<triplet> MEMPHIS <subj> Tenn . <obj> Located_In	0	en
+train-201	/path/to/datasets/conll04/audio/train/train-201.wav:0:309302	19331	309302	<triplet> Russian State Duma <subj> Moscow <obj> OrgBased_In <triplet> Konstantin Zatulin <subj> Moscow <obj> Live_In <subj> Russian State Duma <obj> Work_For	0	en
+train-202	/path/to/datasets/conll04/audio/train/train-202.wav:0:65585	4099	65585	<triplet> Thurgood Marshall <subj> Baltimore <obj> Live_In	0	en
+train-203	/path/to/datasets/conll04/audio/train/train-203.wav:0:203790	12736	203790	<triplet> Ramona <subj> San Diego <obj> Located_In	0	en
+train-204	/path/to/datasets/conll04/audio/train/train-204.wav:0:113883	7117	113883	<triplet> Calvin Coolidge <subj> Plymouth , Vt <obj> Live_In	0	en
+train-205	/path/to/datasets/conll04/audio/train/train-205.wav:0:156236	9764	156236	<triplet> Jim Bowell <subj> Butler Township Fire Department <obj> Work_For	0	en
+train-206	/path/to/datasets/conll04/audio/train/train-206.wav:0:29919	1869	29919	<triplet> TRENTON <subj> N.J. <obj> Located_In	0	en
+train-207	/path/to/datasets/conll04/audio/train/train-207.wav:0:184843	11552	184843	<triplet> Judy Kaye <subj> New York Opera Repertory Theater <obj> Work_For	0	en
+train-208	/path/to/datasets/conll04/audio/train/train-208.wav:0:124657	7791	124657	<triplet> Chapman <subj> Lennon <obj> Kill	0	en
+train-209	/path/to/datasets/conll04/audio/train/train-209.wav:0:213078	13317	213078	<triplet> Mr. Vishnu Hari Dalmia <subj> VHP <obj> Work_For	0	en
+train-210	/path/to/datasets/conll04/audio/train/train-210.wav:0:224967	14060	224967	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-211	/path/to/datasets/conll04/audio/train/train-211.wav:0:230168	14385	230168	<triplet> Ernest L. Boyer <subj> Carnegie Foundation for the Advancement of Teaching <obj> Work_For	0	en
+train-212	/path/to/datasets/conll04/audio/train/train-212.wav:0:156236	9764	156236	<triplet> Santa Catarina Palopo <subj> Solola <obj> Located_In	0	en
+train-213	/path/to/datasets/conll04/audio/train/train-213.wav:0:277723	17357	277723	<triplet> Stephen K. Yee. <subj> Chinese Consolidated Benevolent Association <obj> Work_For	0	en
+train-214	/path/to/datasets/conll04/audio/train/train-214.wav:0:226825	14176	226825	<triplet> Tom Wolfe <subj> Richmond <obj> Live_In	0	en
+train-215	/path/to/datasets/conll04/audio/train/train-215.wav:0:117226	7326	117226	<triplet> Louis W. Parker <subj> Budapest , Hungary <obj> Live_In	0	en
+train-216	/path/to/datasets/conll04/audio/train/train-216.wav:0:284410	17775	284410	<triplet> Gary H. Heichel <subj> USDA <obj> Work_For	0	en
+train-217	/path/to/datasets/conll04/audio/train/train-217.wav:0:45152	2822	45152	<triplet> O ESTADO DE SAO PAULO <subj> Sao Paulo <obj> OrgBased_In	0	en
+train-218	/path/to/datasets/conll04/audio/train/train-218.wav:0:180385	11274	180385	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-219	/path/to/datasets/conll04/audio/train/train-219.wav:0:166639	10414	166639	<triplet> Martin Van Buren <subj> Kinderhook , N.Y. <obj> Live_In	0	en
+train-220	/path/to/datasets/conll04/audio/train/train-220.wav:0:279580	17473	279580	<triplet> Osny Eugene <subj> Senate <obj> Work_For	0	en
+train-221	/path/to/datasets/conll04/audio/train/train-221.wav:0:188187	11761	188187	<triplet> Rocky Flats <subj> Colorado <obj> Located_In <triplet> Fernald <subj> Ohio <obj> Located_In	0	en
+train-222	/path/to/datasets/conll04/audio/train/train-222.wav:0:27690	1730	27690	<triplet> N-TV <subj> Berlin <obj> OrgBased_In	0	en
+train-223	/path/to/datasets/conll04/audio/train/train-223.wav:0:232769	14548	232769	<triplet> JINGJI YANJIU <subj> Beijing <obj> OrgBased_In	0	en
+train-224	/path/to/datasets/conll04/audio/train/train-224.wav:0:38464	2404	38464	<triplet> KHARTOUM <subj> Sudan <obj> Located_In	0	en
+train-225	/path/to/datasets/conll04/audio/train/train-225.wav:0:134688	8418	134688	<triplet> James Cirona <subj> Federal Home Loan Bank <obj> Work_For <subj> San Francisco <obj> Live_In <triplet> Federal Home Loan Bank <subj> San Francisco <obj> OrgBased_In	0	en
+train-226	/path/to/datasets/conll04/audio/train/train-226.wav:0:115740	7233	115740	<triplet> Leon Czolgosz <subj> President McKinley <obj> Kill	0	en
+train-227	/path/to/datasets/conll04/audio/train/train-227.wav:0:203047	12690	203047	<triplet> John Wilkes Booth <subj> Lincoln <obj> Kill	0	en
+train-228	/path/to/datasets/conll04/audio/train/train-228.wav:0:386949	24184	386949	<triplet> Marrackech <subj> Morocco <obj> Located_In	0	en
+train-229	/path/to/datasets/conll04/audio/train/train-229.wav:0:230911	14431	230911	<triplet> Reuven Pedatzur <subj> Jaffe Center for Strategic Studies <obj> Work_For	0	en
+train-230	/path/to/datasets/conll04/audio/train/train-230.wav:0:92706	5794	92706	<triplet> NEZAVISIMAYA GAZETA <subj> Moscow <obj> OrgBased_In	0	en
+train-231	/path/to/datasets/conll04/audio/train/train-231.wav:0:383234	23952	383234	<triplet> Leon Czolgosz <subj> President McKinley <obj> Kill	0	en
+train-232	/path/to/datasets/conll04/audio/train/train-232.wav:0:123171	7698	123171	<triplet> Joe Weitz <subj> Emery <obj> Work_For	0	en
+train-233	/path/to/datasets/conll04/audio/train/train-233.wav:0:264720	16545	264720	<triplet> John Wilkes Booth <subj> Lincoln <obj> Kill	0	en
+train-234	/path/to/datasets/conll04/audio/train/train-234.wav:0:287382	17961	287382	<triplet> James Earl Ray <subj> Martin Luther King Jr <obj> Kill	0	en
+train-235	/path/to/datasets/conll04/audio/train/train-235.wav:0:420758	26297	420758	<triplet> Olgerts Pavlovskis <subj> European Community <obj> Work_For	0	en
+train-236	/path/to/datasets/conll04/audio/train/train-236.wav:0:113511	7094	113511	<triplet> Portland <subj> Maine <obj> Located_In	0	en
+train-237	/path/to/datasets/conll04/audio/train/train-237.wav:0:282553	17659	282553	<triplet> John Mazor <subj> Air Line Pilots Association <obj> Work_For	0	en
+train-238	/path/to/datasets/conll04/audio/train/train-238.wav:0:331965	20747	331965	<triplet> Nils Bemer <subj> Bellona <obj> Work_For <triplet> Tomas Nilsen <subj> Bellona <obj> Work_For <triplet> Northern Fleet <subj> Russia <obj> OrgBased_In	0	en
+train-239	/path/to/datasets/conll04/audio/train/train-239.wav:0:141004	8812	141004	<triplet> Tom Selleck <subj> Detroit <obj> Live_In	0	en
+train-240	/path/to/datasets/conll04/audio/train/train-240.wav:0:87133	5445	87133	<triplet> Mrs. Tsuruyama <subj> Yatsushiro <obj> Live_In <subj> Kumamoto Prefecture <obj> Live_In <subj> Japan <obj> Live_In <triplet> Yatsushiro <subj> Kumamoto Prefecture <obj> Located_In <subj> Japan <obj> Located_In <triplet> Kumamoto Prefecture <subj> Japan <obj> Located_In	0	en
+train-241	/path/to/datasets/conll04/audio/train/train-241.wav:0:206020	12876	206020	<triplet> KRASNAYA ZVEZDA <subj> Moscow <obj> OrgBased_In	0	en
+train-242	/path/to/datasets/conll04/audio/train/train-242.wav:0:336051	21003	336051	<triplet> Ruben Blades <subj> Papa Egoro Movement <obj> Work_For <subj> MPE <obj> Work_For	0	en
+train-243	/path/to/datasets/conll04/audio/train/train-243.wav:0:123542	7721	123542	<triplet> Calvin Coolidge <subj> Plymouth , Vt <obj> Live_In	0	en
+train-244	/path/to/datasets/conll04/audio/train/train-244.wav:0:200818	12551	200818	<triplet> John Harvey Adamson <subj> Don Bolles <obj> Kill	0	en
+train-245	/path/to/datasets/conll04/audio/train/train-245.wav:0:215679	13479	215679	<triplet> David Graham <subj> Veterans Administration O Center <obj> Work_For <triplet> Veterans Administration O Center <subj> Houston <obj> OrgBased_In	0	en
+train-246	/path/to/datasets/conll04/audio/train/train-246.wav:0:210106	13131	210106	<triplet> Phillip Lieberman <subj> Brown Univeristy <obj> Work_For <subj> Providence <obj> Live_In <subj> R.I. <obj> Live_In <triplet> Brown Univeristy <subj> Providence <obj> OrgBased_In <subj> R.I. <obj> OrgBased_In <triplet> Providence <subj> R.I. <obj> Located_In	0	en
+train-247	/path/to/datasets/conll04/audio/train/train-247.wav:0:100137	6258	100137	<triplet> Chris Herr <subj> Wool Wizards <obj> Work_For	0	en
+train-248	/path/to/datasets/conll04/audio/train/train-248.wav:0:272893	17055	272893	<triplet> Babe Ruth <subj> Camden Yards <obj> Live_In	0	en
+train-249	/path/to/datasets/conll04/audio/train/train-249.wav:0:65214	4075	65214	<triplet> Kakuei Tanaka <subj> Liberal Democratic Party <obj> Work_For <triplet> Noboru Takeshita <subj> Liberal Democratic Party <obj> Work_For	0	en
+train-250	/path/to/datasets/conll04/audio/train/train-250.wav:0:135802	8487	135802	<triplet> James Dickey <subj> Georgia <obj> Live_In	0	en
+train-251	/path/to/datasets/conll04/audio/train/train-251.wav:0:151405	9462	151405	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en
+train-252	/path/to/datasets/conll04/audio/train/train-252.wav:0:170724	10670	170724	<triplet> Booth <subj> Lincoln <obj> Kill	0	en
+train-253	/path/to/datasets/conll04/audio/train/train-253.wav:0:210849	13178	210849	<triplet> Cox Packing Co. <subj> Devine <obj> OrgBased_In <triplet> TSW Meats Ltd. <subj> Liverpool <obj> OrgBased_In	0	en
+train-254	/path/to/datasets/conll04/audio/train/train-254.wav:0:48124	3007	48124	<triplet> Gallup Indian Center <subj> N.M. <obj> Located_In	0	en
+train-255	/path/to/datasets/conll04/audio/train/train-255.wav:0:206391	12899	206391	<triplet> K mart <subj> St. Claire Shores <obj> OrgBased_In <subj> Mich . <obj> OrgBased_In <triplet> St. Claire Shores <subj> Mich . <obj> Located_In	0	en
+train-256	/path/to/datasets/conll04/audio/train/train-256.wav:0:99765	6235	99765	<triplet> Minox company <subj> Heuchelheim <obj> OrgBased_In	0	en
+train-257	/path/to/datasets/conll04/audio/train/train-257.wav:0:113883	7117	113883	<triplet> Oswald <subj> Kennedy. <obj> Kill	0	en
+train-258	/path/to/datasets/conll04/audio/train/train-258.wav:0:223852	13990	223852	<triplet> XINHUA <subj> Hefei <obj> OrgBased_In	0	en
+train-259	/path/to/datasets/conll04/audio/train/train-259.wav:0:261004	16312	261004	<triplet> Felix S. Bloch <subj> U.S. <obj> Live_In	0	en
+train-260	/path/to/datasets/conll04/audio/train/train-260.wav:0:239085	14942	239085	<triplet> Anthony M. Kennedy <subj> Supreme Court <obj> Work_For	0	en
+train-261	/path/to/datasets/conll04/audio/train/train-261.wav:0:239456	14966	239456	<triplet> Jean-Verdy Bastien <subj> Celeste Borlette Banks <obj> Work_For <subj> Celeste FM <obj> Work_For	0	en
+train-262	/path/to/datasets/conll04/audio/train/train-262.wav:0:466455	29153	466455	<triplet> Jesse James <subj> Kearney <obj> Live_In <subj> Centerville <obj> Live_In <subj> Clay County , Mo. <obj> Live_In	0	en
+train-263	/path/to/datasets/conll04/audio/train/train-263.wav:0:219766	13735	219766	<triplet> Epps <subj> Epps Aviation <obj> Work_For <triplet> Epps Aviation <subj> DeKalb Peachtree Airport <obj> OrgBased_In	0	en
+train-264	/path/to/datasets/conll04/audio/train/train-264.wav:0:256175	16010	256175	<triplet> Granic <subj> Croatia <obj> Live_In <subj> Croatia <obj> Live_In	0	en
+train-265	/path/to/datasets/conll04/audio/train/train-265.wav:0:272893	17055	272893	<triplet> MAINICHI SHIMBUN <subj> Tokyo <obj> OrgBased_In	0	en
+train-266	/path/to/datasets/conll04/audio/train/train-266.wav:0:256546	16034	256546	<triplet> Millard Fillmore <subj> Summerhill , N.Y. <obj> Live_In	0	en
+train-267	/path/to/datasets/conll04/audio/train/train-267.wav:0:146576	9161	146576	<triplet> Stockholm <subj> Sweden. <obj> Located_In	0	en
+train-268	/path/to/datasets/conll04/audio/train/train-268.wav:0:263605	16475	263605	<triplet> Ginsberg <subj> New Jersey <obj> Live_In	0	en
+train-269	/path/to/datasets/conll04/audio/train/train-269.wav:0:285525	17845	285525	<triplet> Darci Alves Pereira <subj> Mendes <obj> Kill	0	en
+train-270	/path/to/datasets/conll04/audio/train/train-270.wav:0:162923	10182	162923	<triplet> Margie Clack. <subj> Forest Service <obj> Work_For	0	en
+train-271	/path/to/datasets/conll04/audio/train/train-271.wav:0:223481	13967	223481	<triplet> Duane Hanson <subj> Minnesota <obj> Live_In	0	en
+train-272	/path/to/datasets/conll04/audio/train/train-272.wav:0:35864	2241	35864	<triplet> LANCASTER <subj> Ky. <obj> Located_In	0	en
+train-273	/path/to/datasets/conll04/audio/train/train-273.wav:0:310416	19401	310416	<triplet> Chinese Government <subj> China <obj> OrgBased_In <subj> China <obj> OrgBased_In	0	en
+train-274	/path/to/datasets/conll04/audio/train/train-274.wav:0:179270	11204	179270	<triplet> Bob Dole <subj> Russell , Kan <obj> Live_In	0	en
+train-275	/path/to/datasets/conll04/audio/train/train-275.wav:0:136917	8557	136917	<triplet> George Washington <subj> Westmoreland County <obj> Live_In	0	en
+train-276	/path/to/datasets/conll04/audio/train/train-276.wav:0:168125	10507	168125	<triplet> Harold Richardson <subj> U.S. Strategic Defense Initiative Office <obj> Work_For	0	en
+train-277	/path/to/datasets/conll04/audio/train/train-277.wav:0:251345	15709	251345	<triplet> John Shalikashvili <subj> Joint Chiefs of Staff <obj> Work_For	0	en
+train-278	/path/to/datasets/conll04/audio/train/train-278.wav:0:26947	1684	26947	<triplet> THE NATION <subj> Bangkok <obj> OrgBased_In	0	en
+train-279	/path/to/datasets/conll04/audio/train/train-279.wav:0:370974	23185	370974	<triplet> Lee Harvey Oswald <subj> Mr Kennedy <obj> Kill	0	en
+train-280	/path/to/datasets/conll04/audio/train/train-280.wav:0:209362	13085	209362	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-281	/path/to/datasets/conll04/audio/train/train-281.wav:0:195989	12249	195989	<triplet> Perugia <subj> Umbria <obj> Located_In	0	en
+train-282	/path/to/datasets/conll04/audio/train/train-282.wav:0:233883	14617	233883	<triplet> Gen. Samuel K. Doe <subj> President William Tolbert <obj> Kill	0	en
+train-283	/path/to/datasets/conll04/audio/train/train-283.wav:0:206020	12876	206020	<triplet> Goddess of Democracy <subj> Chinatown <obj> Located_In	0	en
+train-284	/path/to/datasets/conll04/audio/train/train-284.wav:0:234255	14640	234255	<triplet> Darly Alves da Silva <subj> Mendes <obj> Kill	0	en
+train-285	/path/to/datasets/conll04/audio/train/train-285.wav:0:172583	10786	172583	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+train-286	/path/to/datasets/conll04/audio/train/train-286.wav:0:152892	9555	152892	<triplet> Javier Perez de Cuellar <subj> U.N. <obj> Work_For	0	en
+train-287	/path/to/datasets/conll04/audio/train/train-287.wav:0:244658	15291	244658	<triplet> Grande Isle <subj> Vt. <obj> Located_In <triplet> St. Albans <subj> Vt. <obj> Located_In	0	en
+train-288	/path/to/datasets/conll04/audio/train/train-288.wav:0:485774	30360	485774	<triplet> Alvaro Arzu <subj> National Vanguard Party <obj> Work_For	0	en
+train-289	/path/to/datasets/conll04/audio/train/train-289.wav:0:240942	15058	240942	<triplet> Afar district <subj> Djibouti <obj> Located_In <subj> Arhiba <obj> Located_In <triplet> Arhiba <subj> Djibouti <obj> Located_In <triplet> Djama Elabe <subj> Party for Democratic Renewal <obj> Work_For	0	en
+train-290	/path/to/datasets/conll04/audio/train/train-290.wav:0:189673	11854	189673	<triplet> Mount Blanc <subj> Western Europe <obj> Located_In	0	en
+train-291	/path/to/datasets/conll04/audio/train/train-291.wav:0:246515	15407	246515	<triplet> Ralph K. Winter <subj> 2nd U.S. Circuit Court of Appeals <obj> Work_For <triplet> 2nd U.S. Circuit Court of Appeals <subj> New York City <obj> OrgBased_In <triplet> Kenneth Starr <subj> U.S. Circuit Court of Appeals <obj> Work_For <triplet> U.S. Circuit Court of Appeals <subj> District of Columbia <obj> OrgBased_In	0	en
+train-292	/path/to/datasets/conll04/audio/train/train-292.wav:0:369488	23093	369488	<triplet> Grigory Karasin <subj> Foreign Ministry <obj> Work_For	0	en
+train-293	/path/to/datasets/conll04/audio/train/train-293.wav:0:164781	10298	164781	<triplet> Anhui <subj> China <obj> Located_In	0	en
+train-294	/path/to/datasets/conll04/audio/train/train-294.wav:0:169611	10600	169611	<triplet> N-TV <subj> Berlin <obj> OrgBased_In	0	en
+train-295	/path/to/datasets/conll04/audio/train/train-295.wav:0:172211	10763	172211	<triplet> Florida <subj> Gulf Coast <obj> Located_In	0	en
+train-296	/path/to/datasets/conll04/audio/train/train-296.wav:0:114254	7140	114254	<triplet> Lou Ray <subj> Fontana <obj> Live_In	0	en
+train-297	/path/to/datasets/conll04/audio/train/train-297.wav:0:169239	10577	169239	<triplet> I KATHIMERINI <subj> Athens <obj> OrgBased_In	0	en
+train-298	/path/to/datasets/conll04/audio/train/train-298.wav:0:103109	6444	103109	<triplet> Will Rogers <subj> Oologah , Okla <obj> Live_In	0	en
+train-299	/path/to/datasets/conll04/audio/train/train-299.wav:0:32520	2032	32520	<triplet> FRESNO <subj> Calif. <obj> Located_In	0	en
+train-300	/path/to/datasets/conll04/audio/train/train-300.wav:0:202304	12644	202304	<triplet> George Malina <subj> Healy <obj> Work_For	0	en
+train-301	/path/to/datasets/conll04/audio/train/train-301.wav:0:34006	2125	34006	<triplet> I KATHIMERINI <subj> Athens <obj> OrgBased_In	0	en
+train-302	/path/to/datasets/conll04/audio/train/train-302.wav:0:171468	10716	171468	<triplet> Cybill Shepherd <subj> Memphis <obj> Live_In	0	en
+train-303	/path/to/datasets/conll04/audio/train/train-303.wav:0:204533	12783	204533	<triplet> Perez de Cuellar <subj> U.N. <obj> Work_For <subj> United Nations <obj> Work_For	0	en
+train-304	/path/to/datasets/conll04/audio/train/train-304.wav:0:145833	9114	145833	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-305	/path/to/datasets/conll04/audio/train/train-305.wav:0:186329	11645	186329	<triplet> Stephen Greiner <subj> Farley <obj> Work_For	0	en
+train-306	/path/to/datasets/conll04/audio/train/train-306.wav:0:305958	19122	305958	<triplet> TANJUG <subj> Knin <obj> OrgBased_In <triplet> Milan Martic <subj> Krajina <obj> Live_In <subj> RSK <obj> Live_In <subj> republic of Serbian Krajina <obj> Live_In	0	en
+train-307	/path/to/datasets/conll04/audio/train/train-307.wav:0:132086	8255	132086	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+train-308	/path/to/datasets/conll04/audio/train/train-308.wav:0:275494	17218	275494	<triplet> Rudolf Filkus <subj> Slovakia <obj> Live_In	0	en
+train-309	/path/to/datasets/conll04/audio/train/train-309.wav:0:221623	13851	221623	<triplet> Warner <subj> Home State Savings Bank of Cincinnati <obj> Work_For	0	en
+train-310	/path/to/datasets/conll04/audio/train/train-310.wav:0:122055	7628	122055	<triplet> Moscow <subj> Russia <obj> Located_In <triplet> PRAVDA <subj> Moscow <obj> OrgBased_In <subj> Russia <obj> OrgBased_In	0	en
+train-311	/path/to/datasets/conll04/audio/train/train-311.wav:0:45522	2845	45522	<triplet> HIGH ISLAND <subj> Texas <obj> Located_In	0	en
+train-312	/path/to/datasets/conll04/audio/train/train-312.wav:0:98279	6142	98279	<triplet> Anhui <subj> China <obj> Located_In	0	en
+train-313	/path/to/datasets/conll04/audio/train/train-313.wav:0:122055	7628	122055	<triplet> DES MOINES <subj> Iowa <obj> Located_In	0	en
+train-314	/path/to/datasets/conll04/audio/train/train-314.wav:0:203047	12690	203047	<triplet> James O 'Brien <subj> California Highway Patrol <obj> Work_For	0	en
+train-315	/path/to/datasets/conll04/audio/train/train-315.wav:0:59269	3704	59269	<triplet> Radio Bosnia-Herzegovina Network <subj> Sarajevo <obj> OrgBased_In	0	en
+train-316	/path/to/datasets/conll04/audio/train/train-316.wav:0:224596	14037	224596	<triplet> Bernice K. McIntyre. <subj> Department of Public Utilities <obj> Work_For	0	en
+train-317	/path/to/datasets/conll04/audio/train/train-317.wav:0:28433	1777	28433	<triplet> AP <subj> VATICAN CITY <obj> OrgBased_In	0	en
+train-318	/path/to/datasets/conll04/audio/train/train-318.wav:0:144719	9044	144719	<triplet> National Aeronautics and Space Administration. <subj> America <obj> OrgBased_In	0	en
+train-319	/path/to/datasets/conll04/audio/train/train-319.wav:0:234627	14664	234627	<triplet> Abraham Lincoln <subj> Larue County , Kentucky <obj> Live_In	0	en
+train-320	/path/to/datasets/conll04/audio/train/train-320.wav:0:169982	10623	169982	<triplet> Fire Department <subj> Orange County <obj> OrgBased_In <triplet> Hugh Madlock <subj> Orange County <obj> Live_In <subj> Fire Department <obj> Work_For	0	en
+train-321	/path/to/datasets/conll04/audio/train/train-321.wav:0:179270	11204	179270	<triplet> Pasadena <subj> Calif. <obj> Located_In <triplet> Gary <subj> Ind . <obj> Located_In	0	en
+train-322	/path/to/datasets/conll04/audio/train/train-322.wav:0:199331	12458	199331	<triplet> Kelowna <subj> British Columbia <obj> Located_In	0	en
+train-323	/path/to/datasets/conll04/audio/train/train-323.wav:0:101994	6374	101994	<triplet> M. Pierre Brochand <subj> France <obj> Live_In	0	en
+train-324	/path/to/datasets/conll04/audio/train/train-324.wav:0:102366	6397	102366	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en
+train-325	/path/to/datasets/conll04/audio/train/train-325.wav:0:286639	17914	286639	<triplet> ANP <subj> The Hague <obj> OrgBased_In <subj> The Hague <obj> OrgBased_In	0	en
+train-326	/path/to/datasets/conll04/audio/train/train-326.wav:0:57040	3565	57040	<triplet> Elizabeth. <subj> North Carolina <obj> Live_In	0	en
+train-327	/path/to/datasets/conll04/audio/train/train-327.wav:0:105338	6583	105338	<triplet> Casablanca <subj> Morocco <obj> Located_In	0	en
+train-328	/path/to/datasets/conll04/audio/train/train-328.wav:0:135431	8464	135431	<triplet> Dean Falk <subj> State University of New York <obj> Work_For <subj> Albany <obj> Live_In <triplet> State University of New York <subj> Albany <obj> OrgBased_In	0	en
+train-329	/path/to/datasets/conll04/audio/train/train-329.wav:0:36607	2287	36607	<triplet> BAYONNE <subj> France <obj> Located_In	0	en
+train-330	/path/to/datasets/conll04/audio/train/train-330.wav:0:109796	6862	109796	<triplet> Grover Hartt III <subj> IRS. <obj> Work_For	0	en
+train-331	/path/to/datasets/conll04/audio/train/train-331.wav:0:138403	8650	138403	<triplet> Joseph Smith Jr. <subj> Sharon , Vt <obj> Live_In	0	en
+train-332	/path/to/datasets/conll04/audio/train/train-332.wav:0:38836	2427	38836	<triplet> Radio Rebelde Network <subj> Havana <obj> OrgBased_In	0	en
+train-333	/path/to/datasets/conll04/audio/train/train-333.wav:0:38464	2404	38464	<triplet> CARACAS <subj> Venezuela <obj> Located_In	0	en
+train-334	/path/to/datasets/conll04/audio/train/train-334.wav:0:367259	22953	367259	<triplet> Franjo Tudjman <subj> Croatia <obj> Live_In	0	en
+train-335	/path/to/datasets/conll04/audio/train/train-335.wav:0:159951	9996	159951	<triplet> SUEDDEUTSCHE ZEITUNG <subj> Munich <obj> OrgBased_In	0	en
+train-336	/path/to/datasets/conll04/audio/train/train-336.wav:0:146576	9161	146576	<triplet> Ulysses S. Grant <subj> Point Pleasant , Ohio <obj> Live_In	0	en
+train-337	/path/to/datasets/conll04/audio/train/train-337.wav:0:68186	4261	68186	<triplet> Samih al-Sa 'id <subj> Asyut <obj> Live_In	0	en
+train-338	/path/to/datasets/conll04/audio/train/train-338.wav:0:127629	7976	127629	<triplet> Mary Campbell <subj> Clover Town Council <obj> Work_For	0	en
+train-339	/path/to/datasets/conll04/audio/train/train-339.wav:0:92706	5794	92706	<triplet> Harry Reasoner <subj> Iowa <obj> Live_In	0	en
+train-340	/path/to/datasets/conll04/audio/train/train-340.wav:0:252831	15801	252831	<triplet> Antonio Vasquez Ochoa <subj> John Walker <obj> Kill <subj> Alberto Radelat <obj> Kill	0	en
+train-341	/path/to/datasets/conll04/audio/train/train-341.wav:0:154378	9648	154378	<triplet> Port Nolloth <subj> South Africa <obj> Located_In	0	en
+train-342	/path/to/datasets/conll04/audio/train/train-342.wav:0:179642	11227	179642	<triplet> SAPA <subj> Johannesburg <obj> OrgBased_In	0	en
+train-343	/path/to/datasets/conll04/audio/train/train-343.wav:0:248744	15546	248744	<triplet> Van Buren <subj> Kinderhook <obj> Live_In	0	en
+train-344	/path/to/datasets/conll04/audio/train/train-344.wav:0:156236	9764	156236	<triplet> Roland Dumas <subj> France. <obj> Live_In	0	en
+train-345	/path/to/datasets/conll04/audio/train/train-345.wav:0:118713	7419	118713	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-346	/path/to/datasets/conll04/audio/train/train-346.wav:0:262119	16382	262119	<triplet> David Leahy <subj> Dade County <obj> Live_In	0	en
+train-347	/path/to/datasets/conll04/audio/train/train-347.wav:0:122428	7651	122428	<triplet> John Wilkes Booth <subj> Lincoln <obj> Kill	0	en
+train-348	/path/to/datasets/conll04/audio/train/train-348.wav:0:45152	2822	45152	<triplet> BUENOS AIRES <subj> Argentina <obj> Located_In	0	en
+train-349	/path/to/datasets/conll04/audio/train/train-349.wav:0:291469	18216	291469	<triplet> George Lucas <subj> Modesto <obj> Live_In <triplet> McHenry Avenue <subj> California <obj> Located_In	0	en
+train-350	/path/to/datasets/conll04/audio/train/train-350.wav:0:79331	4958	79331	<triplet> Lee Mitgang <subj> AP <obj> Work_For	0	en
+train-351	/path/to/datasets/conll04/audio/train/train-351.wav:0:242428	15151	242428	<triplet> Texas Department of Agriculture <subj> Texas <obj> OrgBased_In <triplet> Jim Hightower <subj> Texas Department of Agriculture <obj> Work_For <subj> Texas <obj> Live_In	0	en
+train-352	/path/to/datasets/conll04/audio/train/train-352.wav:0:399581	24973	399581	<triplet> Pearl Harbor <subj> Hawaii <obj> Located_In	0	en
+train-353	/path/to/datasets/conll04/audio/train/train-353.wav:0:143233	8952	143233	<triplet> James Earl Ray <subj> Martin Luther King Jr. <obj> Kill	0	en
+train-354	/path/to/datasets/conll04/audio/train/train-354.wav:0:349054	21815	349054	<triplet> Oliver North. <subj> National Security Council <obj> Work_For	0	en
+train-355	/path/to/datasets/conll04/audio/train/train-355.wav:0:229054	14315	229054	<triplet> Cesar Augusto Morones Servin <subj> CEO <obj> Work_For	0	en
+train-356	/path/to/datasets/conll04/audio/train/train-356.wav:0:161809	10113	161809	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+train-357	/path/to/datasets/conll04/audio/train/train-357.wav:0:134316	8394	134316	<triplet> John Tyler <subj> Charles City County , Va <obj> Live_In	0	en
+train-358	/path/to/datasets/conll04/audio/train/train-358.wav:0:199331	12458	199331	<triplet> Diana Mondino <subj> Argentine Center for Macroeconomic Studies <obj> Work_For	0	en
+train-359	/path/to/datasets/conll04/audio/train/train-359.wav:0:271778	16986	271778	<triplet> Rutherford B. Hayes <subj> Delaware , Ohio <obj> Live_In	0	en
+train-360	/path/to/datasets/conll04/audio/train/train-360.wav:0:28805	1800	28805	<triplet> PRAVDA <subj> Moscow <obj> OrgBased_In	0	en
+train-361	/path/to/datasets/conll04/audio/train/train-361.wav:0:278094	17380	278094	<triplet> Minox <subj> West Germany <obj> OrgBased_In <triplet> Leica <subj> West Germany <obj> OrgBased_In <triplet> Rollei <subj> West Germany <obj> OrgBased_In	0	en
+train-362	/path/to/datasets/conll04/audio/train/train-362.wav:0:191530	11970	191530	<triplet> Igor Khmelnov <subj> Pacific Fleet <obj> Work_For	0	en
+train-363	/path/to/datasets/conll04/audio/train/train-363.wav:0:169239	10577	169239	<triplet> Sirhan <subj> Sen. Robert Kennedy <obj> Kill	0	en
+train-364	/path/to/datasets/conll04/audio/train/train-364.wav:0:309673	19354	309673	<triplet> National Assembly <subj> Uruguay <obj> OrgBased_In	0	en
+train-365	/path/to/datasets/conll04/audio/train/train-365.wav:0:186329	11645	186329	<triplet> Berlusconi <subj> Freedom Alliance <obj> Work_For	0	en
+train-366	/path/to/datasets/conll04/audio/train/train-366.wav:0:133945	8371	133945	<triplet> Richard Pavese <subj> Tempe <obj> Live_In	0	en
+train-367	/path/to/datasets/conll04/audio/train/train-367.wav:0:203047	12690	203047	<triplet> Richard P. Kusserow <subj> Health and Human Services <obj> Work_For	0	en
+train-368	/path/to/datasets/conll04/audio/train/train-368.wav:0:250230	15639	250230	<triplet> Derwinski <subj> House Foreign Affairs subcommittee <obj> Work_For	0	en
+train-369	/path/to/datasets/conll04/audio/train/train-369.wav:0:279580	17473	279580	<triplet> Andres Vega Cedeno <subj> Panama City <obj> Live_In <triplet> Felipe Cano <subj> San Miguelito <obj> Live_In	0	en
+train-370	/path/to/datasets/conll04/audio/train/train-370.wav:0:251345	15709	251345	<triplet> Pinedale <subj> New Mexico <obj> Located_In	0	en
+train-371	/path/to/datasets/conll04/audio/train/train-371.wav:0:224596	14037	224596	<triplet> Sirhan Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill <subj> Kennedy <obj> Kill	0	en
+train-372	/path/to/datasets/conll04/audio/train/train-372.wav:0:108310	6769	108310	<triplet> THE HINDU <subj> Madras <obj> OrgBased_In	0	en
+train-373	/path/to/datasets/conll04/audio/train/train-373.wav:0:130601	8162	130601	<triplet> Lenin Shipyard <subj> Gdansk <obj> Located_In <triplet> Walesa <subj> Solidarity <obj> Work_For	0	en
+train-374	/path/to/datasets/conll04/audio/train/train-374.wav:0:117598	7349	117598	<triplet> Salida <subj> Colorado <obj> Located_In <triplet> Gunnison <subj> Colorado <obj> Located_In	0	en
+train-375	/path/to/datasets/conll04/audio/train/train-375.wav:0:273265	17079	273265	<triplet> Sanders <subj> CBOT <obj> Work_For <triplet> Daniel Dewey <subj> CBOT <obj> Work_For	0	en
+train-376	/path/to/datasets/conll04/audio/train/train-376.wav:0:109796	6862	109796	<triplet> Anderson <subj> Associated Press. <obj> Work_For	0	en
+train-377	/path/to/datasets/conll04/audio/train/train-377.wav:0:149920	9370	149920	<triplet> Angel Pena <subj> Mediterranean Foundation <obj> Work_For	0	en
+train-378	/path/to/datasets/conll04/audio/train/train-378.wav:0:122055	7628	122055	<triplet> Al Comproni. <subj> Massachusetts Department of Public Health <obj> Work_For	0	en
+train-379	/path/to/datasets/conll04/audio/train/train-379.wav:0:186701	11668	186701	<triplet> Larry Jinks <subj> Knight-Ridder <obj> Work_For <subj> San Jose Mercury News <obj> Work_For <triplet> William A. Ott <subj> Knight-Ridder <obj> Work_For <subj> San Jose Mercury News <obj> Work_For	0	en
+train-380	/path/to/datasets/conll04/audio/train/train-380.wav:0:203047	12690	203047	<triplet> Prasong Sunsiri <subj> Thailand <obj> Live_In	0	en
+train-381	/path/to/datasets/conll04/audio/train/train-381.wav:0:140261	8766	140261	<triplet> Reith Chuol <subj> Upper Nile region <obj> Live_In	0	en
+train-382	/path/to/datasets/conll04/audio/train/train-382.wav:0:171840	10740	171840	<triplet> Kravchuk <subj> Ukraine <obj> Live_In <triplet> Chornovil <subj> Ukraine <obj> Live_In	0	en
+train-383	/path/to/datasets/conll04/audio/train/train-383.wav:0:92335	5770	92335	<triplet> Emily Dickinson <subj> Amherst , Mass <obj> Live_In	0	en
+train-384	/path/to/datasets/conll04/audio/train/train-384.wav:0:234998	14687	234998	<triplet> Dayton International Airport <subj> Dayton <obj> Located_In <triplet> Dayton <subj> Dayton International Airport <obj> Located_In	0	en
+train-385	/path/to/datasets/conll04/audio/train/train-385.wav:0:116483	7280	116483	<triplet> Richard Taylor <subj> Atlanta <obj> Live_In	0	en
+train-386	/path/to/datasets/conll04/audio/train/train-386.wav:0:146205	9137	146205	<triplet> Democratic Socialists <subj> America <obj> OrgBased_In	0	en
+train-387	/path/to/datasets/conll04/audio/train/train-387.wav:0:115369	7210	115369	<triplet> THE SUNDAY TIMES <subj> London <obj> OrgBased_In	0	en
+train-388	/path/to/datasets/conll04/audio/train/train-388.wav:0:304472	19029	304472	<triplet> Jesse Jackson <subj> Greenville , S.C. <obj> Live_In	0	en
+train-389	/path/to/datasets/conll04/audio/train/train-389.wav:0:204533	12783	204533	<triplet> GAZETA MERCANTIL <subj> Sao Paulo <obj> OrgBased_In	0	en
+train-390	/path/to/datasets/conll04/audio/train/train-390.wav:0:232026	14501	232026	<triplet> Las Vegas <subj> Nev. <obj> Located_In	0	en
+train-391	/path/to/datasets/conll04/audio/train/train-391.wav:0:173697	10856	173697	<triplet> Mark David Chapman <subj> John Lennon <obj> Kill	0	en
+train-392	/path/to/datasets/conll04/audio/train/train-392.wav:0:205648	12853	205648	<triplet> Umbria <subj> Italy <obj> Located_In <triplet> Lazio <subj> Italy <obj> Located_In <triplet> Campania <subj> Italy <obj> Located_In	0	en
+train-393	/path/to/datasets/conll04/audio/train/train-393.wav:0:221252	13828	221252	<triplet> Warner <subj> Ocala <obj> Live_In <subj> Fla. <obj> Live_In <triplet> Ocala <subj> Fla. <obj> Located_In <triplet> U.S. Bankruptcy Court <subj> Jacksonville <obj> Located_In <subj> Fla. <obj> Located_In <triplet> Jacksonville <subj> Fla. <obj> Located_In	0	en
+train-394	/path/to/datasets/conll04/audio/train/train-394.wav:0:117598	7349	117598	<triplet> Henry Ford <subj> Dearborn Township , Mich <obj> Live_In	0	en
+train-395	/path/to/datasets/conll04/audio/train/train-395.wav:0:239085	14942	239085	<triplet> Don Paramatwinai <subj> Foreign Ministry <obj> Work_For <subj> Southeast Asian Department <obj> Work_For	0	en
+train-396	/path/to/datasets/conll04/audio/train/train-396.wav:0:35864	2241	35864	<triplet> ITAR-TASS <subj> Moscow <obj> OrgBased_In	0	en
+train-397	/path/to/datasets/conll04/audio/train/train-397.wav:0:196732	12295	196732	<triplet> Brutus <subj> Roman Emperor Julius Caesar <obj> Kill <triplet> Cassius <subj> Roman Emperor Julius Caesar <obj> Kill	0	en
+train-398	/path/to/datasets/conll04/audio/train/train-398.wav:0:182614	11413	182614	<triplet> Thomas Wolfe <subj> North Carolina <obj> Live_In	0	en
+train-399	/path/to/datasets/conll04/audio/train/train-399.wav:0:416671	26041	416671	<triplet> Dan Rather <subj> CBS <obj> Work_For	0	en
+train-400	/path/to/datasets/conll04/audio/train/train-400.wav:0:138775	8673	138775	<triplet> Akagera River <subj> Tanzania <obj> Located_In <subj> Uganda <obj> Located_In	0	en
+train-401	/path/to/datasets/conll04/audio/train/train-401.wav:0:34749	2171	34749	<triplet> Camp Butner <subj> N.C. <obj> Located_In	0	en
+train-402	/path/to/datasets/conll04/audio/train/train-402.wav:0:119456	7466	119456	<triplet> Daniel Sullivan <subj> Boothbay <obj> Live_In	0	en
+train-403	/path/to/datasets/conll04/audio/train/train-403.wav:0:207134	12945	207134	<triplet> Clear Air Force Station <subj> Alaska <obj> Located_In	0	en
+train-404	/path/to/datasets/conll04/audio/train/train-404.wav:0:164781	10298	164781	<triplet> Zachary Taylor <subj> Orange County , Virginia <obj> Live_In	0	en
+train-405	/path/to/datasets/conll04/audio/train/train-405.wav:0:407383	25461	407383	<triplet> Robert Mugabe <subj> Zimbabwe <obj> Live_In	0	en
+train-406	/path/to/datasets/conll04/audio/train/train-406.wav:0:180385	11274	180385	<triplet> Tim Valentine <subj> U.S. <obj> Live_In	0	en
+train-407	/path/to/datasets/conll04/audio/train/train-407.wav:0:194502	12156	194502	<triplet> Donald W. Riegle Jr. <subj> Senate Banking Committee <obj> Work_For	0	en
+train-408	/path/to/datasets/conll04/audio/train/train-408.wav:0:183357	11459	183357	<triplet> Sirhan <subj> U.S. Sen. Robert Kennedy <obj> Kill	0	en
+train-409	/path/to/datasets/conll04/audio/train/train-409.wav:0:216794	13549	216794	<triplet> Ray <subj> King <obj> Kill	0	en
+train-410	/path/to/datasets/conll04/audio/train/train-410.wav:0:274008	17125	274008	<triplet> NRC <subj> Rockville <obj> OrgBased_In <subj> Md. <obj> OrgBased_In <triplet> Rockville <subj> Md. <obj> Located_In	0	en
+train-411	/path/to/datasets/conll04/audio/train/train-411.wav:0:159951	9996	159951	<triplet> FBI <subj> United States <obj> OrgBased_In	0	en
+train-412	/path/to/datasets/conll04/audio/train/train-412.wav:0:226825	14176	226825	<triplet> ITAR-TASS <subj> Moscow <obj> OrgBased_In <subj> Moscow <obj> OrgBased_In	0	en
+train-413	/path/to/datasets/conll04/audio/train/train-413.wav:0:78217	4888	78217	<triplet> Ruby <subj> Oswald <obj> Kill	0	en
+train-414	/path/to/datasets/conll04/audio/train/train-414.wav:0:131716	8232	131716	<triplet> Earl Long <subj> Louisiana <obj> Live_In	0	en
+train-415	/path/to/datasets/conll04/audio/train/train-415.wav:0:105338	6583	105338	<triplet> Edouard Balladur <subj> Paris <obj> Live_In	0	en
+train-416	/path/to/datasets/conll04/audio/train/train-416.wav:0:215308	13456	215308	<triplet> Higgins <subj> Danville <obj> Live_In <subj> Louisville. <obj> Live_In	0	en
+train-417	/path/to/datasets/conll04/audio/train/train-417.wav:0:190416	11901	190416	<triplet> Suzanne Zachry <subj> Wallowa-Whitman National Forest <obj> Work_For	0	en
+train-418	/path/to/datasets/conll04/audio/train/train-418.wav:0:103109	6444	103109	<triplet> Aldrin <subj> Montclair , N.J. <obj> Live_In <triplet> Edwin E. Aldrin Jr <subj> Montclair , N.J. <obj> Live_In	0	en
+train-419	/path/to/datasets/conll04/audio/train/train-419.wav:0:136174	8510	136174	<triplet> Bruce Jonasson <subj> Bradley First Air <obj> Work_For	0	en
+train-420	/path/to/datasets/conll04/audio/train/train-420.wav:0:158465	9904	158465	<triplet> Cascade Mountains <subj> Oregon <obj> Located_In	0	en
+train-421	/path/to/datasets/conll04/audio/train/train-421.wav:0:267320	16707	267320	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en
+train-422	/path/to/datasets/conll04/audio/train/train-422.wav:0:180756	11297	180756	<triplet> Reagan <subj> America <obj> Live_In	0	en
+train-423	/path/to/datasets/conll04/audio/train/train-423.wav:0:127629	7976	127629	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en
+train-424	/path/to/datasets/conll04/audio/train/train-424.wav:0:26947	1684	26947	<triplet> XINHUA <subj> Beijing <obj> OrgBased_In	0	en
+train-425	/path/to/datasets/conll04/audio/train/train-425.wav:0:278837	17427	278837	<triplet> John Ray <subj> District of Columbia Council <obj> Work_For	0	en
+train-426	/path/to/datasets/conll04/audio/train/train-426.wav:0:127257	7953	127257	<triplet> Gerald R. Ford <subj> Omaha , Neb <obj> Live_In	0	en
+train-427	/path/to/datasets/conll04/audio/train/train-427.wav:0:194502	12156	194502	<triplet> Tuvia Tzafir <subj> Israel <obj> Live_In	0	en
+train-428	/path/to/datasets/conll04/audio/train/train-428.wav:0:198218	12388	198218	<triplet> Robert Thompson <subj> Eaglebrook <obj> Work_For	0	en
+train-429	/path/to/datasets/conll04/audio/train/train-429.wav:0:178899	11181	178899	<triplet> James O. Mason <subj> Department of Health and Human Services <obj> Work_For	0	en
+train-430	/path/to/datasets/conll04/audio/train/train-430.wav:0:141747	8859	141747	<triplet> James Garfield <subj> Orange , Ohio <obj> Live_In	0	en
+train-431	/path/to/datasets/conll04/audio/train/train-431.wav:0:186701	11668	186701	<triplet> Whitefish <subj> Montana <obj> Located_In	0	en
+train-432	/path/to/datasets/conll04/audio/train/train-432.wav:0:26947	1684	26947	<triplet> Mark David Chapman <subj> Lennon <obj> Kill	0	en
+train-433	/path/to/datasets/conll04/audio/train/train-433.wav:0:209735	13108	209735	<triplet> David Abernathy <subj> Linden , Ala. <obj> Live_In	0	en
+train-434	/path/to/datasets/conll04/audio/train/train-434.wav:0:217165	13572	217165	<triplet> Buddy Roemer <subj> Louisiana <obj> Live_In	0	en
+train-435	/path/to/datasets/conll04/audio/train/train-435.wav:0:165152	10322	165152	<triplet> Mountain Empire Unified School District <subj> San Diego <obj> Located_In	0	en
+train-436	/path/to/datasets/conll04/audio/train/train-436.wav:0:94192	5887	94192	<triplet> Sirhan B. Sirhan <subj> Kennedy <obj> Kill	0	en
+train-437	/path/to/datasets/conll04/audio/train/train-437.wav:0:114997	7187	114997	<triplet> Supreme Council <subj> Ukraine <obj> OrgBased_In	0	en
+train-438	/path/to/datasets/conll04/audio/train/train-438.wav:0:101623	6351	101623	<triplet> Deng Nan <subj> China <obj> Live_In	0	en
+train-439	/path/to/datasets/conll04/audio/train/train-439.wav:0:269178	16823	269178	<triplet> Mickey Kantor <subj> U.S. <obj> Live_In <triplet> Hosokawa <subj> Japan <obj> Live_In	0	en
+train-440	/path/to/datasets/conll04/audio/train/train-440.wav:0:110539	6908	110539	<triplet> Mount Blanc <subj> Alps <obj> Located_In	0	en
+train-441	/path/to/datasets/conll04/audio/train/train-441.wav:0:40693	2543	40693	<triplet> Andrews Air Force Base <subj> Md. <obj> Located_In	0	en
+train-442	/path/to/datasets/conll04/audio/train/train-442.wav:0:235741	14733	235741	<triplet> Malcolm O 'Neill <subj> Ballistic Missile Development Organization <obj> Work_For <subj> U.S. <obj> Live_In <subj> U.S. <obj> Live_In <triplet> Ballistic Missile Development Organization <subj> U.S. <obj> OrgBased_In <subj> U.S. <obj> OrgBased_In <triplet> Congress <subj> U.S. <obj> OrgBased_In <subj> U.S. <obj> OrgBased_In	0	en
+train-443	/path/to/datasets/conll04/audio/train/train-443.wav:0:143976	8998	143976	<triplet> Waste Disposal Co. <subj> Randolph <obj> OrgBased_In <triplet> Debra Bornstein <subj> Waste Disposal Co. <obj> Work_For	0	en
+train-444	/path/to/datasets/conll04/audio/train/train-444.wav:0:158094	9880	158094	<triplet> Patrick Strosahl <subj> Vision Seattle <obj> Work_For	0	en
+train-445	/path/to/datasets/conll04/audio/train/train-445.wav:0:173697	10856	173697	<triplet> Mark David Chapman <subj> John Lennon <obj> Kill	0	en
+train-446	/path/to/datasets/conll04/audio/train/train-446.wav:0:174069	10879	174069	<triplet> James Monroe <subj> Westmoreland County , Va <obj> Live_In	0	en
+train-447	/path/to/datasets/conll04/audio/train/train-447.wav:0:84160	5260	84160	<triplet> Sirhan Bishara Sirhan <subj> Kennedy <obj> Kill	0	en
+train-448	/path/to/datasets/conll04/audio/train/train-448.wav:0:124657	7791	124657	<triplet> Mark David Chapman <subj> John Lennon <obj> Kill	0	en
+train-449	/path/to/datasets/conll04/audio/train/train-449.wav:0:145833	9114	145833	<triplet> Frank Sobrino <subj> Board of Education <obj> Work_For	0	en
+train-450	/path/to/datasets/conll04/audio/train/train-450.wav:0:185214	11575	185214	<triplet> Shanghai Opera <subj> Shanghai <obj> OrgBased_In	0	en
+train-451	/path/to/datasets/conll04/audio/train/train-451.wav:0:143604	8975	143604	<triplet> Frank B. Colton <subj> Poland <obj> Live_In	0	en
+train-452	/path/to/datasets/conll04/audio/train/train-452.wav:0:210478	13154	210478	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+train-453	/path/to/datasets/conll04/audio/train/train-453.wav:0:110911	6931	110911	<triplet> American Enterprise Institute <subj> U.S. <obj> OrgBased_In	0	en
+train-454	/path/to/datasets/conll04/audio/train/train-454.wav:0:45522	2845	45522	<triplet> ANNAPOLIS <subj> Md . <obj> Located_In	0	en
+train-455	/path/to/datasets/conll04/audio/train/train-455.wav:0:236484	14780	236484	<triplet> Jack Ruby <subj> Lee Harvey Oswald <obj> Kill	0	en
+train-456	/path/to/datasets/conll04/audio/train/train-456.wav:0:169239	10577	169239	<triplet> Thomas Woodrow Wilson <subj> Staunton , Va <obj> Live_In	0	en
+train-457	/path/to/datasets/conll04/audio/train/train-457.wav:0:163295	10205	163295	<triplet> Cetin <subj> Turkey <obj> Live_In <subj> Balkans <obj> Live_In <triplet> Turkey <subj> Balkans <obj> Located_In	0	en
+train-458	/path/to/datasets/conll04/audio/train/train-458.wav:0:331965	20747	331965	<triplet> Jack Ruby <subj> Lee Harvey Oswald <obj> Kill <triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+train-459	/path/to/datasets/conll04/audio/train/train-459.wav:0:305587	19099	305587	<triplet> Lawrence J. Hagen <subj> USDA <obj> Work_For	0	en
+train-460	/path/to/datasets/conll04/audio/train/train-460.wav:0:176298	11018	176298	<triplet> Warner <subj> U.S. <obj> Live_In <subj> Switzerland <obj> Live_In	0	en
+train-461	/path/to/datasets/conll04/audio/train/train-461.wav:0:126886	7930	126886	<triplet> Buddy Holly <subj> Lubbock , Texas <obj> Live_In <triplet> Charles Hardin Holley <subj> Lubbock , Texas <obj> Live_In	0	en
+train-462	/path/to/datasets/conll04/audio/train/train-462.wav:0:505836	31614	505836	<triplet> Mikhail S. Gorbachev <subj> Soviet <obj> Live_In <subj> Soviet <obj> Live_In	0	en
+train-463	/path/to/datasets/conll04/audio/train/train-463.wav:0:143976	8998	143976	<triplet> YONHAP <subj> Seoul <obj> OrgBased_In	0	en
+train-464	/path/to/datasets/conll04/audio/train/train-464.wav:0:163666	10229	163666	<triplet> Charles McC. <subj> Congress <obj> Work_For	0	en
+train-465	/path/to/datasets/conll04/audio/train/train-465.wav:0:129858	8116	129858	<triplet> Miller <subj> Wilmington <obj> Live_In	0	en
+train-466	/path/to/datasets/conll04/audio/train/train-466.wav:0:205277	12829	205277	<triplet> Kafue River <subj> Zambia <obj> Located_In	0	en
+train-467	/path/to/datasets/conll04/audio/train/train-467.wav:0:32892	2055	32892	<triplet> EL COMERCIO <subj> Lima <obj> OrgBased_In	0	en
+train-468	/path/to/datasets/conll04/audio/train/train-468.wav:0:33263	2078	33263	<triplet> WHITEFISH <subj> Mont. <obj> Located_In	0	en
+train-469	/path/to/datasets/conll04/audio/train/train-469.wav:0:139889	8743	139889	<triplet> Peter McWalters <subj> Rochester <obj> Live_In	0	en
+train-470	/path/to/datasets/conll04/audio/train/train-470.wav:0:101623	6351	101623	<triplet> Robinson <subj> Greenville <obj> Live_In	0	en
+train-471	/path/to/datasets/conll04/audio/train/train-471.wav:0:278466	17404	278466	<triplet> Buenos Aires Province <subj> Argentina <obj> Located_In <triplet> Antonio Cafiero. <subj> Argentina <obj> Live_In <subj> Buenos Aires Province <obj> Live_In	0	en
+train-472	/path/to/datasets/conll04/audio/train/train-472.wav:0:222738	13921	222738	<triplet> ITAR-TASS <subj> Moscow <obj> OrgBased_In	0	en
+train-473	/path/to/datasets/conll04/audio/train/train-473.wav:0:216422	13526	216422	<triplet> Jesse Jackson <subj> South Carolina <obj> Live_In	0	en
+train-474	/path/to/datasets/conll04/audio/train/train-474.wav:0:251345	15709	251345	<triplet> Washington <subj> U.S. <obj> Located_In <subj> U.S. <obj> Located_In	0	en
+train-475	/path/to/datasets/conll04/audio/train/train-475.wav:0:139889	8743	139889	<triplet> Cecil Ray. <subj> King County <obj> Live_In	0	en
+train-476	/path/to/datasets/conll04/audio/train/train-476.wav:0:57040	3565	57040	<triplet> Fort Hamilton <subj> Brooklyn <obj> Located_In <subj> N.Y. <obj> Located_In <triplet> Brooklyn <subj> N.Y. <obj> Located_In	0	en
+train-477	/path/to/datasets/conll04/audio/train/train-477.wav:0:182614	11413	182614	<triplet> Giuseppe Zangara <subj> Chicago Mayor Anton Cermak <obj> Kill	0	en
+train-478	/path/to/datasets/conll04/audio/train/train-478.wav:0:227568	14223	227568	<triplet> Marcio Nogueira Barbosa <subj> INPE <obj> Work_For	0	en
+train-479	/path/to/datasets/conll04/audio/train/train-479.wav:0:63356	3959	63356	<triplet> HAUPPAUGE <subj> N.Y . <obj> Located_In	0	en
+train-480	/path/to/datasets/conll04/audio/train/train-480.wav:0:178156	11134	178156	<triplet> Bob Baker <subj> Prudential-Bache Securities Inc. <obj> Work_For	0	en
+train-481	/path/to/datasets/conll04/audio/train/train-481.wav:0:113511	7094	113511	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+train-482	/path/to/datasets/conll04/audio/train/train-482.wav:0:138032	8627	138032	<triplet> Saudi Arabia <subj> Gulf <obj> Located_In	0	en
+train-483	/path/to/datasets/conll04/audio/train/train-483.wav:0:163666	10229	163666	<triplet> Charles A. Palmer <subj> Texas <obj> Live_In	0	en
+train-484	/path/to/datasets/conll04/audio/train/train-484.wav:0:188558	11784	188558	<triplet> Claudio Manoel Constancio <subj> Assipen <obj> Work_For	0	en
+train-485	/path/to/datasets/conll04/audio/train/train-485.wav:0:544845	34052	544845	<triplet> Acharya Giriraj Kishore <subj> Vishwa Hindu Parishad <obj> Work_For <subj> VHP <obj> Work_For	0	en
+train-486	/path/to/datasets/conll04/audio/train/train-486.wav:0:250602	15662	250602	<triplet> Ze 'ev Eytan <subj> Jaffe Center for Strategic Studies <obj> Work_For	0	en
+train-487	/path/to/datasets/conll04/audio/train/train-487.wav:0:298899	18681	298899	<triplet> Oswald <subj> Officer Tippit <obj> Kill	0	en
+train-488	/path/to/datasets/conll04/audio/train/train-488.wav:0:206391	12899	206391	<triplet> RNE International <subj> Madrid <obj> OrgBased_In	0	en
+train-489	/path/to/datasets/conll04/audio/train/train-489.wav:0:61870	3866	61870	<triplet> Oswald <subj> President Kennedy <obj> Kill	0	en
+train-490	/path/to/datasets/conll04/audio/train/train-490.wav:0:184843	11552	184843	<triplet> Francisco Pizarro <subj> Atahualpa <obj> Kill	0	en
+train-491	/path/to/datasets/conll04/audio/train/train-491.wav:0:250973	15685	250973	<triplet> XINHUA <subj> Beijing <obj> OrgBased_In <triplet> Qian Qichen <subj> Beijing <obj> Live_In	0	en
+train-492	/path/to/datasets/conll04/audio/train/train-492.wav:0:31777	1986	31777	<triplet> Baton Rouge <subj> La. <obj> Located_In	0	en
+train-493	/path/to/datasets/conll04/audio/train/train-493.wav:0:208249	13015	208249	<triplet> Ouyang Zhongcan <subj> Institute of Theoretical Physics <obj> Work_For	0	en
+train-494	/path/to/datasets/conll04/audio/train/train-494.wav:0:180012	11250	180012	<triplet> John Wilkes Booth <subj> President Abraham Lincoln <obj> Kill	0	en
+train-495	/path/to/datasets/conll04/audio/train/train-495.wav:0:144347	9021	144347	<triplet> Pat Philbin. <subj> Coast Guard <obj> Work_For	0	en
+train-496	/path/to/datasets/conll04/audio/train/train-496.wav:0:172583	10786	172583	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-497	/path/to/datasets/conll04/audio/train/train-497.wav:0:130230	8139	130230	<triplet> Gus Melonas <subj> Burlington <obj> Work_For	0	en
+train-498	/path/to/datasets/conll04/audio/train/train-498.wav:0:255060	15941	255060	<triplet> Aleksander Alekseev <subj> Soviet <obj> Live_In	0	en
+train-499	/path/to/datasets/conll04/audio/train/train-499.wav:0:381377	23836	381377	<triplet> YONHAP <subj> Seoul <obj> OrgBased_In	0	en
+train-500	/path/to/datasets/conll04/audio/train/train-500.wav:0:311903	19493	311903	<triplet> National Aeronautics and Space Administration <subj> U.S. <obj> OrgBased_In <triplet> NASA <subj> U.S. <obj> OrgBased_In <triplet> Department of Defense <subj> U.S. <obj> OrgBased_In	0	en
+train-501	/path/to/datasets/conll04/audio/train/train-501.wav:0:121685	7605	121685	<triplet> Buffalo Bill <subj> Davenport , Iowa <obj> Live_In <triplet> Cody <subj> Davenport , Iowa <obj> Live_In	0	en
+train-502	/path/to/datasets/conll04/audio/train/train-502.wav:0:128000	8000	128000	<triplet> Ivan Plyushch <subj> Supreme Soviet Council <obj> Work_For <subj> Supreme Soviet Council <obj> Work_For	0	en
+train-503	/path/to/datasets/conll04/audio/train/train-503.wav:0:36235	2264	36235	<triplet> GAZETA MERCANTIL <subj> Sao Paulo <obj> OrgBased_In	0	en
+train-504	/path/to/datasets/conll04/audio/train/train-504.wav:0:114254	7140	114254	<triplet> Bob Miller <subj> Nevada. <obj> Live_In	0	en
+train-505	/path/to/datasets/conll04/audio/train/train-505.wav:0:153635	9602	153635	<triplet> James Earl Ray <subj> King <obj> Kill	0	en
+train-506	/path/to/datasets/conll04/audio/train/train-506.wav:0:111282	6955	111282	<triplet> Henry David Thoreau <subj> Concord , Mass <obj> Live_In	0	en
+train-507	/path/to/datasets/conll04/audio/train/train-507.wav:0:153635	9602	153635	<triplet> Nora Ananieva <subj> BSP <obj> Work_For	0	en
+train-508	/path/to/datasets/conll04/audio/train/train-508.wav:0:240571	15035	240571	<triplet> Phnom Penh government <subj> Cambodia <obj> OrgBased_In <triplet> Khmer Rouge <subj> Cambodia <obj> OrgBased_In	0	en
+train-509	/path/to/datasets/conll04/audio/train/train-509.wav:0:172583	10786	172583	<triplet> Bob Graham <subj> Florida <obj> Live_In	0	en
+train-510	/path/to/datasets/conll04/audio/train/train-510.wav:0:232769	14548	232769	<triplet> James Helmer <subj> GE <obj> Work_For	0	en
+train-511	/path/to/datasets/conll04/audio/train/train-511.wav:0:294441	18402	294441	<triplet> Carl Rubin <subj> U.S. <obj> Live_In	0	en
+train-512	/path/to/datasets/conll04/audio/train/train-512.wav:0:32149	2009	32149	<triplet> PASADENA <subj> Calif. <obj> Located_In	0	en
+train-513	/path/to/datasets/conll04/audio/train/train-513.wav:0:403668	25229	403668	<triplet> Bernard Sansaricq <subj> Senate <obj> Work_For <triplet> Firmin Jean-Louis <subj> Senate <obj> Work_For	0	en
+train-514	/path/to/datasets/conll04/audio/train/train-514.wav:0:256546	16034	256546	<triplet> Radio Rebelde Network <subj> Havana <obj> OrgBased_In	0	en
+train-515	/path/to/datasets/conll04/audio/train/train-515.wav:0:230540	14408	230540	<triplet> Sherman G. Finesilver <subj> U.S. <obj> Live_In	0	en
+train-516	/path/to/datasets/conll04/audio/train/train-516.wav:0:172954	10809	172954	<triplet> Norman Vaughan <subj> Trapper Creek <obj> Live_In <subj> Alaska <obj> Live_In <triplet> Trapper Creek <subj> Alaska <obj> Located_In	0	en
+train-517	/path/to/datasets/conll04/audio/train/train-517.wav:0:165524	10345	165524	<triplet> Helen Keller <subj> Tuscumbia , Ala <obj> Live_In	0	en
+train-518	/path/to/datasets/conll04/audio/train/train-518.wav:0:209362	13085	209362	<triplet> Sharon Pratt Dixon <subj> Pepco <obj> Work_For	0	en
+train-519	/path/to/datasets/conll04/audio/train/train-519.wav:0:211592	13224	211592	<triplet> Jack Ruby <subj> Oswald <obj> Kill	0	en
+train-520	/path/to/datasets/conll04/audio/train/train-520.wav:0:156236	9764	156236	<triplet> Michael Dukakis <subj> Massachusetts. <obj> Live_In	0	en
+train-521	/path/to/datasets/conll04/audio/train/train-521.wav:0:141747	8859	141747	<triplet> James Joseph Rovida Jr. <subj> Robert Brock <obj> Kill	0	en
+train-522	/path/to/datasets/conll04/audio/train/train-522.wav:0:161437	10089	161437	<triplet> Helen Keller <subj> Tuscumbia , Ala. <obj> Live_In	0	en
+train-523	/path/to/datasets/conll04/audio/train/train-523.wav:0:44037	2752	44037	<triplet> Kanal-6 Television <subj> London <obj> OrgBased_In	0	en
+train-524	/path/to/datasets/conll04/audio/train/train-524.wav:0:327878	20492	327878	<triplet> Hun Sen <subj> Cambodia <obj> Live_In <subj> Phnom Penh government <obj> Work_For <triplet> Phnom Penh government <subj> Cambodia <obj> OrgBased_In <triplet> Khmer Rouge <subj> Cambodia <obj> OrgBased_In <triplet> KR <subj> Cambodia <obj> OrgBased_In	0	en
+train-525	/path/to/datasets/conll04/audio/train/train-525.wav:0:96421	6026	96421	<triplet> Henry Fonda <subj> Grand Island , Neb <obj> Live_In	0	en
+train-526	/path/to/datasets/conll04/audio/train/train-526.wav:0:131344	8209	131344	<triplet> Shands Hospital <subj> Gainesville <obj> Located_In	0	en
+train-527	/path/to/datasets/conll04/audio/train/train-527.wav:0:101251	6328	101251	<triplet> Will Rogers <subj> Oologah , Okla. <obj> Live_In	0	en
+train-528	/path/to/datasets/conll04/audio/train/train-528.wav:0:24347	1521	24347	<triplet> EFE <subj> Madrid <obj> OrgBased_In	0	en
+train-529	/path/to/datasets/conll04/audio/train/train-529.wav:0:28805	1800	28805	<triplet> TUCSON <subj> Ariz . <obj> Located_In	0	en
+train-530	/path/to/datasets/conll04/audio/train/train-530.wav:0:178527	11157	178527	<triplet> Clinton <subj> United States <obj> Live_In	0	en
+train-531	/path/to/datasets/conll04/audio/train/train-531.wav:0:166639	10414	166639	<triplet> Astoria <subj> Ore. <obj> Located_In <triplet> Needles <subj> Calif. <obj> Located_In	0	en
+train-532	/path/to/datasets/conll04/audio/train/train-532.wav:0:129487	8092	129487	<triplet> Betty Barrow <subj> High Island. <obj> Live_In	0	en
+train-533	/path/to/datasets/conll04/audio/train/train-533.wav:0:402182	25136	402182	<triplet> ANSA <subj> Brussels <obj> OrgBased_In	0	en
+train-534	/path/to/datasets/conll04/audio/train/train-534.wav:0:139146	8696	139146	<triplet> State Department <subj> Washington <obj> OrgBased_In <triplet> U.S. Embassy <subj> Ethiopia <obj> OrgBased_In	0	en
+train-535	/path/to/datasets/conll04/audio/train/train-535.wav:0:197475	12342	197475	<triplet> Richard Kennedy <subj> GE <obj> Work_For	0	en
+train-536	/path/to/datasets/conll04/audio/train/train-536.wav:0:1923553	120222	1923553	<triplet> YAKIMA <subj> Wash. <obj> Located_In	0	en
+train-537	/path/to/datasets/conll04/audio/train/train-537.wav:0:268435	16777	268435	<triplet> Sydney J. Freedberg <subj> Boston <obj> Live_In	0	en
+train-538	/path/to/datasets/conll04/audio/train/train-538.wav:0:168496	10531	168496	<triplet> Grand Isle <subj> Louisiana <obj> Located_In	0	en
+train-539	/path/to/datasets/conll04/audio/train/train-539.wav:0:191902	11993	191902	<triplet> Teruo Sofue <subj> NASDA <obj> Work_For	0	en
+train-540	/path/to/datasets/conll04/audio/train/train-540.wav:0:159208	9950	159208	<triplet> An Wang <subj> Shanghai , China <obj> Live_In	0	en
+train-541	/path/to/datasets/conll04/audio/train/train-541.wav:0:274751	17171	274751	<triplet> CLARIN <subj> Buenos Aires <obj> OrgBased_In	0	en
+train-542	/path/to/datasets/conll04/audio/train/train-542.wav:0:32892	2055	32892	<triplet> AP <subj> SAN FRANCISCO <obj> OrgBased_In	0	en
+train-543	/path/to/datasets/conll04/audio/train/train-543.wav:0:95307	5956	95307	<triplet> Jimmy Dorsey <subj> Shenandoah , Penn <obj> Live_In	0	en
+train-544	/path/to/datasets/conll04/audio/train/train-544.wav:0:272521	17032	272521	<triplet> Larry Martin <subj> Tucson <obj> Live_In	0	en
+train-545	/path/to/datasets/conll04/audio/train/train-545.wav:0:175183	10948	175183	<triplet> Brent <subj> Fresno <obj> Live_In	0	en
+train-546	/path/to/datasets/conll04/audio/train/train-546.wav:0:66328	4145	66328	<triplet> Andrews Lock and Dam <subj> Henry County <obj> Located_In <subj> Ala. <obj> Located_In <triplet> Henry County <subj> Ala. <obj> Located_In	0	en
+train-547	/path/to/datasets/conll04/audio/train/train-547.wav:0:116112	7257	116112	<triplet> Booth <subj> Lincoln <obj> Kill	0	en
+train-548	/path/to/datasets/conll04/audio/train/train-548.wav:0:38836	2427	38836	<triplet> NIAGARA FALLS <subj> N.Y . <obj> Located_In	0	en
+train-549	/path/to/datasets/conll04/audio/train/train-549.wav:0:51096	3193	51096	<triplet> BRUSSELS <subj> Belgium <obj> Located_In <triplet> AP <subj> BRUSSELS <obj> OrgBased_In <subj> Belgium <obj> OrgBased_In	0	en
+train-550	/path/to/datasets/conll04/audio/train/train-550.wav:0:32520	2032	32520	<triplet> PRAVDA UKRAINY <subj> Kiev <obj> OrgBased_In	0	en
+train-551	/path/to/datasets/conll04/audio/train/train-551.wav:0:100880	6305	100880	<triplet> Buffalo Bill <subj> Davenport , Iowa. <obj> Live_In <triplet> Cody <subj> Davenport , Iowa. <obj> Live_In	0	en
+train-552	/path/to/datasets/conll04/audio/train/train-552.wav:0:63356	3959	63356	<triplet> DAYTON <subj> Ohio <obj> Located_In	0	en
+train-553	/path/to/datasets/conll04/audio/train/train-553.wav:0:284782	17798	284782	<triplet> Allan McArtor <subj> FAA <obj> Work_For	0	en
+train-554	/path/to/datasets/conll04/audio/train/train-554.wav:0:166639	10414	166639	<triplet> Susanna Petrosyan <subj> Leninakan <obj> Live_In <triplet> Gayaney <subj> Leninakan <obj> Live_In	0	en
+train-555	/path/to/datasets/conll04/audio/train/train-555.wav:0:210478	13154	210478	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+train-556	/path/to/datasets/conll04/audio/train/train-556.wav:0:233883	14617	233883	<triplet> Bush <subj> U.S. <obj> Live_In	0	en
+train-557	/path/to/datasets/conll04/audio/train/train-557.wav:0:137288	8580	137288	<triplet> Leon Czolgosz <subj> President William McKinley <obj> Kill	0	en
+train-558	/path/to/datasets/conll04/audio/train/train-558.wav:0:326763	20422	326763	<triplet> John Wilkes Booth <subj> Lincoln <obj> Kill	0	en
+train-559	/path/to/datasets/conll04/audio/train/train-559.wav:0:385092	24068	385092	<triplet> Ernesto Zedillo <subj> Institutional Revolutionary Party <obj> Work_For	0	en
+train-560	/path/to/datasets/conll04/audio/train/train-560.wav:0:219394	13712	219394	<triplet> Yasser Arafat <subj> Palestine Liberation Organization <obj> Work_For	0	en
+train-561	/path/to/datasets/conll04/audio/train/train-561.wav:0:248744	15546	248744	<triplet> Kevin Kelly <subj> Southern California Edison <obj> Work_For <subj> Edison <obj> Work_For	0	en
+train-562	/path/to/datasets/conll04/audio/train/train-562.wav:0:229054	14315	229054	<triplet> FBI <subj> Washington. <obj> OrgBased_In <triplet> Doug Beldon <subj> FBI <obj> Work_For <subj> Albuquerque <obj> Live_In <subj> N.M. <obj> Live_In <triplet> Albuquerque <subj> N.M. <obj> Located_In	0	en
+train-563	/path/to/datasets/conll04/audio/train/train-563.wav:0:209735	13108	209735	<triplet> Bush <subj> White House <obj> Live_In	0	en
+train-564	/path/to/datasets/conll04/audio/train/train-564.wav:0:181499	11343	181499	<triplet> Congress <subj> United States <obj> OrgBased_In	0	en
+train-565	/path/to/datasets/conll04/audio/train/train-565.wav:0:358714	22419	358714	<triplet> Martires leather factory <subj> Caguasu <obj> OrgBased_In	0	en
+train-566	/path/to/datasets/conll04/audio/train/train-566.wav:0:241685	15105	241685	<triplet> Husni Mubarak <subj> Cairo <obj> Live_In	0	en
+train-567	/path/to/datasets/conll04/audio/train/train-567.wav:0:64099	4006	64099	<triplet> Nick Rufford <subj> Far East <obj> Live_In	0	en
+train-568	/path/to/datasets/conll04/audio/train/train-568.wav:0:97164	6072	97164	<triplet> Larry Sturholm <subj> KIRO Television. <obj> Work_For	0	en
+train-569	/path/to/datasets/conll04/audio/train/train-569.wav:0:237599	14849	237599	<triplet> Miguel Rodriguez <subj> Venezuela <obj> Live_In	0	en
+train-570	/path/to/datasets/conll04/audio/train/train-570.wav:0:264720	16545	264720	<triplet> St. Louis County <subj> Minnesota <obj> Located_In	0	en
+train-571	/path/to/datasets/conll04/audio/train/train-571.wav:0:242800	15175	242800	<triplet> Mr Kim <subj> South Korea <obj> Live_In	0	en
+train-572	/path/to/datasets/conll04/audio/train/train-572.wav:0:140632	8789	140632	<triplet> Dr. Lee DeForest <subj> Council Bluffs , Iowa <obj> Live_In	0	en
+train-573	/path/to/datasets/conll04/audio/train/train-573.wav:0:236856	14803	236856	<triplet> Man Ray <subj> Philadelphia <obj> Live_In	0	en
+train-574	/path/to/datasets/conll04/audio/train/train-574.wav:0:25090	1568	25090	<triplet> BLYTHE <subj> Calif . <obj> Located_In	0	en
+train-575	/path/to/datasets/conll04/audio/train/train-575.wav:0:114997	7187	114997	<triplet> Avis Bourg Co. <subj> Folsom <obj> OrgBased_In	0	en
+train-576	/path/to/datasets/conll04/audio/train/train-576.wav:0:265834	16614	265834	<triplet> Camas <subj> Wash. <obj> Located_In <triplet> Chris Jonientz-Trisler <subj> University of Washington Seismology Lab. <obj> Work_For <triplet> University of Washington Seismology Lab. <subj> Wash. <obj> OrgBased_In	0	en
+train-577	/path/to/datasets/conll04/audio/train/train-577.wav:0:362429	22651	362429	<triplet> Frank Lloyd Wright <subj> Wisconsin <obj> Live_In	0	en
+train-578	/path/to/datasets/conll04/audio/train/train-578.wav:0:274751	17171	274751	<triplet> Holliston <subj> Mass <obj> Located_In	0	en
+train-579	/path/to/datasets/conll04/audio/train/train-579.wav:0:184100	11506	184100	<triplet> Gyandzha <subj> Azerbaijan <obj> Located_In <subj> Soviet <obj> Located_In <triplet> Shamkhor <subj> Azerbaijan <obj> Located_In <subj> Soviet <obj> Located_In <triplet> Azerbaijan <subj> Soviet <obj> Located_In	0	en
+train-580	/path/to/datasets/conll04/audio/train/train-580.wav:0:40322	2520	40322	<triplet> WARSAW <subj> Poland <obj> Located_In <triplet> AP <subj> WARSAW <obj> OrgBased_In <subj> Poland <obj> OrgBased_In	0	en
+train-581	/path/to/datasets/conll04/audio/train/train-581.wav:0:182985	11436	182985	<triplet> Harold Abramson <subj> U.S. <obj> Live_In	0	en
+train-582	/path/to/datasets/conll04/audio/train/train-582.wav:0:178527	11157	178527	<triplet> Lucille Ball <subj> New York <obj> Live_In	0	en
+train-583	/path/to/datasets/conll04/audio/train/train-583.wav:0:162180	10136	162180	<triplet> Lynette Davis <subj> Boise National Forest <obj> Work_For	0	en
+train-584	/path/to/datasets/conll04/audio/train/train-584.wav:0:123542	7721	123542	<triplet> Calvin Coolidge <subj> Plymouth , Vt <obj> Live_In	0	en
+train-585	/path/to/datasets/conll04/audio/train/train-585.wav:0:213821	13363	213821	<triplet> UT-1 Television Network <subj> Kiev <obj> OrgBased_In	0	en
+train-586	/path/to/datasets/conll04/audio/train/train-586.wav:0:211221	13201	211221	<triplet> Jesse Jackson <subj> South Carolina <obj> Live_In	0	en
+train-587	/path/to/datasets/conll04/audio/train/train-587.wav:0:237969	14873	237969	<triplet> Cuenca <subj> Ecuador <obj> Located_In	0	en
+train-588	/path/to/datasets/conll04/audio/train/train-588.wav:0:235370	14710	235370	<triplet> Tansu Ciller <subj> Turkey <obj> Live_In	0	en
+train-589	/path/to/datasets/conll04/audio/train/train-589.wav:0:156236	9764	156236	<triplet> Washington Irving <subj> New York City <obj> Live_In	0	en
+train-590	/path/to/datasets/conll04/audio/train/train-590.wav:0:133945	8371	133945	<triplet> Byelorussia <subj> Soviet <obj> Located_In	0	en
+train-591	/path/to/datasets/conll04/audio/train/train-591.wav:0:256546	16034	256546	<triplet> Sirhan Sirhan <subj> Robert Kennedy <obj> Kill	0	en
+train-592	/path/to/datasets/conll04/audio/train/train-592.wav:0:168125	10507	168125	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en
+train-593	/path/to/datasets/conll04/audio/train/train-593.wav:0:185214	11575	185214	<triplet> Benjamin Harrison <subj> North Bend , Ohio <obj> Live_In	0	en
+train-594	/path/to/datasets/conll04/audio/train/train-594.wav:0:154007	9625	154007	<triplet> Ali Sunni Muntasser <subj> Libya <obj> Live_In	0	en
+train-595	/path/to/datasets/conll04/audio/train/train-595.wav:0:191159	11947	191159	<triplet> Sohn Ho Young <subj> Korean CIA <obj> Work_For	0	en
+train-596	/path/to/datasets/conll04/audio/train/train-596.wav:0:657415	41088	657415	<triplet> Zapatist National Liberation Army <subj> Mexican Southeast <obj> OrgBased_In <subj> Mexico <obj> OrgBased_In <triplet> EZLN <subj> Mexican Southeast <obj> OrgBased_In <subj> Mexico <obj> OrgBased_In <triplet> ( Zapatist National Liberation Army <subj> Mexican Southeast <obj> OrgBased_In <subj> Mexico <obj> OrgBased_In <triplet> EZLN <subj> Mexican Southeast <obj> OrgBased_In <subj> Mexico <obj> OrgBased_In	0	en
+train-597	/path/to/datasets/conll04/audio/train/train-597.wav:0:30291	1893	30291	<triplet> ACAN <subj> Panama City <obj> OrgBased_In	0	en
+train-598	/path/to/datasets/conll04/audio/train/train-598.wav:0:212707	13294	212707	<triplet> Foreign Ministry <subj> Russia <obj> OrgBased_In	0	en
+train-599	/path/to/datasets/conll04/audio/train/train-599.wav:0:262862	16428	262862	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+train-600	/path/to/datasets/conll04/audio/train/train-600.wav:0:159580	9973	159580	<triplet> Miss Dickinson <subj> Kulm <obj> Live_In	0	en
+train-601	/path/to/datasets/conll04/audio/train/train-601.wav:0:297785	18611	297785	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-602	/path/to/datasets/conll04/audio/train/train-602.wav:0:139146	8696	139146	<triplet> Bedford <subj> Indiana <obj> Located_In	0	en
+train-603	/path/to/datasets/conll04/audio/train/train-603.wav:0:22861	1428	22861	<triplet> AP <subj> NEW YORK <obj> OrgBased_In	0	en
+train-604	/path/to/datasets/conll04/audio/train/train-604.wav:0:168125	10507	168125	<triplet> Armenia <subj> Soviet <obj> Located_In	0	en
+train-605	/path/to/datasets/conll04/audio/train/train-605.wav:0:38464	2404	38464	<triplet> KHARTOUM <subj> Sudan <obj> Located_In	0	en
+train-606	/path/to/datasets/conll04/audio/train/train-606.wav:0:49981	3123	49981	<triplet> METEOROLOGIYA I GIDROLOGIYA <subj> Moscow <obj> OrgBased_In	0	en
+train-607	/path/to/datasets/conll04/audio/train/train-607.wav:0:163295	10205	163295	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-608	/path/to/datasets/conll04/audio/train/train-608.wav:0:200818	12551	200818	<triplet> Corbin Bernsen <subj> NBC <obj> Work_For <triplet> Kate Mulgrew <subj> ABC <obj> Work_For	0	en
+train-609	/path/to/datasets/conll04/audio/train/train-609.wav:0:271778	16986	271778	<triplet> Rutherford B. Hayes <subj> Delaware , Ohio <obj> Live_In	0	en
+train-610	/path/to/datasets/conll04/audio/train/train-610.wav:0:83790	5236	83790	<triplet> O GLOBO <subj> Rio de Janeiro <obj> OrgBased_In	0	en
+train-611	/path/to/datasets/conll04/audio/train/train-611.wav:0:263605	16475	263605	<triplet> Johnny Campbell <subj> Lattie McGee. <obj> Kill <triplet> Alicia Abraham <subj> Lattie McGee. <obj> Kill	0	en
+train-612	/path/to/datasets/conll04/audio/train/train-612.wav:0:277351	17334	277351	<triplet> Todd Kimberlain <subj> National Hurricane Center. <obj> Work_For	0	en
+train-613	/path/to/datasets/conll04/audio/train/train-613.wav:0:224596	14037	224596	<triplet> Gilmore <subj> Downtown Seattle Association <obj> Work_For	0	en
+train-614	/path/to/datasets/conll04/audio/train/train-614.wav:0:289240	18077	289240	<triplet> Andy Lipkis <subj> TreePeople <obj> Work_For	0	en
+train-615	/path/to/datasets/conll04/audio/train/train-615.wav:0:78588	4911	78588	<triplet> Mark David Chapman <subj> Lennon <obj> Kill	0	en
+train-616	/path/to/datasets/conll04/audio/train/train-616.wav:0:316732	19795	316732	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-617	/path/to/datasets/conll04/audio/train/train-617.wav:0:119084	7442	119084	<triplet> Lucille Ball <subj> Jamestown , N.Y. <obj> Live_In	0	en
+train-618	/path/to/datasets/conll04/audio/train/train-618.wav:0:202676	12667	202676	<triplet> Koji Kakizawa <subj> Tokyo <obj> Live_In	0	en
+train-619	/path/to/datasets/conll04/audio/train/train-619.wav:0:103480	6467	103480	<triplet> Truckee <subj> Calif. <obj> Located_In	0	en
+train-620	/path/to/datasets/conll04/audio/train/train-620.wav:0:365773	22860	365773	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-621	/path/to/datasets/conll04/audio/train/train-621.wav:0:157351	9834	157351	<triplet> Elvis Presley <subj> Tupelo , Miss <obj> Live_In	0	en
+train-622	/path/to/datasets/conll04/audio/train/train-622.wav:0:185214	11575	185214	<triplet> John Wilkes Booth <subj> President Abraham Lincoln <obj> Kill	0	en
+train-623	/path/to/datasets/conll04/audio/train/train-623.wav:0:94192	5887	94192	<triplet> Paul Revere <subj> Boston <obj> Live_In	0	en
+train-624	/path/to/datasets/conll04/audio/train/train-624.wav:0:273265	17079	273265	<triplet> Fred Coe <subj> Nashville <obj> Live_In	0	en
+train-625	/path/to/datasets/conll04/audio/train/train-625.wav:0:223481	13967	223481	<triplet> EFE <subj> Madrid <obj> OrgBased_In	0	en
+train-626	/path/to/datasets/conll04/audio/train/train-626.wav:0:82304	5144	82304	<triplet> The Associated Press <subj> Beirut <obj> OrgBased_In	0	en
+train-627	/path/to/datasets/conll04/audio/train/train-627.wav:0:74502	4656	74502	<triplet> BABIL <subj> Baghdad <obj> OrgBased_In	0	en
+train-628	/path/to/datasets/conll04/audio/train/train-628.wav:0:233140	14571	233140	<triplet> KOMSOMOLSKAYA PRAVDA <subj> Moscow <obj> OrgBased_In	0	en
+train-629	/path/to/datasets/conll04/audio/train/train-629.wav:0:36978	2311	36978	<triplet> Radio Riga Network <subj> Riga <obj> OrgBased_In	0	en
+train-630	/path/to/datasets/conll04/audio/train/train-630.wav:0:30291	1893	30291	<triplet> SILSKI VISTI <subj> Kiev <obj> OrgBased_In	0	en
+train-631	/path/to/datasets/conll04/audio/train/train-631.wav:0:45152	2822	45152	<triplet> BUENOS AIRES <subj> Argentina <obj> Located_In	0	en
+train-632	/path/to/datasets/conll04/audio/train/train-632.wav:0:223109	13944	223109	<triplet> Mason <subj> Centers for Disease Control <obj> Work_For <subj> Atlanta <obj> Live_In <subj> HHS <obj> Work_For <triplet> Centers for Disease Control <subj> Atlanta <obj> OrgBased_In	0	en
+train-633	/path/to/datasets/conll04/audio/train/train-633.wav:0:81561	5097	81561	<triplet> Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+train-634	/path/to/datasets/conll04/audio/train/train-634.wav:0:243171	15198	243171	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill <triplet> Jack Ruby <subj> Lee Harvey Oswald <obj> Kill	0	en
+train-635	/path/to/datasets/conll04/audio/train/train-635.wav:0:190043	11877	190043	<triplet> Brutus <subj> Roman Emperor Julius Caesar <obj> Kill <triplet> Cassius. <subj> Roman Emperor Julius Caesar <obj> Kill	0	en
+train-636	/path/to/datasets/conll04/audio/train/train-636.wav:0:36235	2264	36235	<triplet> YOMIURI SHIMBUN <subj> Tokyo <obj> OrgBased_In	0	en
+train-637	/path/to/datasets/conll04/audio/train/train-637.wav:0:281438	17589	281438	<triplet> Jerome Robbins <subj> New York <obj> Live_In	0	en
+train-638	/path/to/datasets/conll04/audio/train/train-638.wav:0:172583	10786	172583	<triplet> James Earl Ray <subj> Rev. Martin Luther King <obj> Kill	0	en
+train-639	/path/to/datasets/conll04/audio/train/train-639.wav:0:323420	20213	323420	<triplet> Richland <subj> Wash. <obj> Located_In <triplet> Feed Materials Production Center <subj> Fernald <obj> Located_In <subj> Ohio <obj> Located_In <subj> Ohio <obj> Located_In <triplet> Fernald <subj> Ohio <obj> Located_In <triplet> Mound Plant <subj> Ohio <obj> Located_In	0	en
+train-640	/path/to/datasets/conll04/audio/train/train-640.wav:0:138775	8673	138775	<triplet> Sirhan Sirhan <subj> Kennedy <obj> Kill	0	en
+train-641	/path/to/datasets/conll04/audio/train/train-641.wav:0:216051	13503	216051	<triplet> Franca Chlistovsky <subj> Brera metereologic institute <obj> Work_For <triplet> Brera metereologic institute <subj> Milan <obj> OrgBased_In	0	en
+train-642	/path/to/datasets/conll04/audio/train/train-642.wav:0:186329	11645	186329	<triplet> Suomen Yleisradio Network <subj> Helsinki <obj> OrgBased_In	0	en
+train-643	/path/to/datasets/conll04/audio/train/train-643.wav:0:255803	15987	255803	<triplet> Superior Court <subj> Maricopa County <obj> OrgBased_In <triplet> Lindsay Ellis <subj> Superior Court <obj> Work_For	0	en
+train-644	/path/to/datasets/conll04/audio/train/train-644.wav:0:269921	16870	269921	<triplet> Fang Kaitai <subj> Institute of Applied Mathematics <obj> Work_For <triplet> Wang Yuan <subj> Institute of Mathematics <obj> Work_For	0	en
+train-645	/path/to/datasets/conll04/audio/train/train-645.wav:0:118341	7396	118341	<triplet> Leslie Kota <subj> K mart <obj> Work_For <triplet> K mart <subj> Troy <obj> OrgBased_In <subj> Mich. <obj> OrgBased_In <triplet> Troy <subj> Mich. <obj> Located_In	0	en
+train-646	/path/to/datasets/conll04/audio/train/train-646.wav:0:239828	14989	239828	<triplet> James Earl Ray <subj> Dr. Martin Luther King Jr. <obj> Kill	0	en
+train-647	/path/to/datasets/conll04/audio/train/train-647.wav:0:26947	1684	26947	<triplet> AP <subj> LOS ANGELES <obj> OrgBased_In	0	en
+train-648	/path/to/datasets/conll04/audio/train/train-648.wav:0:267692	16730	267692	<triplet> Michael Mason <subj> American Petroleum Institute <obj> Work_For	0	en
+train-649	/path/to/datasets/conll04/audio/train/train-649.wav:0:37721	2357	37721	<triplet> WAMPSVILLE <subj> N.Y . <obj> Located_In	0	en
+train-650	/path/to/datasets/conll04/audio/train/train-650.wav:0:174069	10879	174069	<triplet> Mauri Pekkarinen <subj> Finland <obj> Live_In	0	en
+train-651	/path/to/datasets/conll04/audio/train/train-651.wav:0:448250	28015	448250	<triplet> Portland <subj> Maine <obj> Located_In	0	en
+train-652	/path/to/datasets/conll04/audio/train/train-652.wav:0:123914	7744	123914	<triplet> Oded Ben-Ami <subj> Defense Ministry <obj> Work_For	0	en
+train-653	/path/to/datasets/conll04/audio/train/train-653.wav:0:127629	7976	127629	<triplet> Nancy Cowan <subj> Red Cross <obj> Work_For	0	en
+train-654	/path/to/datasets/conll04/audio/train/train-654.wav:0:50724	3170	50724	<triplet> JOHANNESBURG <subj> South Africa <obj> Located_In	0	en
+train-655	/path/to/datasets/conll04/audio/train/train-655.wav:0:281809	17613	281809	<triplet> Richard C. Wallace <subj> Pittsburgh <obj> Live_In	0	en
+train-656	/path/to/datasets/conll04/audio/train/train-656.wav:0:232026	14501	232026	<triplet> Custer National Forest <subj> Montana <obj> Located_In <triplet> Jerry Chapman <subj> Bureau of Land Management. <obj> Work_For	0	en
+train-657	/path/to/datasets/conll04/audio/train/train-657.wav:0:393637	24602	393637	<triplet> Jack Ruby <subj> Lee Harvey Oswald <obj> Kill	0	en
+train-658	/path/to/datasets/conll04/audio/train/train-658.wav:0:90477	5654	90477	<triplet> John Wilkes Booth <subj> Lincoln <obj> Kill	0	en
+train-659	/path/to/datasets/conll04/audio/train/train-659.wav:0:163295	10205	163295	<triplet> Dade County <subj> Miami <obj> Located_In	0	en
+train-660	/path/to/datasets/conll04/audio/train/train-660.wav:0:53325	3332	53325	<triplet> Boris Sitnikov <subj> ITAR-TASS <obj> Work_For	0	en
+train-661	/path/to/datasets/conll04/audio/train/train-661.wav:0:55183	3448	55183	<triplet> Marshall Space Flight Center <subj> Huntsville <obj> Located_In <subj> Ala <obj> Located_In <triplet> Huntsville <subj> Ala <obj> Located_In	0	en
+train-662	/path/to/datasets/conll04/audio/train/train-662.wav:0:223109	13944	223109	<triplet> Gavrilo Princip <subj> Archduke Franz Ferdinand <obj> Kill <triplet> Austria-Hungary <subj> Sarajevo <obj> Located_In	0	en
+train-663	/path/to/datasets/conll04/audio/train/train-663.wav:0:152149	9509	152149	<triplet> CHINA DAILY <subj> Beijing <obj> OrgBased_In	0	en
+train-664	/path/to/datasets/conll04/audio/train/train-664.wav:0:124657	7791	124657	<triplet> William Miller. <subj> Ukraine <obj> Live_In	0	en
+train-665	/path/to/datasets/conll04/audio/train/train-665.wav:0:124285	7767	124285	<triplet> Savannah River <subj> South Carolina <obj> Located_In	0	en
+train-666	/path/to/datasets/conll04/audio/train/train-666.wav:0:93078	5817	93078	<triplet> Little Havana <subj> Miami <obj> Located_In	0	en
+train-667	/path/to/datasets/conll04/audio/train/train-667.wav:0:341624	21351	341624	<triplet> Fred Bauman <subj> Habitat for Humanity <obj> Work_For <subj> Yakima Valley Partners <obj> Work_For	0	en
+train-668	/path/to/datasets/conll04/audio/train/train-668.wav:0:166267	10391	166267	<triplet> Cedar City <subj> Utah <obj> Located_In	0	en
+train-669	/path/to/datasets/conll04/audio/train/train-669.wav:0:172583	10786	172583	<triplet> William O 'Brien III <subj> Madison County <obj> Live_In	0	en
+train-670	/path/to/datasets/conll04/audio/train/train-670.wav:0:43294	2705	43294	<triplet> KOMSOMOLSKAYA PRAVDA <subj> Moscow <obj> OrgBased_In	0	en
+train-671	/path/to/datasets/conll04/audio/train/train-671.wav:0:190043	11877	190043	<triplet> Rancho Cucamonga <subj> San Bernardino County <obj> Located_In <triplet> Denise Garland <subj> San Bernardino County <obj> Live_In	0	en
+train-672	/path/to/datasets/conll04/audio/train/train-672.wav:0:153264	9579	153264	<triplet> State House <subj> Nairobi <obj> Located_In <triplet> Mr. Lucas Pande Tavaya <subj> Zimbabwe <obj> Live_In	0	en
+train-673	/path/to/datasets/conll04/audio/train/train-673.wav:0:283667	17729	283667	<triplet> Richard Kahn <subj> American Diabetes Association <obj> Work_For <triplet> American Diabetes Association <subj> Alexandria <obj> OrgBased_In <subj> Va. <obj> OrgBased_In <triplet> Alexandria <subj> Va. <obj> Located_In	0	en
+train-674	/path/to/datasets/conll04/audio/train/train-674.wav:0:231654	14478	231654	<triplet> Hua Wen-Yi <subj> Shanghai <obj> Live_In <triplet> Leonard Lee <subj> San Francisco. <obj> Live_In	0	en
+train-675	/path/to/datasets/conll04/audio/train/train-675.wav:0:106824	6676	106824	<triplet> Alan Pollock <subj> NTSB <obj> Work_For	0	en
+train-676	/path/to/datasets/conll04/audio/train/train-676.wav:0:230168	14385	230168	<triplet> Syrian Arab Republic Radio Network <subj> Damascus <obj> OrgBased_In	0	en
+train-677	/path/to/datasets/conll04/audio/train/train-677.wav:0:162923	10182	162923	<triplet> Avis Bourg Co. <subj> Folsom <obj> OrgBased_In	0	en
+train-678	/path/to/datasets/conll04/audio/train/train-678.wav:0:220509	13781	220509	<triplet> Booth <subj> Lincoln <obj> Kill	0	en
+train-679	/path/to/datasets/conll04/audio/train/train-679.wav:0:50353	3147	50353	<triplet> Kings Bay <subj> Ga. <obj> Located_In	0	en
+train-680	/path/to/datasets/conll04/audio/train/train-680.wav:0:223109	13944	223109	<triplet> M. F. Reshetnov <subj> Scientific Production Association of Applied Mechanics <obj> Work_For	0	en
+train-681	/path/to/datasets/conll04/audio/train/train-681.wav:0:249859	15616	249859	<triplet> Gerald Baliles <subj> Virginia <obj> Live_In <triplet> Terry Branstad <subj> Iowa <obj> Live_In	0	en
+train-682	/path/to/datasets/conll04/audio/train/train-682.wav:0:180385	11274	180385	<triplet> Cybill Shepherd <subj> Memphis <obj> Live_In	0	en
+train-683	/path/to/datasets/conll04/audio/train/train-683.wav:0:78960	4935	78960	<triplet> Booth <subj> Lincoln <obj> Kill	0	en
+train-684	/path/to/datasets/conll04/audio/train/train-684.wav:0:111654	6978	111654	<triplet> Charles Fried <subj> Harvard University Law School <obj> Work_For	0	en
+train-685	/path/to/datasets/conll04/audio/train/train-685.wav:0:203419	12713	203419	<triplet> INTERFAX <subj> Moscow <obj> OrgBased_In	0	en
+train-686	/path/to/datasets/conll04/audio/train/train-686.wav:0:234255	14640	234255	<triplet> Brighton Beach <subj> Brooklyn <obj> Located_In	0	en
+train-687	/path/to/datasets/conll04/audio/train/train-687.wav:0:241314	15082	241314	<triplet> John Wilkes Booth <subj> President Lincoln <obj> Kill	0	en
+train-688	/path/to/datasets/conll04/audio/train/train-688.wav:0:214936	13433	214936	<triplet> Jack Ruby <subj> Lee Harvey Oswald <obj> Kill <triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-689	/path/to/datasets/conll04/audio/train/train-689.wav:0:92706	5794	92706	<triplet> David Foster <subj> AP <obj> Work_For <triplet> AP <subj> Northwest <obj> OrgBased_In <subj> Seattle. <obj> OrgBased_In	0	en
+train-690	/path/to/datasets/conll04/audio/train/train-690.wav:0:51468	3216	51468	<triplet> Radio Republik Indonesia Network <subj> Jakarta <obj> OrgBased_In	0	en
+train-691	/path/to/datasets/conll04/audio/train/train-691.wav:0:106824	6676	106824	<triplet> Jesse Owens <subj> Danville , Ala. <obj> Live_In	0	en
+train-692	/path/to/datasets/conll04/audio/train/train-692.wav:0:135431	8464	135431	<triplet> Spencer Christian <subj> ABC <obj> Work_For	0	en
+train-693	/path/to/datasets/conll04/audio/train/train-693.wav:0:177784	11111	177784	<triplet> Supreme Court <subj> Niagara County <obj> OrgBased_In <triplet> Norma Viscomi <subj> Niagara Falls <obj> Live_In <triplet> Niagara Falls <subj> Niagara County <obj> Located_In	0	en
+train-694	/path/to/datasets/conll04/audio/train/train-694.wav:0:202304	12644	202304	<triplet> LA JORNADA <subj> Mexico City <obj> OrgBased_In	0	en
+train-695	/path/to/datasets/conll04/audio/train/train-695.wav:0:237227	14826	237227	<triplet> Santa Ana <subj> Southern California <obj> Located_In	0	en
+train-696	/path/to/datasets/conll04/audio/train/train-696.wav:0:191902	11993	191902	<triplet> John Paul Rosser. <subj> Eastern Airlines <obj> Work_For	0	en
+train-697	/path/to/datasets/conll04/audio/train/train-697.wav:0:561563	35097	561563	<triplet> De La Pena <subj> UN <obj> Work_For	0	en
+train-698	/path/to/datasets/conll04/audio/train/train-698.wav:0:126886	7930	126886	<triplet> Jeffrey Laitman <subj> New York <obj> Live_In <subj> Mount Sinai School of Medicine <obj> Work_For <triplet> Mount Sinai School of Medicine <subj> New York <obj> OrgBased_In	0	en
+train-699	/path/to/datasets/conll04/audio/train/train-699.wav:0:161066	10066	161066	<triplet> Elizabeth Dole <subj> U.S. <obj> Live_In	0	en
+train-700	/path/to/datasets/conll04/audio/train/train-700.wav:0:177784	11111	177784	<triplet> LeRoy <subj> New York <obj> Live_In	0	en
+train-701	/path/to/datasets/conll04/audio/train/train-701.wav:0:90849	5678	90849	<triplet> Andrews Lock and Dam <subj> Early County <obj> Located_In <subj> Ga. <obj> Located_In <triplet> Early County <subj> Ga. <obj> Located_In	0	en
+train-702	/path/to/datasets/conll04/audio/train/train-702.wav:0:183357	11459	183357	<triplet> Cuauhtemoc Cardenas <subj> Party of the Democratic Revolution <obj> Work_For <subj> PRD <obj> Work_For <subj> Mexico <obj> Live_In <triplet> Party of the Democratic Revolution <subj> Mexico <obj> OrgBased_In <triplet> PRD <subj> Mexico <obj> OrgBased_In	0	en
+train-703	/path/to/datasets/conll04/audio/train/train-703.wav:0:90477	5654	90477	<triplet> Firmin Jean-Louis <subj> Senate <obj> Work_For	0	en
+train-704	/path/to/datasets/conll04/audio/train/train-704.wav:0:190416	11901	190416	<triplet> FBI <subj> United States <obj> OrgBased_In	0	en
+train-705	/path/to/datasets/conll04/audio/train/train-705.wav:0:78217	4888	78217	<triplet> Ruby <subj> Oswald <obj> Kill	0	en
+train-706	/path/to/datasets/conll04/audio/train/train-706.wav:0:66328	4145	66328	<triplet> Michael O 'Connor. <subj> Conoco Inc. <obj> Work_For	0	en
+train-707	/path/to/datasets/conll04/audio/train/train-707.wav:0:95678	5979	95678	<triplet> James Rovida <subj> Robert Brock <obj> Kill	0	en
+train-708	/path/to/datasets/conll04/audio/train/train-708.wav:0:254317	15894	254317	<triplet> Mason <subj> Public Health Service <obj> Work_For	0	en
+train-709	/path/to/datasets/conll04/audio/train/train-709.wav:0:360572	22535	360572	<triplet> Fred Eckhard <subj> U.N. <obj> Work_For	0	en
+train-710	/path/to/datasets/conll04/audio/train/train-710.wav:0:207877	12992	207877	<triplet> Taj Mahal <subj> Atlantic City <obj> Located_In	0	en
+train-711	/path/to/datasets/conll04/audio/train/train-711.wav:0:192645	12040	192645	<triplet> Reynie Ortiz <subj> U S West International <obj> Work_For	0	en
+train-712	/path/to/datasets/conll04/audio/train/train-712.wav:0:22861	1428	22861	<triplet> AP <subj> WASHINGTON <obj> OrgBased_In	0	en
+train-713	/path/to/datasets/conll04/audio/train/train-713.wav:0:158465	9904	158465	<triplet> Richard Celeste <subj> Ohio <obj> Live_In	0	en
+train-714	/path/to/datasets/conll04/audio/train/train-714.wav:0:218650	13665	218650	<triplet> Leon Czolgosz <subj> President William McKinley <obj> Kill	0	en
+train-715	/path/to/datasets/conll04/audio/train/train-715.wav:0:170724	10670	170724	<triplet> Kosovo <subj> Serbia <obj> Located_In	0	en
+train-716	/path/to/datasets/conll04/audio/train/train-716.wav:0:176298	11018	176298	<triplet> Channel Islands <subj> Europe <obj> Located_In	0	en
+train-717	/path/to/datasets/conll04/audio/train/train-717.wav:0:224224	14014	224224	<triplet> San Antonio <subj> Texas <obj> Located_In	0	en
+train-718	/path/to/datasets/conll04/audio/train/train-718.wav:0:168125	10507	168125	<triplet> James Earl Ray <subj> Rev. Martin Luther King Jr. <obj> Kill	0	en
+train-719	/path/to/datasets/conll04/audio/train/train-719.wav:0:285153	17822	285153	<triplet> Dade County <subj> Fla. <obj> Located_In <triplet> Rochester <subj> N.Y. <obj> Located_In	0	en
+train-720	/path/to/datasets/conll04/audio/train/train-720.wav:0:151035	9439	151035	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+train-721	/path/to/datasets/conll04/audio/train/train-721.wav:0:118713	7419	118713	<triplet> Lucille Ball <subj> New York <obj> Live_In	0	en
+train-722	/path/to/datasets/conll04/audio/train/train-722.wav:0:110539	6908	110539	<triplet> Anton Valukas <subj> U.S. <obj> Live_In	0	en
+train-723	/path/to/datasets/conll04/audio/train/train-723.wav:0:160323	10020	160323	<triplet> John Kennedy <subj> United States <obj> Live_In	0	en
+train-724	/path/to/datasets/conll04/audio/train/train-724.wav:0:166267	10391	166267	<triplet> Ontario airport <subj> Los Angeles <obj> Located_In	0	en
+train-725	/path/to/datasets/conll04/audio/train/train-725.wav:0:32892	2055	32892	<triplet> CLARIN <subj> Buenos Aires <obj> OrgBased_In	0	en
+train-726	/path/to/datasets/conll04/audio/train/train-726.wav:0:121313	7582	121313	<triplet> Mark David Chapman <subj> Lennon <obj> Kill	0	en
+train-727	/path/to/datasets/conll04/audio/train/train-727.wav:0:102737	6421	102737	<triplet> Mark David Chapman <subj> Lennon <obj> Kill	0	en
+train-728	/path/to/datasets/conll04/audio/train/train-728.wav:0:185214	11575	185214	<triplet> Nelson <subj> Abbott <obj> Live_In	0	en
+train-729	/path/to/datasets/conll04/audio/train/train-729.wav:0:700140	43758	700140	<triplet> Norma Cano <subj> Papa Egoro Movement <obj> Work_For <triplet> Rolando Miller <subj> Papa Egoro Movement <obj> Work_For <triplet> Norma Cano <subj> Papa Egoro Movement <obj> Work_For <triplet> Rolando Miller <subj> Papa Egoro Movement <obj> Work_For	0	en
+train-730	/path/to/datasets/conll04/audio/train/train-730.wav:0:149177	9323	149177	<triplet> Mario Cuomo <subj> New York <obj> Live_In	0	en
+train-731	/path/to/datasets/conll04/audio/train/train-731.wav:0:170724	10670	170724	<triplet> Mark David Chapman <subj> John Lennon <obj> Kill	0	en
+train-732	/path/to/datasets/conll04/audio/train/train-732.wav:0:269549	16846	269549	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+train-733	/path/to/datasets/conll04/audio/train/train-733.wav:0:64841	4052	64841	<triplet> Yuriy Tyssovsky <subj> ITAR-TASS <obj> Work_For	0	en
+train-734	/path/to/datasets/conll04/audio/train/train-734.wav:0:178156	11134	178156	<triplet> James Earl Ray <subj> King <obj> Kill	0	en
+train-735	/path/to/datasets/conll04/audio/train/train-735.wav:0:285153	17822	285153	<triplet> Aramar Experimental Center <subj> Ipero <obj> Located_In <subj> Sao Paulo <obj> Located_In <triplet> Ipero <subj> Sao Paulo <obj> Located_In	0	en
+train-736	/path/to/datasets/conll04/audio/train/train-736.wav:0:256175	16010	256175	<triplet> Turiguano <subj> Cuba <obj> Located_In	0	en
+train-737	/path/to/datasets/conll04/audio/train/train-737.wav:0:151778	9486	151778	<triplet> Klemow <subj> Associated Press <obj> Work_For <subj> IAI <obj> Work_For	0	en
+train-738	/path/to/datasets/conll04/audio/train/train-738.wav:0:103852	6490	103852	<triplet> Immigration and Naturalization Service <subj> U.S. <obj> OrgBased_In	0	en
+train-739	/path/to/datasets/conll04/audio/train/train-739.wav:0:282553	17659	282553	<triplet> Dwight D. Eisenhower <subj> Denison , Tex. <obj> Live_In <triplet> E. Day St. <subj> Denison , Tex. <obj> Located_In	0	en
+train-740	/path/to/datasets/conll04/audio/train/train-740.wav:0:159580	9973	159580	<triplet> Morihiro Hosokawa <subj> Japan <obj> Live_In	0	en
+train-741	/path/to/datasets/conll04/audio/train/train-741.wav:0:101623	6351	101623	<triplet> Sinclair Lewis <subj> Sauk Center , Minn <obj> Live_In	0	en
+train-742	/path/to/datasets/conll04/audio/train/train-742.wav:0:150663	9416	150663	<triplet> Brutus <subj> Julius Caesar <obj> Kill	0	en
+train-743	/path/to/datasets/conll04/audio/train/train-743.wav:0:246144	15384	246144	<triplet> Memphis <subj> Tenn. <obj> Located_In	0	en
+train-744	/path/to/datasets/conll04/audio/train/train-744.wav:0:55554	3472	55554	<triplet> METEOROLOGIYA I GIDROLOGIYA <subj> Moscow <obj> OrgBased_In	0	en
+train-745	/path/to/datasets/conll04/audio/train/train-745.wav:0:148063	9253	148063	<triplet> Herbert Clark Hoover <subj> West Branch , Iowa <obj> Live_In	0	en
+train-746	/path/to/datasets/conll04/audio/train/train-746.wav:0:208992	13062	208992	<triplet> Sirhan Bishara Sirhan <subj> Kennedy <obj> Kill	0	en
+train-747	/path/to/datasets/conll04/audio/train/train-747.wav:0:170354	10647	170354	<triplet> Deniz Baykal <subj> CHP <obj> Work_For <subj> Republican People 's Party <obj> Work_For	0	en
+train-748	/path/to/datasets/conll04/audio/train/train-748.wav:0:292955	18309	292955	<triplet> International Court of Justice <subj> The Hague <obj> OrgBased_In <subj> The Hague <obj> OrgBased_In	0	en
+train-749	/path/to/datasets/conll04/audio/train/train-749.wav:0:213450	13340	213450	<triplet> K mart <subj> Niagara Falls <obj> OrgBased_In	0	en
+train-750	/path/to/datasets/conll04/audio/train/train-750.wav:0:178899	11181	178899	<triplet> Mitch McConnell <subj> U.S. <obj> Live_In	0	en
+train-751	/path/to/datasets/conll04/audio/train/train-751.wav:0:84160	5260	84160	<triplet> Sirhan Bishara Sirhan <subj> Kennedy <obj> Kill	0	en
+train-752	/path/to/datasets/conll04/audio/train/train-752.wav:0:127257	7953	127257	<triplet> Robert Isaacks <subj> High Island. <obj> Live_In	0	en
+train-753	/path/to/datasets/conll04/audio/train/train-753.wav:0:129115	8069	129115	<triplet> Evendale <subj> Ohio <obj> Located_In	0	en
+train-754	/path/to/datasets/conll04/audio/train/train-754.wav:0:207877	12992	207877	<triplet> James Earl Ray <subj> Dr. Martin Luther King Jr. <obj> Kill	0	en
+train-755	/path/to/datasets/conll04/audio/train/train-755.wav:0:196360	12272	196360	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en
+train-756	/path/to/datasets/conll04/audio/train/train-756.wav:0:87876	5492	87876	<triplet> MIDDLETOWN <subj> N.Y . <obj> Located_In	0	en
+train-757	/path/to/datasets/conll04/audio/train/train-757.wav:0:30291	1893	30291	<triplet> DAO SIAM <subj> Bangkok <obj> OrgBased_In	0	en
+train-758	/path/to/datasets/conll04/audio/train/train-758.wav:0:146948	9184	146948	<triplet> Albrecht <subj> University of Iowa <obj> Work_For <subj> CFTC <obj> Work_For	0	en
+train-759	/path/to/datasets/conll04/audio/train/train-759.wav:0:122799	7674	122799	<triplet> Fred Farrar <subj> FAA <obj> Work_For	0	en
+train-760	/path/to/datasets/conll04/audio/train/train-760.wav:0:249859	15616	249859	<triplet> Ted Weiss <subj> House <obj> Work_For	0	en
+train-761	/path/to/datasets/conll04/audio/train/train-761.wav:0:107938	6746	107938	<triplet> Mark David Chapman <subj> Lennon <obj> Kill	0	en
+train-762	/path/to/datasets/conll04/audio/train/train-762.wav:0:139518	8719	139518	<triplet> Jessica Lange <subj> Minnesota <obj> Live_In	0	en
+train-763	/path/to/datasets/conll04/audio/train/train-763.wav:0:157351	9834	157351	<triplet> Mary Fisher <subj> Louisville <obj> Live_In <subj> Okolona <obj> Live_In	0	en
+train-764	/path/to/datasets/conll04/audio/train/train-764.wav:0:297785	18611	297785	<triplet> Anzio <subj> Italy <obj> Located_In <triplet> Normandy <subj> France <obj> Located_In	0	en
+train-765	/path/to/datasets/conll04/audio/train/train-765.wav:0:261376	16336	261376	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-766	/path/to/datasets/conll04/audio/train/train-766.wav:0:60756	3797	60756	<triplet> Larami Corp. <subj> Philadelphia. <obj> OrgBased_In	0	en
+train-767	/path/to/datasets/conll04/audio/train/train-767.wav:0:95307	5956	95307	<triplet> George Proctor <subj> U.S. <obj> Live_In	0	en
+train-768	/path/to/datasets/conll04/audio/train/train-768.wav:0:262119	16382	262119	<triplet> Ramiro de Leon Carpio <subj> Guatemala City <obj> Live_In	0	en
+train-769	/path/to/datasets/conll04/audio/train/train-769.wav:0:256546	16034	256546	<triplet> Herschel Grynszpan <subj> German Embassy Third Secretary Ernst vom Rath <obj> Kill	0	en
+train-770	/path/to/datasets/conll04/audio/train/train-770.wav:0:195989	12249	195989	<triplet> Larry Jinks <subj> San Jose Mercury News <obj> Work_For <triplet> William A. Ott <subj> San Jose Mercury News <obj> Work_For	0	en
+train-771	/path/to/datasets/conll04/audio/train/train-771.wav:0:175183	10948	175183	<triplet> Allen Harker <subj> Coast Guard 's 8th District headquarters <obj> Work_For	0	en
+train-772	/path/to/datasets/conll04/audio/train/train-772.wav:0:131344	8209	131344	<triplet> Richard Celeste <subj> Ohio <obj> Live_In <subj> Democratic Governors ' Association <obj> Work_For	0	en
+train-773	/path/to/datasets/conll04/audio/train/train-773.wav:0:213078	13317	213078	<triplet> CTK <subj> Prague <obj> OrgBased_In	0	en
+train-774	/path/to/datasets/conll04/audio/train/train-774.wav:0:228681	14292	228681	<triplet> BANGKOK POST <subj> Bangkok <obj> OrgBased_In	0	en
+train-775	/path/to/datasets/conll04/audio/train/train-775.wav:0:37350	2334	37350	<triplet> AOSTA <subj> Italy <obj> Located_In <triplet> AP <subj> AOSTA <obj> OrgBased_In <subj> Italy <obj> OrgBased_In	0	en
+train-776	/path/to/datasets/conll04/audio/train/train-776.wav:0:159208	9950	159208	<triplet> Sirhan Bishara Sirhan <subj> Kennedy <obj> Kill	0	en
+train-777	/path/to/datasets/conll04/audio/train/train-777.wav:0:38836	2427	38836	<triplet> KRASNAYA ZVEZDA <subj> Moscow <obj> OrgBased_In	0	en
+train-778	/path/to/datasets/conll04/audio/train/train-778.wav:0:276237	17264	276237	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill <subj> Officer J.D. Tippit <obj> Kill	0	en
+train-779	/path/to/datasets/conll04/audio/train/train-779.wav:0:294813	18425	294813	<triplet> Harvard <subj> U.S. <obj> OrgBased_In <triplet> Kennedy <subj> U.S. <obj> Live_In	0	en
+train-780	/path/to/datasets/conll04/audio/train/train-780.wav:0:48124	3007	48124	<triplet> ROCK HILL <subj> S.C <obj> Located_In	0	en
+train-781	/path/to/datasets/conll04/audio/train/train-781.wav:0:155864	9741	155864	<triplet> Andrew Jackson <subj> Waxhaw , South Carolina <obj> Live_In	0	en
+train-782	/path/to/datasets/conll04/audio/train/train-782.wav:0:138032	8627	138032	<triplet> Jim Martin <subj> North Carolina <obj> Live_In	0	en
+train-783	/path/to/datasets/conll04/audio/train/train-783.wav:0:148063	9253	148063	<triplet> Brazilian Embassy <subj> Britain <obj> OrgBased_In <subj> London <obj> OrgBased_In	0	en
+train-784	/path/to/datasets/conll04/audio/train/train-784.wav:0:225339	14083	225339	<triplet> Statue of Liberty <subj> America <obj> Located_In	0	en
+train-785	/path/to/datasets/conll04/audio/train/train-785.wav:0:158837	9927	158837	<triplet> Jack Nicklaus <subj> Ohio <obj> Live_In	0	en
+train-786	/path/to/datasets/conll04/audio/train/train-786.wav:0:201561	12597	201561	<triplet> Russell Strong <subj> Queensland Liver Transplant Service <obj> Work_For	0	en
+train-787	/path/to/datasets/conll04/audio/train/train-787.wav:0:49610	3100	49610	<triplet> Tunisian Republic Radio Network <subj> Tunis <obj> OrgBased_In	0	en
+train-788	/path/to/datasets/conll04/audio/train/train-788.wav:0:255803	15987	255803	<triplet> Quayles <subj> Naval Observatory <obj> Live_In <subj> Washington <obj> Live_In <triplet> Tucker <subj> Naval Observatory <obj> Live_In <subj> Washington <obj> Live_In <triplet> Benjamin <subj> Naval Observatory <obj> Live_In <subj> Washington <obj> Live_In <triplet> Corinne <subj> Naval Observatory <obj> Live_In <subj> Washington <obj> Live_In <triplet> Naval Observatory <subj> Washington <obj> Located_In	0	en
+train-789	/path/to/datasets/conll04/audio/train/train-789.wav:0:254317	15894	254317	<triplet> The Globe and Mail <subj> Canada <obj> OrgBased_In <triplet> Robert Bourassa <subj> Canada <obj> Live_In <subj> Quebec <obj> Live_In <subj> Quebec. <obj> Live_In	0	en
+train-790	/path/to/datasets/conll04/audio/train/train-790.wav:0:59269	3704	59269	<triplet> GSA Depot <subj> Watertown <obj> Located_In <subj> Mass. <obj> Located_In <triplet> Watertown <subj> Mass. <obj> Located_In	0	en
+train-791	/path/to/datasets/conll04/audio/train/train-791.wav:0:121313	7582	121313	<triplet> Mr Nelson Rohihlahla Mandela <subj> Republic of South Africa <obj> Live_In	0	en
+train-792	/path/to/datasets/conll04/audio/train/train-792.wav:0:225339	14083	225339	<triplet> Juan Novara <subj> Mediterranean Foundation <obj> Work_For	0	en
+train-793	/path/to/datasets/conll04/audio/train/train-793.wav:0:180385	11274	180385	<triplet> James Earl Ray <subj> Dr. Martin Luther King Jr <obj> Kill	0	en
+train-794	/path/to/datasets/conll04/audio/train/train-794.wav:0:168868	10554	168868	<triplet> Man Ray <subj> Philadelphia <obj> Live_In	0	en
+train-795	/path/to/datasets/conll04/audio/train/train-795.wav:0:263234	16452	263234	<triplet> Frank D. Cuevas <subj> James Miller <obj> Kill	0	en
+train-796	/path/to/datasets/conll04/audio/train/train-796.wav:0:185586	11599	185586	<triplet> Chinese Foreign Ministry <subj> Beijing <obj> OrgBased_In <subj> China <obj> OrgBased_In <triplet> Li Zhaoxing <subj> Chinese Foreign Ministry <obj> Work_For <subj> Beijing <obj> Live_In <subj> China <obj> Live_In	0	en
+train-797	/path/to/datasets/conll04/audio/train/train-797.wav:0:211964	13247	211964	<triplet> Sophie Masloff <subj> Pittsburgh <obj> Live_In	0	en
+train-798	/path/to/datasets/conll04/audio/train/train-798.wav:0:108310	6769	108310	<triplet> Kim Jae-kyu <subj> President Park Chung-hee <obj> Kill	0	en
+train-799	/path/to/datasets/conll04/audio/train/train-799.wav:0:200075	12504	200075	<triplet> Austrian television <subj> Georgetown <obj> OrgBased_In	0	en
+train-800	/path/to/datasets/conll04/audio/train/train-800.wav:0:39579	2473	39579	<triplet> Radio Reloj Network <subj> Havana <obj> OrgBased_In	0	en
+train-801	/path/to/datasets/conll04/audio/train/train-801.wav:0:109425	6839	109425	<triplet> Thomas Alva Edison <subj> Milan , Ohio <obj> Live_In	0	en
+train-802	/path/to/datasets/conll04/audio/train/train-802.wav:0:134688	8418	134688	<triplet> Bradley First Air of Carp <subj> Ontario <obj> OrgBased_In	0	en
+train-803	/path/to/datasets/conll04/audio/train/train-803.wav:0:182242	11390	182242	<triplet> Mohamed Ahmed Issa <subj> United Djibouti Opposition Front <obj> Work_For <triplet> Cheiko <subj> United Djibouti Opposition Front <obj> Work_For	0	en
+train-804	/path/to/datasets/conll04/audio/train/train-804.wav:0:247258	15453	247258	<triplet> V. Mikhaylov <subj> Russian Atomic Energy Minister <obj> Work_For <triplet> Mikhaylov <subj> Russian Atomic Energy Minister <obj> Work_For	0	en
+train-805	/path/to/datasets/conll04/audio/train/train-805.wav:0:206763	12922	206763	<triplet> Me 'ir Kohen <subj> IDF <obj> Work_For <subj> Israel Defense Forces <obj> Work_For	0	en
+train-806	/path/to/datasets/conll04/audio/train/train-806.wav:0:170354	10647	170354	<triplet> Will Carlson. <subj> Michigan State <obj> Work_For	0	en
+train-807	/path/to/datasets/conll04/audio/train/train-807.wav:0:142861	8928	142861	<triplet> Robeson County <subj> N.C. <obj> Located_In	0	en
+train-808	/path/to/datasets/conll04/audio/train/train-808.wav:0:123171	7698	123171	<triplet> SILSKI VISTI <subj> Kiev <obj> OrgBased_In	0	en
+train-809	/path/to/datasets/conll04/audio/train/train-809.wav:0:152149	9509	152149	<triplet> Keen Corp. <subj> New York <obj> OrgBased_In <triplet> Eagle-Picher Industries <subj> Cincinnati <obj> OrgBased_In	0	en
+train-810	/path/to/datasets/conll04/audio/train/train-810.wav:0:138032	8627	138032	<triplet> George Eastman <subj> Waterville , N. Y. <obj> Live_In	0	en
+train-811	/path/to/datasets/conll04/audio/train/train-811.wav:0:373202	23325	373202	<triplet> Jozef Moravcik <subj> Slovakia <obj> Live_In	0	en
+train-812	/path/to/datasets/conll04/audio/train/train-812.wav:0:202304	12644	202304	<triplet> Dominique Beuff <subj> International Committee of the Red Cross <obj> Work_For <subj> Khartoum <obj> Live_In <triplet> International Committee of the Red Cross <subj> Khartoum <obj> OrgBased_In	0	en
+train-813	/path/to/datasets/conll04/audio/train/train-813.wav:0:107938	6746	107938	<triplet> Elizabeth <subj> North Carolina <obj> Live_In	0	en
+train-814	/path/to/datasets/conll04/audio/train/train-814.wav:0:164409	10275	164409	<triplet> James Earl Ray <subj> Martin Luther King Jr <obj> Kill <triplet> Memphis <subj> Tenn. <obj> Located_In	0	en
+train-815	/path/to/datasets/conll04/audio/train/train-815.wav:0:314875	19679	314875	<triplet> Booth <subj> Lincoln <obj> Kill	0	en
+train-816	/path/to/datasets/conll04/audio/train/train-816.wav:0:189301	11831	189301	<triplet> John Wilkes Booth <subj> President Abraham Lincoln <obj> Kill	0	en
+train-817	/path/to/datasets/conll04/audio/train/train-817.wav:0:258032	16127	258032	<triplet> King Fahd-Bin- 'Abd-al- 'Aziz <subj> Saudi Arabia <obj> Live_In <triplet> Crown Prince 'Abdallah <subj> Saudi Arabia <obj> Live_In	0	en
+train-818	/path/to/datasets/conll04/audio/train/train-818.wav:0:253574	15848	253574	<triplet> Perez Balladares <subj> Labor Union <obj> Work_For	0	en
+train-819	/path/to/datasets/conll04/audio/train/train-819.wav:0:39579	2473	39579	<triplet> Radio Reloj Network <subj> Havana <obj> OrgBased_In	0	en
+train-820	/path/to/datasets/conll04/audio/train/train-820.wav:0:70787	4424	70787	<triplet> Benito Mussolini <subj> Italy <obj> Live_In	0	en
+train-821	/path/to/datasets/conll04/audio/train/train-821.wav:0:199331	12458	199331	<triplet> Navy <subj> U.S. <obj> OrgBased_In	0	en
+train-822	/path/to/datasets/conll04/audio/train/train-822.wav:0:210106	13131	210106	<triplet> Tahir Muhammad Hassun <subj> Baghdad <obj> Live_In	0	en
+train-823	/path/to/datasets/conll04/audio/train/train-823.wav:0:119827	7489	119827	<triplet> Sirhan Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill	0	en
+train-824	/path/to/datasets/conll04/audio/train/train-824.wav:0:150663	9416	150663	<triplet> Ferhat Chibout <subj> communist party <obj> Work_For	0	en
+train-825	/path/to/datasets/conll04/audio/train/train-825.wav:0:185958	11622	185958	<triplet> Lemmon <subj> South Dakota <obj> Located_In	0	en
+train-826	/path/to/datasets/conll04/audio/train/train-826.wav:0:677849	42365	677849	<triplet> Fernandez de Cevallos <subj> Mexico <obj> Live_In	0	en
+train-827	/path/to/datasets/conll04/audio/train/train-827.wav:0:133945	8371	133945	<triplet> Port Nolloth <subj> South Africa <obj> Located_In	0	en
+train-828	/path/to/datasets/conll04/audio/train/train-828.wav:0:445278	27829	445278	<triplet> Winter <subj> Yale University <obj> Work_For <triplet> Starr <subj> D.C. Circuit <obj> Work_For <triplet> Lewis Powell <subj> Supreme Court <obj> Work_For	0	en
+train-829	/path/to/datasets/conll04/audio/train/train-829.wav:0:151778	9486	151778	<triplet> Eddie Rickenbacker <subj> Columbus , Ohio <obj> Live_In	0	en
+train-830	/path/to/datasets/conll04/audio/train/train-830.wav:0:263977	16498	263977	<triplet> John Deutschendorf <subj> Roswell , N.M. <obj> Live_In	0	en
+train-831	/path/to/datasets/conll04/audio/train/train-831.wav:0:107567	6722	107567	<triplet> Lowell Thomas <subj> Woodington , Ohio <obj> Live_In	0	en
+train-832	/path/to/datasets/conll04/audio/train/train-832.wav:0:233512	14594	233512	<triplet> Bush <subj> Massachusetts <obj> Live_In <subj> Norfolk County <obj> Live_In <triplet> Dukakis <subj> Massachusetts <obj> Live_In <subj> Norfolk County <obj> Live_In <triplet> John Adams <subj> Massachusetts <obj> Live_In <subj> Norfolk County <obj> Live_In <triplet> John Quincy Adams <subj> Massachusetts <obj> Live_In <subj> Norfolk County <obj> Live_In <triplet> John Fitzgerald Kennedy <subj> Massachusetts <obj> Live_In <subj> Norfolk County <obj> Live_In	0	en
+train-833	/path/to/datasets/conll04/audio/train/train-833.wav:0:285895	17868	285895	<triplet> Darci Alves Pereira <subj> Mendes <obj> Kill	0	en
+train-834	/path/to/datasets/conll04/audio/train/train-834.wav:0:153264	9579	153264	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-835	/path/to/datasets/conll04/audio/train/train-835.wav:0:200818	12551	200818	<triplet> Abraham Lincoln <subj> Hodgenville , Ky. <obj> Live_In	0	en
+train-836	/path/to/datasets/conll04/audio/train/train-836.wav:0:128744	8046	128744	<triplet> Leigh Gibbs Gore <subj> The New York Opera Repertory Theater <obj> Work_For	0	en
+train-837	/path/to/datasets/conll04/audio/train/train-837.wav:0:204905	12806	204905	<triplet> Wright <subj> University of Texas <obj> Work_For	0	en
+train-838	/path/to/datasets/conll04/audio/train/train-838.wav:0:36978	2311	36978	<triplet> RNE International <subj> Madrid <obj> OrgBased_In	0	en
+train-839	/path/to/datasets/conll04/audio/train/train-839.wav:0:22861	1428	22861	<triplet> AP <subj> NEW YORK <obj> OrgBased_In	0	en
+train-840	/path/to/datasets/conll04/audio/train/train-840.wav:0:22861	1428	22861	<triplet> AP <subj> NEW YORK <obj> OrgBased_In	0	en
+train-841	/path/to/datasets/conll04/audio/train/train-841.wav:0:165895	10368	165895	<triplet> Nixon <subj> U.S. <obj> Live_In	0	en
+train-842	/path/to/datasets/conll04/audio/train/train-842.wav:0:198218	12388	198218	<triplet> Bush <subj> United States <obj> Live_In	0	en
+train-843	/path/to/datasets/conll04/audio/train/train-843.wav:0:315618	19726	315618	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+train-844	/path/to/datasets/conll04/audio/train/train-844.wav:0:215308	13456	215308	<triplet> Samuel Bogran <subj> San Pedro Sula <obj> Live_In	0	en
+train-845	/path/to/datasets/conll04/audio/train/train-845.wav:0:302243	18890	302243	<triplet> Yount <subj> Pamela Sue Rimer <obj> Kill <triplet> James Marvin Forsgren <subj> Pamela Sue Rimer <obj> Kill	0	en
+train-846	/path/to/datasets/conll04/audio/train/train-846.wav:0:98650	6165	98650	<triplet> Brigham Young <subj> Whitingham , Vt <obj> Live_In	0	en
+train-847	/path/to/datasets/conll04/audio/train/train-847.wav:0:188930	11808	188930	<triplet> Radio Magadan <subj> Magadan <obj> OrgBased_In	0	en
+train-848	/path/to/datasets/conll04/audio/train/train-848.wav:0:243543	15221	243543	<triplet> Deng Nan <subj> China <obj> Live_In	0	en
+train-849	/path/to/datasets/conll04/audio/train/train-849.wav:0:100508	6281	100508	<triplet> Alain Farley <subj> McGill University <obj> Work_For <triplet> McGill University <subj> Montreal <obj> OrgBased_In	0	en
+train-850	/path/to/datasets/conll04/audio/train/train-850.wav:0:251716	15732	251716	<triplet> THE SUNDAY TIMES <subj> London <obj> OrgBased_In	0	en
+train-851	/path/to/datasets/conll04/audio/train/train-851.wav:0:45522	2845	45522	<triplet> HIGH ISLAND <subj> Texas <obj> Located_In <triplet> AP <subj> HIGH ISLAND <obj> OrgBased_In <subj> Texas <obj> OrgBased_In	0	en
+train-852	/path/to/datasets/conll04/audio/train/train-852.wav:0:233512	14594	233512	<triplet> Royal Alexandra Theatre <subj> Toronto <obj> OrgBased_In <subj> Canada <obj> OrgBased_In <triplet> Toronto <subj> Canada <obj> Located_In	0	en
+train-853	/path/to/datasets/conll04/audio/train/train-853.wav:0:174440	10902	174440	<triplet> Robert Ford <subj> Jesse James <obj> Kill	0	en
+train-854	/path/to/datasets/conll04/audio/train/train-854.wav:0:242057	15128	242057	<triplet> Sirhan Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill	0	en
+train-855	/path/to/datasets/conll04/audio/train/train-855.wav:0:227568	14223	227568	<triplet> Dietmar Kanzer <subj> Rollei <obj> Work_For	0	en
+train-856	/path/to/datasets/conll04/audio/train/train-856.wav:0:174440	10902	174440	<triplet> Sirhan B. Sirhan <subj> Robert F. Kennedy <obj> Kill	0	en
+train-857	/path/to/datasets/conll04/audio/train/train-857.wav:0:219394	13712	219394	<triplet> Ulysses S. Grant <subj> Point Pleasant , Ohio <obj> Live_In	0	en
+train-858	/path/to/datasets/conll04/audio/train/train-858.wav:0:164781	10298	164781	<triplet> James Earl Ray <subj> Martin Luther King Junior <obj> Kill	0	en
+train-859	/path/to/datasets/conll04/audio/train/train-859.wav:0:47009	2938	47009	<triplet> CHINA DAILY <subj> Beijing <obj> OrgBased_In	0	en
+train-860	/path/to/datasets/conll04/audio/train/train-860.wav:0:259518	16219	259518	<triplet> YOMIURI SHIMBUN <subj> Tokyo <obj> OrgBased_In	0	en
+train-861	/path/to/datasets/conll04/audio/train/train-861.wav:0:330107	20631	330107	<triplet> Roger Mauro <subj> Ancora State Psychiatric Hospital <obj> Work_For <triplet> Ancora State Psychiatric Hospital <subj> Hammonton. <obj> OrgBased_In	0	en
+train-862	/path/to/datasets/conll04/audio/train/train-862.wav:0:191159	11947	191159	<triplet> Weiss <subj> Huey Long <obj> Kill	0	en
+train-863	/path/to/datasets/conll04/audio/train/train-863.wav:0:26947	1684	26947	<triplet> XINHUA <subj> Beijing <obj> OrgBased_In	0	en
+train-864	/path/to/datasets/conll04/audio/train/train-864.wav:0:99394	6212	99394	<triplet> Higgins <subj> United Nations <obj> Work_For	0	en
+train-865	/path/to/datasets/conll04/audio/train/train-865.wav:0:142490	8905	142490	<triplet> James Madison <subj> Port Conway , Va. <obj> Live_In	0	en
+train-866	/path/to/datasets/conll04/audio/train/train-866.wav:0:394751	24671	394751	<triplet> Anderson <subj> GE <obj> Work_For	0	en
+train-867	/path/to/datasets/conll04/audio/train/train-867.wav:0:176298	11018	176298	<triplet> Stacy Lin Bickel <subj> Tempe <obj> Live_In <triplet> Deborah Sue Tomazin <subj> Phoenix <obj> Live_In	0	en
+train-868	/path/to/datasets/conll04/audio/train/train-868.wav:0:252459	15778	252459	<triplet> O ESTADO DE SAO PAULO <subj> Sao Paulo <obj> OrgBased_In	0	en
+train-869	/path/to/datasets/conll04/audio/train/train-869.wav:0:42180	2636	42180	<triplet> XINHUA <subj> Beijing <obj> OrgBased_In	0	en
+train-870	/path/to/datasets/conll04/audio/train/train-870.wav:0:163295	10205	163295	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+train-871	/path/to/datasets/conll04/audio/train/train-871.wav:0:155121	9695	155121	<triplet> Jack Ruby <subj> Lee Harvey Oswald <obj> Kill	0	en
+train-872	/path/to/datasets/conll04/audio/train/train-872.wav:0:97907	6119	97907	<triplet> MILLINOCKET <subj> Maine <obj> Located_In <triplet> AP <subj> MILLINOCKET <obj> OrgBased_In <subj> Maine <obj> OrgBased_In	0	en
+train-873	/path/to/datasets/conll04/audio/train/train-873.wav:0:177784	11111	177784	<triplet> Mark David Chapman <subj> Beatle John Lennon <obj> Kill	0	en
+train-874	/path/to/datasets/conll04/audio/train/train-874.wav:0:361686	22605	361686	<triplet> Nabil <subj> Palestinian National Authority <obj> Work_For	0	en
+train-875	/path/to/datasets/conll04/audio/train/train-875.wav:0:187815	11738	187815	<triplet> Oswald <subj> Jack Kennedy <obj> Kill	0	en
+train-876	/path/to/datasets/conll04/audio/train/train-876.wav:0:103109	6444	103109	<triplet> Copland <subj> Brooklyn <obj> Live_In	0	en
+train-877	/path/to/datasets/conll04/audio/train/train-877.wav:0:134316	8394	134316	<triplet> Jim Bowell <subj> Butler Township Fire Department <obj> Work_For	0	en
+train-878	/path/to/datasets/conll04/audio/train/train-878.wav:0:100880	6305	100880	<triplet> Owens-Corning Fiberglass <subj> Toledo <obj> OrgBased_In <subj> Ohio <obj> OrgBased_In <triplet> Toledo <subj> Ohio <obj> Located_In	0	en
+train-879	/path/to/datasets/conll04/audio/train/train-879.wav:0:324533	20283	324533	<triplet> Kennedy <subj> Cincinnati <obj> Live_In <subj> GE <obj> Work_For	0	en
+train-880	/path/to/datasets/conll04/audio/train/train-880.wav:0:200818	12551	200818	<triplet> Maxwell 's Plum <subj> Manhattan <obj> OrgBased_In	0	en
+train-881	/path/to/datasets/conll04/audio/train/train-881.wav:0:276980	17311	276980	<triplet> Kosovo <subj> Yugoslav Republic of Serbia <obj> Located_In <triplet> Sandzak <subj> Yugoslav Republic of Serbia <obj> Located_In <triplet> Vojvodina <subj> Yugoslav Republic of Serbia <obj> Located_In	0	en
+train-882	/path/to/datasets/conll04/audio/train/train-882.wav:0:214936	13433	214936	<triplet> Jack Ruby <subj> Lee Harvey Oswald <obj> Kill <triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+train-883	/path/to/datasets/conll04/audio/train/train-883.wav:0:194874	12179	194874	<triplet> Yuma <subj> Ariz. <obj> Located_In	0	en
+train-884	/path/to/datasets/conll04/audio/train/train-884.wav:0:135802	8487	135802	<triplet> Becton Dickinson Co. <subj> Franklin Lakes <obj> OrgBased_In <subj> N.J. <obj> OrgBased_In <triplet> Franklin Lakes <subj> N.J. <obj> Located_In	0	en
+train-885	/path/to/datasets/conll04/audio/train/train-885.wav:0:203790	12736	203790	<triplet> Darly Alves da Silva <subj> Mendes <obj> Kill <triplet> Darci Alves Pereira <subj> Mendes <obj> Kill	0	en
+train-886	/path/to/datasets/conll04/audio/train/train-886.wav:0:95678	5979	95678	<triplet> Freeport <subj> Texas <obj> Located_In <triplet> Morgan City <subj> La. <obj> Located_In	0	en
+train-887	/path/to/datasets/conll04/audio/train/train-887.wav:0:242428	15151	242428	<triplet> S.A. Healy Co. <subj> McCook <obj> OrgBased_In <subj> Ill. <obj> OrgBased_In <triplet> McCook <subj> Ill. <obj> Located_In <triplet> CH2M Hill <subj> Corvallis <obj> OrgBased_In <subj> Ore. <obj> OrgBased_In <triplet> Corvallis <subj> Ore. <obj> Located_In	0	en
+train-888	/path/to/datasets/conll04/audio/train/train-888.wav:0:169239	10577	169239	<triplet> Tony Denny <subj> Republican Party <obj> Work_For <triplet> Mary Campbell <subj> Clover <obj> Live_In	0	en
+train-889	/path/to/datasets/conll04/audio/train/train-889.wav:0:248373	15523	248373	<triplet> Sirhan Sirhan <subj> Robert F. Kennedy <obj> Kill	0	en
+train-890	/path/to/datasets/conll04/audio/train/train-890.wav:0:207877	12992	207877	<triplet> Tunisian Republic Radio Network <subj> Tunis <obj> OrgBased_In	0	en
+train-891	/path/to/datasets/conll04/audio/train/train-891.wav:0:35121	2195	35121	<triplet> Fort Snelling <subj> Minn. <obj> Located_In	0	en
+train-892	/path/to/datasets/conll04/audio/train/train-892.wav:0:220880	13805	220880	<triplet> Radio Rebelde Network <subj> Havana <obj> OrgBased_In	0	en
+train-893	/path/to/datasets/conll04/audio/train/train-893.wav:0:131344	8209	131344	<triplet> Dutchess County <subj> New York <obj> Located_In	0	en
+train-894	/path/to/datasets/conll04/audio/train/train-894.wav:0:242800	15175	242800	<triplet> Radio Republik Indonesia Network <subj> Jakarta <obj> OrgBased_In	0	en
+train-895	/path/to/datasets/conll04/audio/train/train-895.wav:0:61499	3843	61499	<triplet> Army Reserve Center <subj> Springfield <obj> Located_In <subj> Mo. <obj> Located_In <triplet> Springfield <subj> Mo. <obj> Located_In	0	en
+train-896	/path/to/datasets/conll04/audio/train/train-896.wav:0:242428	15151	242428	<triplet> Qian Qichen <subj> Beijing <obj> Live_In <subj> Beijing <obj> Live_In <triplet> XINHUA <subj> Beijing <obj> OrgBased_In <subj> Beijing <obj> OrgBased_In	0	en
+train-897	/path/to/datasets/conll04/audio/train/train-897.wav:0:197103	12318	197103	<triplet> Andrew Jackson <subj> Waxhaw <obj> Live_In <subj> North Carolina South Carolina <obj> Live_In	0	en
+train-898	/path/to/datasets/conll04/audio/train/train-898.wav:0:239456	14966	239456	<triplet> Baruch Arensberg <subj> Tel Aviv Univerisity <obj> Work_For <subj> Israel. <obj> Live_In <triplet> Tel Aviv Univerisity <subj> Israel. <obj> OrgBased_In	0	en
+train-899	/path/to/datasets/conll04/audio/train/train-899.wav:0:127629	7976	127629	<triplet> Bill Clinton <subj> Arkansas <obj> Live_In	0	en
+train-900	/path/to/datasets/conll04/audio/train/train-900.wav:0:195245	12202	195245	<triplet> Leon Czolgosz <subj> President William McKinley <obj> Kill	0	en
+train-901	/path/to/datasets/conll04/audio/train/train-901.wav:0:325277	20329	325277	<triplet> Suraphong Khemasingkhi <subj> BPP Unit 24 <obj> Work_For	0	en
+train-902	/path/to/datasets/conll04/audio/train/train-902.wav:0:392521	24532	392521	<triplet> BISNIS INDONESIA <subj> Indonesia <obj> OrgBased_In <subj> Indonesia <obj> OrgBased_In <triplet> Mindanao islands <subj> the Philippines <obj> Located_In	0	en
+train-903	/path/to/datasets/conll04/audio/train/train-903.wav:0:84533	5283	84533	<triplet> Edgar Allan Poe <subj> Boston <obj> Live_In	0	en
+train-904	/path/to/datasets/conll04/audio/train/train-904.wav:0:199331	12458	199331	<triplet> ACAN <subj> Panama City <obj> OrgBased_In	0	en
+train-905	/path/to/datasets/conll04/audio/train/train-905.wav:0:207506	12969	207506	<triplet> Pasayten Wilderness <subj> Washington <obj> Located_In	0	en
+train-906	/path/to/datasets/conll04/audio/train/train-906.wav:0:241314	15082	241314	<triplet> Edward Roybal <subj> House Appropriations treasury and postal subcommittee <obj> Work_For	0	en
+train-907	/path/to/datasets/conll04/audio/train/train-907.wav:0:258404	16150	258404	<triplet> Russian Statistics Committee <subj> Russia <obj> OrgBased_In	0	en
+train-908	/path/to/datasets/conll04/audio/train/train-908.wav:0:195617	12226	195617	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+train-909	/path/to/datasets/conll04/audio/train/train-909.wav:0:163295	10205	163295	<triplet> Washington <subj> U.S. <obj> Located_In	0	en
+train-910	/path/to/datasets/conll04/audio/train/train-910.wav:0:198218	12388	198218	<triplet> Radio Riga Network <subj> Riga <obj> OrgBased_In	0	en
+train-911	/path/to/datasets/conll04/audio/train/train-911.wav:0:180756	11297	180756	<triplet> Lehi <subj> Lord Moyne <obj> Kill <subj> Folke Bernadotte. <obj> Kill <triplet> Stern Gang <subj> Lord Moyne <obj> Kill <subj> Folke Bernadotte. <obj> Kill	0	en
+train-912	/path/to/datasets/conll04/audio/train/train-912.wav:0:178899	11181	178899	<triplet> Takeshi Sasaki <subj> Tokyo University <obj> Work_For <triplet> Shoichi Oikawa <subj> YOMIURI SHIMBUN <obj> Work_For <subj> YOMIURI SHIMBUN <obj> Work_For <subj> YOMIURI SHIMBUN <obj> Work_For <triplet> Ichiro Ozawa <subj> Shinseito <obj> Work_For <subj> Shinseito <obj> Work_For	0	en
+train-913	/path/to/datasets/conll04/audio/train/train-913.wav:0:146576	9161	146576	<triplet> Ulysses S. Grant <subj> Point Pleasant , Ohio <obj> Live_In	0	en
+train-914	/path/to/datasets/conll04/audio/train/train-914.wav:0:165152	10322	165152	<triplet> Wang Shaohua <subj> San Francisco <obj> Live_In	0	en
+train-915	/path/to/datasets/conll04/audio/train/train-915.wav:0:204162	12760	204162	<triplet> Mark David Chapman <subj> John Lennon <obj> Kill	0	en
+train-916	/path/to/datasets/conll04/audio/train/train-916.wav:0:246515	15407	246515	<triplet> THE NATION <subj> Bangkok <obj> OrgBased_In	0	en
+train-917	/path/to/datasets/conll04/audio/train/train-917.wav:0:236856	14803	236856	<triplet> Lawrence Welk <subj> North Dakota <obj> Live_In	0	en
+train-918	/path/to/datasets/conll04/audio/train/train-918.wav:0:218650	13665	218650	<triplet> Robert C. Anderson <subj> GE <obj> Work_For	0	en
+train-919	/path/to/datasets/conll04/audio/train/train-919.wav:0:334564	20910	334564	<triplet> Ejup Ganic <subj> Federation of Bosnia-Herzegovina <obj> Live_In <triplet> Bosnia-Herzegovina Radio and TV <subj> Federation of Bosnia-Herzegovina <obj> OrgBased_In	0	en
+train-920	/path/to/datasets/conll04/audio/train/train-920.wav:0:52211	3263	52211	<triplet> Eaglebrook East <subj> Middletown <obj> OrgBased_In	0	en
+train-921	/path/to/datasets/conll04/audio/train/train-921.wav:0:238342	14896	238342	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en

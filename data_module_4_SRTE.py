@@ -6,6 +6,7 @@ import lightning as L
 import librosa
 import torch
 from torch.utils.data import Subset
+from tool import *
 
 
 
@@ -82,9 +83,8 @@ class WhisperNERDataModule(L.LightningDataModule):
         )
         # print(self.hparams.decode_schema)
         task_tokens = ["<|task_ASR|>", "<|task_NER|>", "<|task_RE|>", "<|task_RTE|>"]
-        num_added = self.processor.tokenizer.add_special_tokens({
-            "additional_special_tokens": task_tokens
-        })
+        tokenizer, num_added = add_special_tokens(self.processor.tokenizer, task_tokens)
+        self.processor.tokenizer = tokenizer
 
         if self.hparams.decode_schema == "E-T8558":
             label_features = self.processor.tokenizer(
@@ -158,9 +158,7 @@ if __name__ == "__main__":
 
     task_tokens = ["<|task_ASR|>", "<|task_NER|>", "<|task_RE|>", "<|task_RTE|>"]
 
-    num_added = tokenizer.add_special_tokens({
-        "additional_special_tokens": task_tokens
-    })
+    tokenizer, num_added = add_special_tokens(tokenizer, task_tokens)
 
     print("Added:", num_added)
     print("RTE id:", tokenizer.convert_tokens_to_ids("<|task_RTE|>"))
