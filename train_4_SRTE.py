@@ -1,4 +1,6 @@
-import os, json, time, torch, argparse, swanlab
+import os
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+import json, time, torch, argparse, swanlab
 from tool import Hyperargs, read_json_args
 from tqdm import tqdm
 from datetime import datetime
@@ -81,11 +83,11 @@ for epoch in range(hyperargs.epochs_num):
             gen_text_per_epoch += gen_text_batch
             lab_text_per_epoch += lab_text_batch
     swanlab.log({"dev_loss_per_step": dev_loss_per_epoch/len(dev_dataloader)})
-    P, R, F1, P_S, R_S, F1_S = model.on_validation_epoch_end()
+    P_NER, R_NER, F1_NER, P_RE, R_RE, F1_RE, P_RTE, R_RTE, F1_RTE = model.on_validation_epoch_end()
     # swanlab.log({"F1": F1, "F1_S": F1_S})
-    final_f1 = max(F1, F1_S)
+    final_f1 = F1_RTE
     swanlab.log({"final_f1": final_f1})
-    swanlab.log({"P": P, "R": R, "F1": F1, "P_S": P_S, "R_S": R_S, "F1_S": F1_S})
+    swanlab.log({"P_NER": P_NER, "R_NER": R_NER, "F1_NER": F1_NER, "P_RE": P_RE, "R_RE": R_RE, "F1_RE": F1_RE, "P_RTE": P_RTE, "R_RTE": R_RTE, "F1_RTE": F1_RTE})
     
     os.makedirs(hyperargs.output_result_path, exist_ok=True)
     with open(f"{hyperargs.output_result_path}/gen_text_batch_{epoch}.json", 'w', encoding='utf-8') as f:

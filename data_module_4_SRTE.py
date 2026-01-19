@@ -25,6 +25,8 @@ class WhisperNERDataset(Dataset):
 
     def __getitem__(self, index):
         data_item = self.data[index]
+        if "entities" in data_item.keys() and "relations" in data_item.keys():
+            return data_item["audio_path"], data_item["target_text"], data_item["entities"], data_item["relations"]
         return data_item["audio_path"], data_item["target_text"]
 
 
@@ -56,7 +58,7 @@ class WhisperNERDataModule(L.LightningDataModule):
             # )
 
             # self.train_dataset = Subset(full_train, range(32))
-            self.train_dataset = WhisperNERDataset(os.path.join(self.data_path, "train_target.json"))
+            self.train_dataset = WhisperNERDataset(os.path.join(self.data_path, "train_target_RE_RTE.json"))
             self.dev_dataset = WhisperNERDataset(os.path.join(self.data_path, "dev_target.json"))
         if stage in (None, "test"):
             self.test_dataset  = WhisperNERDataset(os.path.join(self.data_path, "test_target.json"))
@@ -65,9 +67,16 @@ class WhisperNERDataModule(L.LightningDataModule):
 
         audio_list = [] # array (numpy)
         texts_list = []
+        entities_list = []
+        relations_list = []
 
         for x in batch:
-            audio_path, text = x
+            if len(x) == 4:
+                audio_path, text, entities, relations = x
+                entities_list.append(entities)
+                relations_list.append(relations)
+            else:
+                audio_path, text = x
             wav, sr = librosa.load(audio_path, sr=self.sample_rate, mono=True)  # 直接加载为指定采样率和单声道
             audio_list.append(wav)
             texts_list.append(text)
@@ -76,9 +85,6 @@ class WhisperNERDataModule(L.LightningDataModule):
             audio_list,
             sampling_rate=self.sample_rate,
             return_tensors="pt",
-            # padding="longest",              # 或 "max_length" 不能padding longest，源码里写死了，必须3000.
-            # padding="max_length",  # 使用max_length填充
-            # max_length=3000,       # 确保长度为3000
             return_attention_mask=True,
         )
         # print(self.hparams.decode_schema)
@@ -86,33 +92,34 @@ class WhisperNERDataModule(L.LightningDataModule):
         tokenizer, num_added = add_special_tokens(self.processor.tokenizer, task_tokens)
         self.processor.tokenizer = tokenizer
 
-        if self.hparams.decode_schema == "E-T8558":
-            label_features = self.processor.tokenizer(
-                entities_types_list,
-                return_tensors="pt",
-                padding="max_length",
-                max_length=self.max_length,
-                truncation=True,
-            )
-        else:
-            # 直接使用tokenizer处理目标文本
-            label_features = self.processor.tokenizer(
-                texts_list,
-                return_tensors="pt",
-                padding="max_length",
-                max_length=self.max_length,
-                truncation=True,
-            )
+
+        # 直接使用tokenizer处理目标文本
+        label_features = self.processor.tokenizer(
+            texts_list,
+            return_tensors="pt",
+            padding="max_length",
+            max_length=self.max_length,
+            truncation=True,
+        )
 
         labels = label_features["input_ids"]
         labels_attention_mask = label_features["attention_mask"]
         labels = labels.masked_fill(labels_attention_mask == 0, -100)
 
-        return {
-            "input_features": audio_features["input_features"],
-            "attention_mask": audio_features["attention_mask"],
-            "labels": labels,
-        }
+        if len(entities_list) > 0 and len(relations_list) > 0:
+            return {
+                "input_features": audio_features["input_features"],
+                "attention_mask": audio_features["attention_mask"],
+                "labels": labels,
+                "entities": entities_list,
+                "relations": relations_list,
+            }
+        else:
+            return {
+                "input_features": audio_features["input_features"],
+                "attention_mask": audio_features["attention_mask"],
+                "labels": labels,
+            }
 
 
     def train_dataloader(self):

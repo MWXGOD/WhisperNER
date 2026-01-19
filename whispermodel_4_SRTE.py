@@ -64,17 +64,27 @@ class WhisperNERModel(L.LightningModule):
                 self.whisper.generation_config.suppress_tokens.remove(self.tokenizer.convert_tokens_to_ids(wl))
         # print(self.whisper.generation_config.suppress_tokens)
 
+        # # 定义PRF的变量
+        # self.P_E = 0.0
+        # self.R_E = 0.0
+        # self.C_E = 0.0
+        # self.P_E_S = 0.0
+        # self.R_E_S = 0.0
+        # self.C_E_S = 0.0
+
         # 定义PRF的变量
-        self.P_E = 0.0
-        self.R_E = 0.0
-        self.C_E = 0.0
-        self.P_E_S = 0.0
-        self.R_E_S = 0.0
-        self.C_E_S = 0.0
+        self.P_NER = 0.0
+        self.R_NER = 0.0
+        self.C_NER = 0.0
+        self.P_RE = 0.0
+        self.R_RE = 0.0
+        self.C_RE = 0.0
+        self.P_RTE = 0.0
+        self.R_RTE = 0.0
+        self.C_RTE = 0.0
 
         # 定义f1
         self.max_f1 = 0.0
-        self.max_f1_S = 0.0
 
 
     def forward(self, input_features, labels=None):
@@ -122,10 +132,12 @@ class WhisperNERModel(L.LightningModule):
         return dev_bar
 
     def validation_step(self, batch, optimizer=None, scheduler=None, accelerator=None):
-        with accelerator.autocast():
-            outputs = self(input_features=batch["input_features"], labels=batch["labels"])
-            val_loss = outputs.loss
-        # forced_decoder_ids = self.processor.get_decoder_prompt_ids(language="zh")
+        val_loss = None
+        if accelerator is not None:
+            with accelerator.autocast():
+                outputs = self(input_features=batch["input_features"], labels=batch["labels"])
+                val_loss = outputs.loss
+            # forced_decoder_ids = self.processor.get_decoder_prompt_ids(language="zh")
 
         self.whisper.generation_config.forced_decoder_ids = None
         self.whisper.generation_config.return_timestamps = False
@@ -140,47 +152,37 @@ class WhisperNERModel(L.LightningModule):
             return_timestamps=False,
         )
 
-
-        # gen_outputs = self.whisper.generate(
-        #     input_features=batch["input_features"],
-        #     attention_mask=batch["attention_mask"],
-        #     # forced_decoder_ids=forced_decoder_ids,
-        #     language="en",
-        #     task="transcribe",
-        #     return_timestamps=False,
-        #     decoder_input_ids=self.prefix.to(self.device),
-        #     max_new_tokens=128,
-        # )
         labels = batch["labels"].clone()
+        relations = batch["relations"]
+        entities = batch["entities"]
         labels[labels == -100] = self.tokenizer.pad_token_id
         gen_text_batch = self.processor.batch_decode(gen_outputs, skip_special_tokens=True)
         lab_text_batch = self.processor.batch_decode(labels, skip_special_tokens=True)
-        # print(gen_text_batch)
-        # print("-------------------------------------------------------------------------")
-        # print(lab_text_batch)
-        # exit()
-
 
         batch_rte_lab = self.batch_text2rte(lab_text_batch)
         batch_rte_gen = self.batch_text2rte(gen_text_batch)
         self.compute_metric_step_update_4_rte(batch_rte_lab, batch_rte_gen)
+        self.compute_metric_step_update_4_re(relations, batch_rte_gen)
+        self.compute_metric_step_update_4_ner(entities, batch_rte_gen)
 
         return gen_text_batch, lab_text_batch, val_loss
 
     def on_validation_epoch_end(self):
-        P = self.C_E / self.P_E if self.P_E > 0.0 else 0.0
-        R = self.C_E / self.R_E if self.R_E > 0.0 else 0.0
-        F1 = 2 * P * R / (P + R) if (P + R) > 0.0 else 0.0
+        P_NER = self.C_NER / self.P_NER if self.P_NER > 0.0 else 0.0
+        R_NER = self.C_NER / self.R_NER if self.R_NER > 0.0 else 0.0
+        F1_NER = 2 * P_NER * R_NER / (P_NER + R_NER) if (P_NER + R_NER) > 0.0 else 0.0
 
-        P_S = self.C_E_S / self.P_E_S if self.P_E_S > 0.0 else 0.0
-        R_S = self.C_E_S / self.R_E_S if self.R_E_S > 0.0 else 0.0
-        F1_S = 2 * P_S * R_S / (P_S + R_S) if (P_S + R_S) > 0.0 else 0.0
-        if F1 > self.max_f1:
-            self.max_f1 = F1
-        if F1_S > self.max_f1_S:
-            self.max_f1_S = F1_S
-        # swanlab.log({"F1": F1, "F1_S": F1_S})
-        return P, R, F1, P_S, R_S, F1_S
+        P_RE = self.C_RE / self.P_RE if self.P_RE > 0.0 else 0.0
+        R_RE = self.C_RE / self.R_RE if self.R_RE > 0.0 else 0.0
+        F1_RE = 2 * P_RE * R_RE / (P_RE + R_RE) if (P_RE + R_RE) > 0.0 else 0.0
+
+        P_RTE = self.C_RTE / self.P_RTE if self.P_RTE > 0.0 else 0.0
+        R_RTE = self.C_RTE / self.R_RTE if self.R_RTE > 0.0 else 0.0
+        F1_RTE = 2 * P_RTE * R_RTE / (P_RTE + R_RTE) if (P_RTE + R_RTE) > 0.0 else 0.0
+        if self.max_f1 < F1_RTE:
+            self.max_f1 = F1_RTE
+
+        return P_NER, R_NER, F1_NER, P_RE, R_RE, F1_RE, P_RTE, R_RTE, F1_RTE
 
     def text2rte(self, text):
         # text_re = "Douglas Flint##person title##chairman$$Douglas Flint##person title##Chief Financial Officer"
@@ -198,23 +200,47 @@ class WhisperNERModel(L.LightningModule):
             batch_rte.append(self.text2rte(text_item))
         return batch_rte
 
-    def compute_metric_step_update_4_rte(self, batch_rte_label, batch_rte_pred):
-        for bel, bep in zip(batch_rte_label, batch_rte_pred):
-            # 更新span无位置的PRC
-            # batch_entities_label_without_index = ['中国-LOC']
-            batch_rte_label = [l for l in bel if l != "None"]
-            batch_rte_pred = [p for p in bep if p != "None"]
-            self.P_E += len(set(batch_rte_pred))
-            self.R_E += len(set(batch_rte_label))
-            self.C_E += len(set(batch_rte_pred) & set(batch_rte_label))
+    def compute_metric_step_update_4_rte(self, batch_rte_lab, batch_rte_gen):
+        for brl, brp in zip(batch_rte_lab, batch_rte_gen):
+            brl = [l for l in brl if l != "None"]
+            brp = [p for p in brp if p != "None"]
+            self.P_RTE += len(set(brp))
+            self.R_RTE += len(set(brl))
+            self.C_RTE += len(set(brp) & set(brl))
+
+    def compute_metric_step_update_4_re(self, relations, batch_rte_gen):
+        for rel, brp in zip(relations, batch_rte_gen):
+            relations_labels = rel
+            relations_preds = []
+            for p in brp:
+                if len(p.split("##")) == 3:
+                    relations_preds.append(p.split("##")[1])
+            self.P_RE += len(set(relations_preds))
+            self.R_RE += len(set(relations_labels))
+            self.C_RE += len(set(relations_preds) & set(relations_labels))
+
+    def compute_metric_step_update_4_ner(self, entities, batch_rte_gen):
+        for ent, brp in zip(entities, batch_rte_gen):
+            entities_labels = ent
+            entities_preds = []
+            for p in brp:
+                if len(p.split("##")) == 3:
+                    entities_preds.append(p.split("##")[0])
+                    entities_preds.append(p.split("##")[2])
+            self.P_NER += len(set(entities_preds))
+            self.R_NER += len(set(entities_labels))
+            self.C_NER += len(set(entities_preds) & set(entities_labels))
 
     def clear_PRC(self):
-        self.P_E = 0.0
-        self.R_E = 0.0
-        self.C_E = 0.0
-        self.P_E_S = 0.0
-        self.R_E_S = 0.0
-        self.C_E_S = 0.0
+        self.P_NER = 0.0
+        self.R_NER = 0.0
+        self.C_NER = 0.0
+        self.P_RE = 0.0
+        self.R_RE = 0.0
+        self.C_RE = 0.0
+        self.P_RTE = 0.0
+        self.R_RTE = 0.0
+        self.C_RTE = 0.0
 
 
 
